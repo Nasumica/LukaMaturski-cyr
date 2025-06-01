@@ -1,0 +1,15 @@
+\subsubsection{Izvod}
+
+\def\sinc{\mathop{\rm sinc}}
+\zadatak Odredi \idx{izvod} funkcije $f(\alpha)=\ln\sinc\alpha$, gde je  
+\smash{$\displaystyle{\sinc\alpha=\frac{\sin\alpha}{\alpha}}$}.
+\resenje Pomo{\cc}u jednakosti \eqref{eq:lndiv} razlo{\zv}imo funkciju na 
+$$f(\alpha)=\ln\sin\alpha-\ln\alpha,$$ 
+a kako je izvod $\sin\alpha$ jednak $\cos\alpha$ i iz jednakosti 
+\eqref{eq:izvod} za izvod logaritma funkcije, sledi da je
+$$
+f'(\alpha)
+=\frac{\cos\alpha}{\sin\alpha} - \frac1\alpha
+=\ram{\cot\alpha - \frac1\alpha}.
+$$
+% \dodatak $\sinc(0)=1$, $\sinc'(0)=0$.

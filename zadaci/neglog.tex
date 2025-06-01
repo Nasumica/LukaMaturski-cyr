@@ -1,0 +1,28 @@
+\subsubsection{ln($-$\textit{z})}
+
+\zadatak U skupu kompleksnih brojeva\index{kompleksan broj} $\mathbb C$, ako znamo vrednost $\ln z$,
+koliko je $\ln(-z)$?
+
+\resenje Kako je u kompleksnoj ravni $-z$ jednako $z$ zarotirano 
+oko koordi\-natnog po{\cv}etka
+za ugao od $180^\circ=\pi$, dobijamo\index{pi $(\pi)$}
+$$
+\ln (-z) = \ram{\ln z +i\pi}.
+$$ 
+Ako proverimo, iz Ojlerove jednakostu \eqref{eq:zeuler}, dobijamo
+$$
+\e^{\ln(-z)} = \e^{\ln z+i\pi} = \e^{\ln z}\cdot \e^{i\pi}=z \cdot (-1)=-z.
+$$
+
+\dodatak Hmmm \dots, trik sa rotacijom nije ba{\sv} potpuno ta{\cv}an: dobili bismo $-z$ i za ugao $-\pi$,
+pa bi bilo $\ln(-z)=\ln z-i\pi$, {\sv}to je tako{\dj}e ta{\cv}no;
+u stvari, ta{\cv}no je za bilo koji ugao $\pi+2k\pi$ gde je $k\in{\mathbb Z}$ ceo broj. Odavde bi sledilo da je
+$$
+\ln(-z) = \ln z + i(\pi+2k\pi),\ k\in{\mathbb Z}.
+$$
+
+I sama formula \eqref{eq:cln}, $\ln z=\ln\rho + i\theta$, predstav{\lj}a samo {\sl glavnu granu\/}
+kompleksnog logaritma, koji je nekakva vrsta 4D spirale. Potpuna formula bi bila
+\begin{equation}
+    \okvir{\ln z=\ln\rho + i(\theta + 2k\pi),\ k\in{\mathbb Z}} .
+\end{equation}

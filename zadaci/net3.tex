@@ -1,0 +1,26 @@
+\subsubsection{Нет 3}
+ 
+\def\t{\log_6}
+\zadatak 
+Одреди $n^3$ ако је
+\begin{align*}
+\log_{5n} 30\sqrt5 &= \log_{4n} 48.
+\intertext{\resenje 
+Пребацимо логаритме у основу $6$, јер је $6$ {\sl нзд\/} за 30 и 48 из израза}
+    \frac{\t 30\sqrt5}{\t 5n} &= \frac{\t 48}{\t 4n}\\
+    \frac{\t 6+\t 5 +\frac12\t 5}{\t 5+\t n} &= \frac{\t 6+\t 8}{\t 4+\t n}\\
+    \frac{1+\frac32\t 5}{\t 5+\t n} &=  \frac{1+3\t 2}{2\t 2+\t n}.\\
+\intertext{Када извршимо смену $n=6^t$, односно, $t=\t n$ и $u=\t2$ и $v=\t5$, добијамо}
+    \frac{1+\frac32v}{v+t} &=  \frac{1+3u}{2u+t}\\
+    (1+\textstyle\frac32v)(2u+t) &= (1+3u)(v+t)\\
+    2u + {\color{blue}3uv} + {\color{red}t} + \textstyle\frac32vt  &= v + {\color{blue}3uv} + {\color{red}t} +3ut
+      \rlap{\qquad$/\,{\color{blue}-3uv};\,{\color{red}-t};\,{\times2};$}\\
+    4u+  3vt &= 2v + 6ut\\
+    6ut - 3vt &= 4u - 2v\\
+    t(6u - 3v) &= 4u - 2v\\
+    t&=\frac{4u - 2v}{6u - 3v}\\
+    t&=\frac23\cdot\frac{2u-v}{2u-v}\\
+    t&=\frac23.
+\intertext{Одавде је}
+n^3 &= 6^{3t} = \ram{36}.
+\end{align*}

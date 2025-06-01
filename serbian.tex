@@ -1,0 +1,51 @@
+\newbox\djbox \newbox\itbox \newdimen\djdim \newdimen\itdim
+\def\codeide{% definicija latiničnih slova u TeXu, Srbislav D. Nešić, 1991.
+\global\def\DJ{\leavevmode\setbox\djbox\hbox{D}\setbox\itbox\hbox{D\/}%
+  \djdim\wd\djbox \itdim\wd\itbox
+  \advance\itdim-\djdim \advance\djdim-0.5\itdim
+  \rlap{\kern-0.12\djdim\lower+0.45ex\hbox{\char'26}}D}%
+\global\def\dj{\leavevmode\setbox\djbox\hbox{d}\setbox\itbox\hbox{d\/}%
+  \djdim\wd\djbox \itdim\wd\itbox
+  \advance\itdim-\djdim \advance\djdim-0.5\itdim
+  \rlap{\kern+0.15\djdim\lower+0.10ex\hbox{\char'26}}d}%
+\global\def\Dj{\DJ}%
+\global\def\CV{\ifmmode{\check C}\else{\v C}\fi}%
+\global\def\Cv{\CV}%
+\global\def\cv{\ifmmode{\check c}\else{\v c}\fi}%
+\global\def\ZV{\ifmmode{\check Z}\else{\v Z}\fi}%
+\global\def\Zv{\ZV}%
+\global\def\zv{\ifmmode{\check z}\else{\v z}\fi}%
+\global\def\SV{\ifmmode{\check S}\else{\v S}\fi}%
+\global\def\Sv{\SV}%
+\global\def\sv{\ifmmode{\check s}\else{\v s}\fi}%
+\global\def\CC{\ifmmode{\acute C}\else{\'C}\fi}%
+\global\def\Cc{\CC}%
+\global\def\cc{\ifmmode{\acute c}\else{\'c}\fi}%
+\global\def\DZ{D\nobreak\ZV}%
+\global\def\Dz{D\nobreak\zv}%
+\global\def\dz{d\nobreak\zv}%
+\global\def\LJ{L\nobreak J}%
+\global\def\Lj{L\nobreak j}%
+\global\def\lj{\-l\nobreak j}%
+\global\def\NJ{N\nobreak J}%
+\global\def\Nj{N\nobreak j}%
+\global\def\nj{\-n\nobreak j}}
+
+\def\codeutf{% Žeže zvezda. Đurđevdan je. Čuče Šošoni. Ćućore.
+    \global\def\DJ{Đ}\global\def\dj{đ}\global\def\Dj{\DJ}%
+    \global\def\CC{Ć}\global\def\cc{ć}\global\def\Cc{\CC}%
+    \global\def\CV{Č}\global\def\cv{č}\global\def\Cv{\CV}%
+    \global\def\SV{Š}\global\def\sv{š}\global\def\Sv{\SV}%
+    \global\def\ZV{Ž}\global\def\zv{ž}\global\def\Zv{\ZV}%
+    \global\def\DZ{D\nobreak\ZV}%
+    \global\def\Dz{D\nobreak\zv}%
+    \global\def\dz{d\nobreak\zv}%
+    \global\def\LJ{L\nobreak J}%
+    \global\def\Lj{L\nobreak j}%
+    \global\def\lj{\-l\nobreak j}%
+    \global\def\NJ{N\nobreak J}%
+    \global\def\Nj{N\nobreak j}%
+    \global\def\nj{\-n\nobreak j}%
+}
+    
+\codeide

@@ -1,0 +1,24 @@
+\subsubsection{Изумирање}
+
+\newbox\lnb
+\def\logn#1{%
+\setbox\lnb=\hbox{$\displaystyle\frac{#1}{1}$}%
+\hbox to \wd\lnb{\hss$\displaystyle#1$\hss}}
+
+\zadatak Нађи $n$ ако је\index{log2@$\log_2$}
+\begin{align*}
+\logn{\log_23}\cdot\logn{\log_34}\cdot\logn{\log_45}\cdot\logn{\log_56}\cdots\logn{\log_n(n+1)}&=10.
+\intertext{\resenje
+Ако пребацимо све логаритме у основу 2, добијамо}
+\logn{\log_23}
+\cdot\frac{\log_24}{\log_23}
+\cdot\frac{\log_25}{\log_24}
+\cdot\frac{\log_26}{\log_25}
+\cdots\frac{\log_2(n+1)}{\log_2n}&=10.
+\intertext{Видимо да ће, након {\sl масовног\/} скраћивања, {\sl изумрети\/} сви изрази осим}
+\log_2(n+1)&=10,
+\end{align*}
+одакле је,
+$$
+n+1 = 2^{10}=1024 \sledi n=\ram{1023}.
+$$

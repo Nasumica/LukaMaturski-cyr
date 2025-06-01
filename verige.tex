@@ -1,0 +1,600 @@
+\documentclass[12pt, twoside, a4paper]{article}
+
+\usepackage[margin=1truein]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tabularx}
+%\usepackage[backend=biber]{biblatex}
+
+\input serbian
+
+\def\vr#1{\ifcase#1\relax\or
+  ve\-ri{\zv}\-ni raz\-lo\-mak\or
+  ve\-ri{\zv}\-nog raz\-lom\-ka\or
+  ve\-ri{\zv}\-nom raz\-lom\-ku\or
+  ve\-ri{\zv}\-ni raz\-lo\-mak\or
+  ve\-ri{\zv}\-ni raz\-lom\-{\cv}e\or
+  ve\-ri{\zv}\-nim raz\-lom\-kom\or
+  ve\-ri{\zv}\-nom raz\-lom\-ku\fi}
+\def\Vr#1{\ifcase#1\relax\or
+  Ve\-ri{\zv}\-ni raz\-lo\-mak\or
+  Ve\-ri{\zv}\-nog raz\-lom\-ka\or
+  Ve\-ri{\zv}\-nom raz\-lom\-ku\or
+  Ve\-ri{\zv}\-ni raz\-lo\-mak\or
+  Ve\-ri{\zv}\-ni raz\-lom\-{\cv}e\or
+  Ve\-ri{\zv}\-nim raz\-lom\-kom\or
+  Ve\-ri{\zv}\-nom raz\-lom\-ku\fi}
+
+
+\renewcommand*\contentsname{Sadr{\zv}aj}
+
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage
+  \vskip 0.75in plus 0.25in minus 0.25in\relax}
+%\newcommand{\subsectionbreak}{\clearpage}
+
+\def\navod#1{\relax,\kern-0.06667em,\relax#1\relax``\relax}
+
+\def\A{p} \def\B{q}
+
+\begin{document}
+
+\begin{titlepage}
+\setcounter{page}{0}
+\thispagestyle{empty}
+\begin{center}
+\large
+Gimnazija \navod{Bora Stankovi{\cc}}\\
+Ni{\sv}, Srbija\\
+\vfill
+\LARGE
+\textbf{MATURSKI RAD}\\
+\Large
+\bigskip
+Predmet: Matematika\\
+Tema: Veri{\zv}ni razlomci\\
+\vfill\vfill
+\begingroup
+\large
+\setbox0=\hbox{Luka Ne{\sv}i{\cc}, IV/\,6}%
+\begin{tabularx}{\textwidth}{lXl}
+\rule{\wd0}{0pt}&&\rule{\wd0}{0pt}\\
+U{\cv}enik:&&Profesor:\\
+\copy0&&Nenad Toti{\cc}\\
+%\noalign{\bigskip}
+%\rule{\wd0}{0.2pt}&&\rule{\wd0}{0.2pt}\\
+\end{tabularx}
+\endgroup
+\vskip 2truecm
+\normalsize
+\the\year.
+\end{center}
+\end{titlepage}
+
+\let\ds=\displaystyle
+
+
+\tableofcontents
+
+\section{Uvod}
+
+\subsection{Definicija}
+
+Izraz oblika
+$$
+x=b_0+\cfrac{a_1}{b_1+\cfrac{a_2}{b_2+\cfrac{a_3}{b_3+\cfrac{a_4}{b_4+\ddots}}}}
+$$
+u matematici se zove {\sl\vr1\/} (re{\cv} {\it verige\/} zna{\cv}i {\it lanac\/}).
+Brojilac ovakvog raz\-lom\-ka je broj, a imenilac mo{\zv}e biti broj, obi{\cv}an razlomak ili
+veri{\zv}ni razlomak.
+
+\subsection{Notacija}
+
+Iako je standardni zapis \vr2 jasan i onima koji nisu mnogo upoznati sa {\nj}ima,
+{\cv}esto se, {\sv}to zbog u{\sv}tede prostora, {\sv}to zbog jednostavnijeg i kra{\cc}eg pisa{\nj}a,
+koriste i druga{\cv}ije notacije.
+
+\medskip
+
+Prva formalna skra{\cc}ena notacija poti{\cv}e sa po{\cv}etka 17.~veka
+koju je koristio italijanski matemati{\cv}ar Kataldi (Pietro Antonio Cataldi)
+$$
+x=b_0\bullet 
+\& \frac{a_1}{b_1\bullet} 
+\& \frac{a_2}{b_2\bullet} 
+\& \frac{a_3}{b_3\bullet} 
+\& \frac{a_4}{b_4\bullet} 
+\& \cdots
+$$
+gde simbol `$\bullet$' ozna{\cv}ava mesto na kome se nalazi ostatak izraza, a simbol `$\&$' predstav{\lj}a
+znak za sabira{\nj}e `$+$'.
+Od ovog zapisa poti{\cv}e i savremena skra{\cc}ena notacija \vr2
+$$
+x=b_0+
+\frac{a_1}{b_1+}\,
+\frac{a_2}{b_2+}\,
+\frac{a_3}{b_3+}\,
+\frac{a_4}{b_4+}\,
+\cdots
+$$
+gde spu{\sv}teni znak `$+$' ozna{\cv}ava mesto gde {\cc}e se {\sl ugnezditi\/} ostatak izraza.
+Ponekad se znak `$+$' pi{\sv}e van razloma{\cv}ke crte, ali ostaje {\sl poravnat\/} sa imeniocima
+\def\dop#1{\mathbin{{\atop#1}}}
+\def\bplus{\dop+}
+\def\fplus#1#2{\bplus\frac{#1}{#2}}
+$$
+x=b_0+
+\frac{a_1}{b_1}
+\fplus{a_2}{b_2}
+\fplus{a_3}{b_3}
+\fplus{a_4}{b_4}
+\bplus{\atop\cdots}
+$$
+Nema{\cv}ki matemati{\cv}ar Pringzhajm (Alfred Pringsheim) je koristio slede{\cc}u notaciju
+\def\dvert{{\atop {{\big |}\!}}\!}
+\def\nvert{\!{{\!{\big |}} \atop}}
+\def\pring#1#2{\dvert\frac{\,#1\,}{\,#2\,}\nvert}
+$$
+x=b_0
++\pring{a_1}{b_1}
++\pring{a_2}{b_2}
++\pring{a_3}{b_3}
++\pring{a_4}{b_4}
++\cdots
+$$
+
+\medskip
+
+\def\K{\mathop{\vcenter{\hbox{\rm\huge K}}}\limits}
+\def\Ki{\K_{i=1}}
+\def\Kinf#1#2{\Ki^\infty\displaystyle{\frac{#1}{#2}}}
+
+Poput simbola koji se koriste za sumu `$\rm\Sigma$' ili proizvod `$\rm\Pi$', 
+Gaus (Carl Friedrich Gauss) je smislio, verovatno, najpogodniji na{\cv}in za predstav{\lj}a{\nj}e
+veri{\zv}nih razlomaka
+$$
+%\fbox{$\displaystyle
+x=b_0+\Kinf{a_i}{b_i}
+%$}
+$$
+gde simbol `K' poti{\cv}e od nema{\cv}ke re{\cv}i za {\sl prekinuti lanac\/} (Kettenbruch). 
+
+
+\section{Teorija}
+
+\subsection{Vrste}
+
+U zavisnosti od toga da li imaju koana{\cv}an ili beskona{\cv}an broj {\cv}lanova,
+veri{\zv}ni razlomci mogu biti {\sl kona{\cv}ni\/} ili {\sl beskona{\cv}ni}.
+Vrednost kona{\cv}nih ralomaka mo{\zv}e biti izra{\cv}unati sa apsolutnom ta{\cv}no{\sv}{\cc}u,
+dok za beskona{\cv}ne vrednost mo{\zv}e biti izra{\cv}unata kao
+$$x=b_0+\lim_{n\to\infty}\Kinf{a_i}{b_i},$$
+ili pribli{\zv}na numeri{\cv}ka vrednost.
+Ako imaju racionalne {\cv}lanove, kona{\cv}ni razlomci su racionalni, a beskona{\cv}ni
+iracionalni brojevi, sem specijalnih slu{\cv}ajeva kao {\sv}to je
+$$
+\Kinf32=1.
+$$
+
+\medskip
+
+\Vr1 kome su svi brojioci $a_i=1$ se zove {\sl obi{\cv}an}
+$$
+x=b_0+\Kinf1{b_i}.
+$$
+
+\subsection{Konvergent}
+
+Veri{\zv}ni razlomak izra{\cv}unat sa prvih $n$ {\cv}lanova
+$$
+x_n=b_0+\Ki^n{a_i\over b_i}={\A_n\over \B_n}
+$$
+se zove $n$-ti {\sl konvergent} i mo{\zv}e biti predstav{\lj}en kao obi{\cv}an razlomak $x_n=\A_n/\B_n$.
+Va{\zv}i formula
+$$
+\A_{n-1} \B_n - \A_n \B_{n-1} = \prod_{i=1}^n(-a_i)
+$$
+koja se zove {\sl formula determinante}.
+
+
+\subsection{Rekurentna formula}
+
+Parcijalni de{\lj}enik $p_n$ i delilac $q_n$ konvergenata $x_n=\A_n/\B_n$, mo{\zv}e se izra{\cv}unati
+re\-ku\-rent\-nom formulom
+\begin{alignat*}{4}
+%&\A_{-1}&&=1&&\B_{-1}&&=0\\
+&\A_0&&=b_0&&\B_0&&=1\\
+&\A_1&&=b_1p_0+a_1&&\B_1&&=b_1\\
+&\>\vdots&&&&\>\vdots\\
+&\A_n&&=b_n\A_{n-1}+a_n\A_{n-2}\qquad&&\B_n&&=b_n\B_{n-1}+a_n\B_{n-2}
+\end{alignat*}
+gde se, poput Fibona{\cv}ijevih brojeva, konvergent ra{\cv}una pomo{\cc}u prethodna dva.
+
+\subsection{Standardna evaluacija}
+
+Kona{\cv}ni \vr1 mo{\zv}e biti izra{\cv}unat i standardnim na{\cv}inom
+\begin{align*}
+&x\leftarrow0\\
+&i=n,n-1,\ldots,1:\\
+&\qquad x\leftarrow a_i/(b_i+x)\\
+&x\leftarrow b_0+x
+\end{align*}
+od dna ka vrhu razlomka. Tim na{\cv}inom se ne dobijaju konvergenti, ve{\cc} samo kona{\cv}na vrednost.
+
+\subsection{Transformacije}
+
+\Vr1 mo{\zv}e biti {\sl pomno{\zv}en\/} nizom konstanti $c$ na slede{\cc}i na{\cv}in
+$$
+b_0+\cfrac{a_1}{b_1+\cfrac{a_2}{b_2+\cfrac{a_3}{b_3+\cfrac{a_4}{b_4+\ddots}}}}
+=
+b_0+\cfrac{a_1c_1}{b_1c_1+\cfrac{a_2c_1c_2}{b_2c_2+\cfrac{a_3c_2c_3}{b_3c_3+\cfrac{a_4c_3c_4}{b_4c_4+\ddots}}}}
+$$
+Svaki \vr1 mo{\zv}e biti pretvoren u obi{\cv}ni \vr1 slede{\cc}om transformacijom
+$$
+b_0+\Kinf{a_i}{b_i} 
+= 
+b_0+\Kinf1{b_ic_i}, \quad\text{gde je}\quad
+c_1={1\over a_1}, \ldots, 
+c_n={1\over a_n c_{n-1}}, \ldots
+$$
+Tako{\dj}e va{\zv}i i transformacija
+$$
+b_0+\Kinf{a_i}{b_i} 
+= 
+b_0+\Kinf{a_i d_i}1, \quad\text{gde je}\quad
+d_1={1\over b_1}, \ldots, 
+d_n={1\over b_n b_{n-1}}, \ldots
+$$
+
+\subsection{Racionalizacija}
+
+Ako je $x$ neki realni broj, on mo{\zv}e biti pretvoren u \vr1
+za {\zv}e{\lj}enim brojem {\cv}lanova $n$ i
+sa {\zv}e{\lj}enom
+ta{\cv}no{\sv}{\cc}u $\varepsilon$ na slede{\cc}i na{\cv}in
+\begin{align*}
+&b_0\leftarrow[x]\\
+&x\leftarrow x-b_0\\
+&i=1,2,\ldots,n\land |x|>\varepsilon:\\
+&\qquad x\leftarrow 1/x\\
+&\qquad b_i\leftarrow[x]\\
+&\qquad x\leftarrow x-b_i
+\end{align*}
+gde $[x]$ zna{\cv}i {\sl celobrojna vrednost}. To mo{\zv}e biti ili obi{\cv}no {\sl odseca{\nj}e\/} decimala
+ili zaokru{\zv}ena vrednost broja na ceo broj.
+
+Metoda racionalizacije mo{\zv}e biti iskori{\sv}tena i za {\sl upor{\sv}{\cc}ava{\nj}e\/} razlomka.
+U slu{\cv}aju kada je $x$ razlomak kome
+brojilac i imenilac imaju mnogo cifara, mo{\zv}e biti pretvoren u pribli{\zv}nu vrednost, 
+razlomkom sa ma{\nj}e cifara.
+
+
+\section{Funkcije}
+
+Ojler (Leonhard Euler) je dokazao da red koji mo{\zv}e biti napisan kao
+\begin{align*}
+x & =c_0(1+c_1(1+c_2(1+c_3(\cdots)))),\\
+\intertext{odnosno, kao}
+&=c_0+c_0c_1+c_0c_1c_2+c_0c_1c_2c_3+\cdots,\\
+\intertext{onda je on jednak \vr3}
+&=\cfrac{c_0}{1-\cfrac{c_1}{1+c_1-\cfrac{c_2}{1+c_2-\cfrac{c_3}{1+c_3-\ddots}}}}\\
+&={c_0\over1+}\Kinf{-c_i}{1+c_i}.
+\end{align*}
+Pomo{\cc}u ove jednakosti mogu{\cc}e je pretvoriti funkciju predstav{\lj}enu
+Tejlorovim (Brook Taylor) ili 
+Maklorenovim (Colin Maclaurin) redom u \vr1.
+
+U nastavku ovog poglav{\lj}a bi{\cc}e prikazani veri{\zv}ni razlomci za izra{\cv}unava{\nj}e
+{\sl stan\-dard\-nih\/} matemati{\cv}kih funkcija.
+
+\subsection{exp}
+
+\def\d{{\cdot}}
+Iz Maklorenovog reda za izra{\cv}unava{\nj}e funkcije $e^x$
+\begin{align*}
+\exp x  &= \sum_{i=0}^\infty{x^i\over i!}\\
+&= 1 + {x^1\over1!} + {x^2\over2!} + {x^3\over3!} + {x^4\over4!} + \cdots\\
+\noalign{\smallskip}
+%&= 1 + {x\over1}\left(1+{x\over 2}\left(1+{x\over 3}\left(1+{x\over 4}\left(\cdots\right)\right)\right)\right)\\
+&= 1 + {x\over1}+{x\over1}\d{x\over2}+{x\over1}\d{x\over2}\d{x\over3}+{x\over1}\d{x\over2}\d{x\over3}\d{x\over4}+\cdots\\
+\intertext{koriste{\cc}i Ojlerovu jednakost ($c_0=1, c_i=x/i$)
+i transformaciju jednakosti, dobija se \vr1}
+\exp x &= \cfrac{1}{1-\cfrac{x}{1+x-\cfrac{1x}{2+x-\cfrac{2x}{3+x-\cfrac{3x}{4+x-\ddots}}}}}\\
+&= \frac{1}{1-}\, \frac{x}{1+x+}  \Kinf{-ix}{i+1+x}.
+\end{align*}
+
+\subsection{ln}
+
+Sli{\cv}no eksponencijalnoj funkciji, iz Tejlorovog reda se mo{\zv}e dobiti veri{\zv}ni razlomak
+za izra{\cv}unava{\nj}e vrednosti logarritamske funkcije, s tom razlikom da se izra{\cv}unava{\nj}e vr{\sv}i {\sl u~okolini\/} ta{\cv}ke 1,
+odnosno bi{\cc}e izra{\cv}unata vrednost funkije za $x+1$
+\def\lnp{\mathop{\rm ln^*}}
+\begin{align*}
+\lnp x&=\ln(x+1)\\
+&=\cfrac{x}{1-0x+\cfrac{1^2x}{2-1x+\cfrac{2^2x}{3-2x+\cfrac{3^2x}{4-3x+\ddots}}}}\\
+&=\frac{x}{1+} \Kinf{i^2x}{i+1-ix}.
+\end{align*}
+Kako funkcija konvergira samo za $x<1$, pre izra{\cv}unava{\nj}a potrebno je {\sl svesti\/} argument
+na odgovaraju{\cc}i opseg
+$$
+\ln x=
+\begin{cases}
+\lnp(x-1)&\text{za $x<1$},\\
+-\lnp(1/x-1)&\text{za $x\ge1$}.
+\end{cases}
+$$
+
+\subsection{sin}
+
+\begin{align*}
+\sin x
+&=\cfrac{x}{1+\cfrac{x^2}{2\cdot3-x^2+\cfrac{2\cdot3x^2}{4\cdot5-x^2+\cfrac{4\cdot5x^2}{6\cdot7-x^2+\ddots}}}}\\
+\noalign{\smallskip}
+&=\frac{x}{1+}\,\frac{x^2}{2\cdot3-x^2+}\Kinf{2i(2i+1)\cdot x^2}{(2i+2)(2i+3)-x^2}
+\end{align*}
+
+\subsection{cos}
+
+\begin{align*}
+\cos x
+&=\cfrac{1}{1+\cfrac{x^2}{1\cdot2-x^2+\cfrac{1\cdot2x^2}{3\cdot4-x^2+\cfrac{3\cdot4x^2}{5\cdot6-x^2+\ddots}}}}\\
+\noalign{\smallskip}
+&=\frac{1}{1+}\,\frac{x^2}{1\cdot2-x^2+}\Kinf{(2i-1)2i\cdot x^2}{(2i+1)(2i+2)-x^2}
+\end{align*}
+
+
+\subsection{arctan}
+
+Ojler je razvio formulu za izra{\cv}unava{\nj}e vrednosti
+$\arctan(y/x)$ \vr6
+\begin{align*}
+\arctan{y\over x} &=
+\cfrac{y}{1x+\cfrac{(1y)^2}{3x+\cfrac{(2y)^2}{5x+\cfrac{(3y)^2}{7x+\ddots}}}}\\
+&={y\over x+}\Kinf{(iy)^2}{(2i+1)x}
+\end{align*}
+Ako je 
+$$z=x+iy=\rho\,(\cos\theta+i\sin\theta)=\rho\,e^{i\theta},$$ 
+ta{\cv}ka u ravni predstav{\lj}ena kompleksim brojem, 
+formula {\cc}e iz\-ra\-{\cv}u\-na\-ti $\theta=\arg z$,
+ugao koji zaklapa vektor $(0,0)$--$(x,y)$ sa $x$-osom.
+$$
+\arg(x+iy)=
+\begin{cases}
+\arctan(y/x)&\text{za $x>0$},\\
+\arctan(y/x)+\pi&\text{za $x<0$ i $y\ge0$},\\
+\arctan(y/x)-\pi&\text{za $x<0$ i $y<0$},\\
++\pi/2&\text{za $x=0$ i $y>0$},\\
+-\pi/2&\text{za $x=0$ i $y<0$},\\
+0&\text{za $x=0$ i $y=0$}.
+\end{cases}
+$$
+
+\def\arccot{\mathop{\rm arccot}}
+Ostale inverzne trigonometrijske funkcije mogu biti izra{\cv}unate pomo{\cc}u funkcije $\arctan$
+$$
+\arcsin x = \arctan{x\over \sqrt{1-x^2}},\qquad
+\arccos x = \arctan{\sqrt{1-x^2}\over x},\qquad
+\arccot x = \arctan{1\over x}.
+$$
+
+\iffalse
+
+\subsection{Stepenova{\nj}e}
+
+\def\rn#1{#1(2x^n+y)}
+\def\rd#1{(m^2-#1^2n^2)y^2}
+\begin{align*}
+z^{m/n}&=(x^n+y)^{m/n}\\
+&=x^m+
+\cfrac{2x^m\cdot my}{\rn n-my+
+\cfrac{\rd1}{\rn3+\cfrac{\rd2}{\rn5+\cfrac{\rd3}{\rn7+\ddots}}}}\\
+&=x^m+{2x^m\cdot my \over \rn n-my+}\K_{i=1}^\infty{\rd i \over (2i+1)(2x^n+y)}
+\end{align*}
+
+\fi
+
+\subsection{Kvadratni koren}
+
+\begin{align*}
+\sqrt z&=\sqrt{x^2+y}\\
+&=x+
+\cfrac{y}{2x+\cfrac{y}{2x+\cfrac{y}{2x+\cfrac{y}{2x+\ddots}}}}\\
+&=x+\Kinf y{2x}
+\end{align*}
+
+
+
+\section{Konstante}
+
+\subsection{Zlatna sredina $\varphi$}
+
+Mo{\zv}da najpoznatiji \vr1 je
+\begin{align*}
+\varphi &=1+\Kinf11\\
+&=1+\cfrac{1}{1+\cfrac{1}{1+\cfrac{1}{1+\cfrac{1}{1+\ddots}}}},\\
+\intertext{Vidimo da se ispod prve razloma{\cv}ke crte opet nalazi $\varphi$, pa je}
+\varphi&=1+\cfrac{1}{\varphi}.\\
+\intertext{Re{\sv}e{\nj}e}
+\varphi &= \frac{1+\sqrt5}{2} \approx 1.618034
+\end{align*}
+je poznato u matematici kao {\sl zlatni presek\/} ili {\sl zlatna sredina}.
+Zbog svoje prirode, ovo je nasporije mogu{\cc}i kovergiraju{\cc}i \vr1,
+odnosno, $\varphi$ predstav{\lj}a {\sl najiracionalniji\/} broj.
+Izra\-{\cv}u\-na\-va\-ju{\cc}i uzastopne {\cv}lanove razlomka, $\varphi$ {\cc}e
+dobijati vrednosti
+$$
+\varphi = \frac{1}{1},\frac{2}{1},\frac{3}{2},\frac{5}{3},\frac{8}{5},
+\frac{13}{8},\frac{21}{13},\ldots
+$$
+odnosno, svaki konvergent {\cc}e biti jednak koli{\cv}niku dva uzastopna Fibona{\cv}ijeva (Leonardo Fibonacci) broja.
+
+\bigskip
+
+\Vr1 oblika
+$$
+\delta =k+\Kinf1k = k+{1\over \delta}={k+\sqrt{k^2+4}\over2}
+$$
+se zove {\sl metalna sredina}, gde se za $k=1$ dobija {\sl zlatna}, za $k=2$ {\sl srebrna},
+za $k=3$ {\sl bronzana}, za $k=4$ {\sl bakarna}, \dots\ \
+I ovde je $n$-ti konvergent koli{\cv}nik dva uzastopna\break $k$-Fi\-bo\-na\-{\cv}i\-je\-va broja za koje va{\zv}i
+rekurentna formula
+$$
+F_n = k\cdot F_{n-1}+F_{n-2}.
+$$ 
+
+Veza izme{\dj}u nagiba logaritamske spirale $\mu$ i koeficijenta metalne sredine
+$$
+k=2\,\sinh\left(90^\circ\tan\mu\right).
+$$
+Spiralni kraci na{\sv}e galaksije {\sl Kumova slama}, {\cv}ine logaritamsku spiralu sa nagibom od oko 
+$\mu\approx13^\circ$,
+{\sv}to odgovara metalnoj sredini za 
+$k\approx 43/58$,
+tako da ne {\cv}ine zlatni presek. 
+%Za zlatni presek mora biti $\mu=17.03239113^\circ$.
+
+%\clearpage
+
+\subsection{$\pi$}
+
+Izra{\cv}unava{\nj}e broja $\pi$ je kroz istoriju uvek predstav{\lj}alo izazov.
+Od davnina se koristio razlomak $22/7=3.\overline{142857}$ koji ima ta{\cv}nost 2 decimale
+i razlomak $355/113\approx3.141593$ koji ima zadiv{\lj}uju{\cc}u ta{\cv}nost od 6 decimala.
+Trenutno je poznato $202\,112\,290\,000\,000$ decimala.
+Broj $\pi$ na 50 decimala je
+$$
+\pi=3.
+1415926535\,
+8979323846\,
+2643383279\,
+5028841971\,
+6939937511\,
+\ldots
+$$
+
+\medskip
+
+Lajbnic (Gottfried Wilhelm Leibniz) je iz formule 
+$${\pi\over 4}=1-{1\over3}+{1\over5}-{1\over7}+{1\over9}-\cdots$$
+izveo formulu za izra{\cv}unava{\nj}e
+broja $\pi$ \vr6
+\begin{align*}
+\pi
+%\pi = \frac{4}{1}\fplus{1^2}{2}\fplus{3^2}{2}\fplus{5^2}{2}\fplus{7^2}{2}\bplus{\atop\cdots}
+&= \cfrac{4}{1+\cfrac{1^2}{2+\cfrac{3^2}{2+\cfrac{5^2}{2+\ddots}}}}
+=\frac{4}{1+}\Kinf{(2i-1)^2}2
+\end{align*}
+Na {\zv}alost, formula vrlo sporo konvergira broju $\pi$ i potrebno je izra{\cv}unati oko
+$3\cdot10^n$ {\cv}lanova izraza da bi se dobilo $n$ ta{\cv}nih decimala.
+
+\smallskip
+
+Iako je $\pi=4\arctan(1)$, postoje formule koje br{\zv}e konvergiraju.
+Najbr{\zv}a poznata formula za izra{\cv}unava{\nj}e broja $\pi$ \vr6 je
+Ma{\cv}inova (John Machin) formula koja korsiti Ojlerovu formulu za $\arctan$
+\begin{alignat*}{3}
+&\pi
+&&=16\arctan(1/5)
+&&-4\arctan(1/239)\\
+&{}
+&&= \cfrac{16}{u+\cfrac{1^2}{3u+\cfrac{2^2}{5u+\cfrac{3^2}{7u+\ddots}}}}
+&&- \cfrac{4}{v+\cfrac{1^2}{3v+\cfrac{2^2}{5v+\cfrac{3^2}{7v+\ddots}}}}
+\end{alignat*}
+gde je $u=5$ i $v=239$.
+Ta{\cv}nosti formule mo{\zv}e se jednostavno dokazati kompleksnom aritmetikom
+$$
+z=(5+i)^{16} / (239+i)^4 = -64
+$$
+Ta{\cv}ka $z$ ima koordinate $(-64,0)$ i sa $x$-osom zaklapa ugao od $\theta=180^\circ=\pi$ 
+($\arg z=\pi$).
+Izra\-{\cv}u\-na\-va\-ju\-{\cc}i \vr1 sa samo prva 4 {\cv}lana dobija se
+\begin{align*}
+\pi
+& \approx\frac{53600}{16971} - \frac{1433464640}{85650012051}
+= \frac{507390368614240}{161507372724169}\\
+\noalign{\smallskip}
+& \approx \underbrace{3.1415926}_{\hbox{\scriptsize ta{\cv}ne cifre}}\!10021\ldots
+\end{align*}
+broj $\pi$ sa 7 ta{\cv}nih cifara. Dovo{\lj}no je izra{\cv}unati navedenu formulu sa
+prvih 18 {\cv}lanova (posled{\nj}i {\cv}lan je $\frac{17^2}{35x}$) da bi ta{\cv}nost dostigla 35 decimalnih cifara
+\begin{align*}
+\pi 
+&\approx\textstyle{{1619055456573150058632544\over512630406240026708228595}}
+-\textstyle{{61280517996953936280266854011343676617970098482609824\over3661532317204997134560556906873741209030782402728252845}}\\
+\noalign{\smallskip}
+&\approx\textstyle{{1540109464588823719896738887665292503532998573842247313242210592162332672
+\over490232068383847267892878395373585882797677624279678806441294528302716687}}\\
+\noalign{\smallskip}
+&\approx 
+\underbrace{3.14159265358979323846264338327950288}_{\hbox{\scriptsize ta{\cv}ne cifre}}\!07522\ldots
+\end{align*}
+
+Da bi postigao ovu ta{\cv}nost, nema{\cv}ko-holandski matemati{\cv}ar Ludolf (Ludolph van Ceulen) je
+krajem 16.~i po{\cv}etkom 17.~veka,
+koriste{\cc}i Arhimedovu metodu izra{\cv}unava{\nj}a povr{\sv}ina opisanih i upisanih pravilnih $2^n$-tougaonika u kru{\zv}nicu,
+potro{\sv}io ve{\cc}i deo svog {\zv}ivota. {\Nj}emu u {\cv}ast broj $\pi$ se ponekad zove
+{\sl Ludolfov broj}.
+
+\subsection{$e$}
+
+\def\raz#1/#2/{\frac{#1}{#2}}
+
+Baza prirodnog logaritma
+$$
+e=2.
+7182818284\,
+5904523536\,
+0287471352\,
+6624977572\,
+4709369996\,
+\ldots
+$$
+mo{\zv}e bit izra{\cv}unata kao $e=\exp(1)$, pomo{\cc}u \vr2 za eksponencijalnu funkciju. 
+Me{\dj}utim, postoji jednostavnija formula
+$$
+e=1+\frac{1}{\Kinf ii}
+$$
+Dovo{\lj}no je izra{\cv}unati prvih 10 konvergenata \vr2
+$$
+e\approx
+2, 3, \raz8/3/, \raz30/11/, \raz144/53/, \raz280/103/, \raz5760/2119/, \raz45360/16687/, 
+\raz44800/16481/, \raz3991680/1468457/
+$$
+da bi dobili 7 ta{\cv}nih decimala, $e_{10}\approx2.7182818$.
+Konvergent 
+$$e_{40}= 
+\raz836313165329095177704251551336018791628800000000/
+307662419905587585654556899376849633804439730767/
+$$
+je ta{\cv}an na 50 decimala.
+
+\subsection{Borin broj}
+
+\def\ofrac#1{\cfrac{1}{#1}}
+\def\B{{\cal B}}
+Ako broj
+$$
+\B=0.
+4323320871\,
+8590286890\,
+9253793241\,
+9999637051\,
+1089687765\,
+\ldots
+$$
+pretvorimo u \vr1, dobi{\cc}emo
+\begin{align*}
+\B &= \ofrac{\fbox2+\ofrac{\fbox3+\ofrac{\fbox5+\ofrac{\fbox7+\ofrac{\fbox{11}+\ofrac{\fbox{13}+\ddots}}}}}}
+=\Kinf1{p_i}
+\end{align*}
+\vr1 {\cv}iji su imenioci {\it svi} {\sl prosti brojevi} $p$.
+Naravno, zbog svoje prirode, ovaj broj ne mo{\zv}e biti ta{\cv}no izra{\cv}unat,
+ali je zanim{\lj}ivo da postoji.
+
+
+\section{Literatura}
+
+
+%\printbibliography
+
+\end{document}
