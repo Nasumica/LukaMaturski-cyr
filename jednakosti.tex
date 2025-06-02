@@ -1,0 +1,149 @@
+\section{Логаритамске једнакости}
+
+За логаритамску функцију важе разне {\sl једнакости\/}\index{једнакости} које се користе за 
+упрошћивање и прилагођавање израза приликом решавања
+проблема и задатака.
+
+\subsection{Логаритам степена основе}\index{степен основе}
+
+По самој дефиницији логаритма, ако је $x=b^a$, онда је
+\begin{equation}
+\okvir{\logb b^a=a}.
+\label{eq:powb}
+\end{equation}
+Ако ставимо да је $1=b^0$, односно, $b=b^1$, добијамо да је
+\begin{equation}
+\okvir{\logb 1=0}\qquad\text{и}\qquad\okvir{\logb b=1}.
+\end{equation}
+Такође је битна једнакост
+\begin{equation}
+\okvir{b^{\logb x}=x}
+\end{equation}
+која произилази из саме дефиниције логаритма и антилогаритма.
+
+\subsection{Логаритам производа}\index{производ}
+
+Ако је
+$$
+u=\logb x\land v=\log_b y \podef x=b^u\land y=b^v,
+$$
+онда је, због једнакости \eqref{eq:powb}
+$$
+x\cdot y=b^ub^v=b^{u+v}\sledi \logb(x\cdot y)=\logb b^{u+v}=u+v.
+$$
+Одавде је
+\begin{equation}
+\okvir{\logb(x\cdot y)=\logb x+\logb y}.
+\label{eq:lnmul}
+\end{equation}
+
+Из ове једнакости се може извести и формула за логаритам факторијела\index{факторијел $(n"!)$} броја. 
+Ако је
+$$
+n!=\prod_{k=1}^n k\sledi \log(n!)=\sum_{k=1}^n\log k.
+$$
+(Занимљиво је да је $\log(1\cdot2\cdot3)=\log1+\log2+\log3=\log(1+2+3)$.)
+
+
+\subsection{Логаритам количника}\index{количник}
+
+Слично логаритму производа, ако је 
+$$
+u=\logb x\land v=\log_b y \podef x=b^u\land y=b^v,
+$$
+онда је, због једнакости \eqref{eq:powb}
+$$
+x/ y=b^ub^{-v}=b^{u-v}\sledi \logb(x/y)=\logb b^{u-v}=u-v.
+$$
+Одавде је
+\begin{equation}
+\okvir{\logb(x/ y)=\logb x-\logb y}.
+\label{eq:lndiv}
+\end{equation}
+Из ове једнакости следи\index{реципрочна вредност}
+\begin{equation}
+\okvir{\logb(1/x)=-\logb x}.
+\label{eq:recip}
+\end{equation}
+
+\subsection{Логаритам степена броја}\index{степен}
+
+Ако је
+$$
+y=x^n=\underbrace{x\cdot x\cdots x}_{\text{$\mathstrut n$ пута}},
+$$
+онда, из једнакости за логаритам производа \eqref{eq:lnmul}, следи да је
+$$
+\logb y=\logb (\underbrace{\mathstrut x\cdot x\cdots x}_{\text{$n$ пута}})
+=\underbrace{\mathstrut \logb x+\logb x+\cdots+\logb x}_{\text{$n$ пута}}
+=n\logb x,
+$$
+одакле је
+\begin{equation}
+\okvir{\logb x^n=n\logb x}.
+\label{eq:bpow}
+\end{equation}
+Из ове једнакости следи једнакост
+\begin{equation}
+\okvir{\logb\sqrt[n] x=\frac1n\logb x},
+\label{eq:lnroot}
+\end{equation}
+као и једнакост
+\begin{equation}
+\okvir{x^y=b^{y\logb x}}.
+\label{eq:power}
+\end{equation}
+
+
+\subsection{Промена основе логаритма}
+
+Ако је
+$$
+y = \loga x \podef x = a^y,
+$$
+онда је 
+$$
+\logb x=\logb a^y=y\logb a=\loga x\cdot\logb a.
+$$
+Одавде је
+\begin{equation}
+\okvir{\loga x=\frac{\logb x}{\logb a}}.
+\label{eq:chgbase}
+\end{equation}
+Из ове једнакости, ако ставимо да је $x=b$, се добија и једнакост
+\begin{equation}
+\okvir{\loga b\cdot\logb a = 1}.
+\end{equation}
+Из једнакости \eqref{eq:powb} и \eqref{eq:chgbase}, ако ставимо да је $a=b^n$, следи једнакост
+\begin{equation}
+\okvir{\log_{b^n}x = \frac1n \logb x}.
+\label{eq:powbase}
+\end{equation}
+Одавде, ако ставимо да је $n=-1$, следи
+\begin{equation}
+\okvir{\log_{1/b}x = -\logb x},
+\end{equation}
+а узевши у обзир и једнакост \eqref{eq:recip} добија се
+\begin{equation}
+\okvir{\log_{1/b}x = \logb(1/x)}.
+\end{equation}
+
+\bigskip
+
+\newcommand\takecare{\includegraphics[height=24pt]{bc-takecare}}% 65 
+\robustify\takecare
+
+\font\manfnt=manfnt scaled 1200 % 1.2 * sqrt(1.2) * 1000
+\def\dbend{{\manfnt\char126\relax}}
+\def\danger{\hangindent=\parindent 
+\hangafter=-2 \noindent\leavevmode
+\smash{\hbox to 0pt{\kern-\hangindent\lower1.2pt\hbox{\dbend}\hss}}%
+% \smash{\hbox to 0pt{\kern-\hangindent\lower15.5pt\hbox{\takecare}\hss}}%
+\index{pozor}}
+
+
+\danger\label{danger}%\textbf{Napomena:\/}
+Треба бити опрезан код коришћења свих ових једнакости, нарочито код степеновања,
+и увек треба проверити опсег у коме се рачуна.
+На пример, из једнакости \eqref{eq:bpow}, следи $\log x^2=2\log x$, што је исправно за $x>0$,
+међутим, $\log x^2=2\log|x|$\index{апсолутна вредност $\vert x\vert$} за било које $x\ne0$. 
