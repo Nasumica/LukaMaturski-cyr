@@ -1,79 +1,81 @@
-\subsection{Kvaternioni}
+\subsection{Кватерниони}
 
 \def\uv{{u}}
 \def\vp{{v}}
 \def\norm#1{{\vert#1\vert}}
 \def\con#1{{\bar#1}}
 
-Poput skupa kompleksnih brojeva $\Cset$, koji predstav{\lj}a objekte u \idx{2D} prostoru,
-skup {\sl kvater\-niona\/}\index{kvaternion}~$\Hset$, predstav{\lj}a objekte u \idx{3D} prostoru. Prvi ih je opisao 
-1843. godine irski ma\-te\-ma\-ti\-{\cv}ar
-\idx{Hamilton} (William Rowan Hamilton), te {\nj}emu u {\cv}ast i oznaka skupa $\Hset$.
-
-U~informatici su neizbe{\zv}ni deo svega {\sv}to se de{\sv}ava u 3D:
-navigacija aviona, pod\-mor\-nica, raketa, satelita,
-nebeska i kvantna mehanika, robotika, igre, grafika, \dots
+Попут скупа комплексних бројева $\Cset$, који представљају објекте у \idx{2D} простору,
+скуп {\sl кватерниона\/}\index{кватернион}~$\Hset$, представља објекте у \idx{3D} простору. 
+Први их је описао 1843.\ године ирски математичар
+\idx{Хамилтон} (William Rowan Hamilton), те њему у част и ознака скупа
+$\Hset$.
+У информатици су неизбежни део свега што се дешава у 3D:
+навигација авиона, подморница, ракета, сателита,
+небеска и квантна механика, роботика, игре, графика,~\dots
 
 \medskip
 
-Kvaternion $q\in\Hset$ mo{\zv}e biti predstav{\lj}en kao \idx{zbir}
+Кватернион $q\in\Hset$ може бити представљен као \idx{збир}
 \begin{equation}
     q=s+\vp
 \end{equation}
-koji se sastoji od {\sl skalarnog\/}\index{skalar} dela $s\in{\mathbb R}$ i {\sl vektorskog\/}\index{vektor} dela $\vp\in\Rset^3$, gde je
+који се састоји од {\sl скаларног\/}\index{скалар} дела $s\in{\mathbb R}$ и {\sl векторског\/}\index{вектор} дела 
+$\vp\in\Rset^3$, где је
 \begin{equation}
     \vp=xi+yj+zk
 \end{equation}
-3D vektor sa koordinatama $(x,y,z)$, 
-a gde su $i$\index{i@$i$}, $j$\index{j@$j$} i $k$\index{k@$k$} jedini{\cv}ni vektori\index{jedini{\cv}ni vektor} 
-po $x$\idxaxis x, $y$\idxaxis y i $z$\idxaxis z osi,
-za koje va{\zv}i
+3D вектор са координатама $(x,y,z)$, 
+а где су $i$\index{i@$i$}, $j$\index{j@$j$} и $k$\index{k@$k$} јединични вектори\index{јединични вектор} 
+по $x$\idxaxis x, $y$\idxaxis y и $z$\idxaxis z оси, за које важи
 \begin{equation}\label{eq:qunits}
     i^2=j^2=k^2=ijk=-1,\quad
     ij=k,\quad jk=i,\quad ki=j. 
 \end{equation}
 
-\danger U skupu kvaterniona $\Hset$ za operaciju mno{\zv}e{\nj}a, uop{\sv}teno, ne va{\zv}i {\sl zakon komutacije}\index{komutativnost}:
+\danger 
+У скупу кватерниона $\Hset$ за операцију множења, уопштено, не важи {\sl закон комутације}\index{комутативност}:
 $ji=-ij=-k$, $kj=-jk=-i$, $ik=-ki=-j$.
-Ovo je logi{\cv}no kad se setimo da i kod
-{\sl Rubikove kocke\/}\index{Rubikova kocka} naj{\cv}e{\sv}{\cc}e nije svejedno kojim redosledom okre{\cc}emo stranice.
-Va{\zv}i {\sl \idx{asocijativnost}}: $(p\cdot q)\cdot r=p\cdot(q\cdot r)$.
+Ово је логично кад се стимо да и код
+{\sl Рубикове коцке\/}\index{Рубикова коцка} 
+најчешће није свеједно којим редоследом окрећемо странице.
+Важи {\sl \idx{асоцијативност}}: $(p\cdot q)\cdot r=p\cdot(q\cdot r)$.
 
 \medskip
 
-Da bi $q=s+\vp$ bio {\sl pravi\/} kvaternion, mora biti $\vp\ne0$, ina{\cv}e je $q$ obi{\cv}an realan broj, 
-kada se prime{\nj}uju operacije i funkcije iz skupa $\Rset$.
-Ako odredimo apsolutnu vrednost\index{apsolutna vrednost $\vert x\vert$} kvaterniona
+Да би $q=s+\vp$ био {\sl прави\/} кватернион, мора бити $\vp\ne0$, иначе је $q$ обичан реалан број,
+када се примењују операције и функције из скупа $\Rset$.
+Ако одредимо апсолутну вредност\index{апсолутна вредност $\vert x\vert$} кватерниона
 $$
 \lambda = \norm \vp = \sqrt{\mathstrut x^2+y^2+z^2},\qquad
 \rho = \norm q = \sqrt{\mathstrut s^2+\lambda^2}
 $$
-koja se zove {\sl \idx{norma}\/}, odredimo
-{\sl jedini{\cv}ni vektor\/} ({\sl unit\/})\index{unit} vektorskog dela kvaterniona
+која се зове {\sl \idx{норма}\/}, одредимо
+{\sl јединични вектор\/} ({\sl unit\/}) векторског дела кватерниона
 $$
 \uv = \frac \vp\lambda, 
 $$
-koji se zove {\sl versor\/}\index{versor}
-i gde je po definiciji%
-\footnote{U skupu $\Hset$, $\sqrt{-1}$ ima beskona{\cv}no re{\sv}e{\nj}a:
-svaki kvaternion koji se nalazi na {\sl jedini{\cv}noj sferi\/} je re{\sv}e{\nj}e
-($s=0\land x^2+y^2+z^2=1$), odnosno, svaki versor.} 
-$\norm\uv=1$ i  $\uv^2=-1$,
-kao i ugao orijentacije
+који се зове {\sl версор\/}\index{версор}
+и где је по дефиницији\footnote{У 
+скупу $\Hset$, $\sqrt{-1}$ има бесконачно решења:
+сваки кватернион који се налази на {\sl јединичној сфери\/} је решење
+($s=0\land x^2+y^2+z^2=1$), односно, сваки версор.} 
+$\norm\uv=1$ и  $\uv^2=-1$,
+као и угао оријентације
 $$
 \varphi = \arccos\left( \frac s\rho \right),
 $$
-mo{\zv}emo dobiti \idx{polarni zapis} kvaterniona
+можемо добити \idx{поларни запис} кватерниона
 \begin{equation}
 q
 =\rho\,(\cos\varphi + \uv\sin\varphi)
 =\rho\,\e^{\uv\varphi}.
 \end{equation}
-Iz svega ovoga se mo{\zv}e dobiti
+Из свега овога се може добити
 \begin{equation}\index{ln@$\ln$}
     \okvir{\ln(q)  = \ln\rho + \uv\varphi}
 \end{equation}
-\centerline{i}
+\centerline{и}
 \begin{equation}\index{exp@$\exp$}
     \okvir{\exp(q) = \e^s \left( \cos\lambda + \uv\sin\lambda \right)}\rlap{.}
 \end{equation}
@@ -81,11 +83,10 @@ Iz svega ovoga se mo{\zv}e dobiti
 \medskip
 
 \danger
-Ostale operacije i funkcije nisu tema ovog rada, ali sabira{\nj}e i oduzima{\nj}e
-je uobi\-{\cv}a\-jeno, kod mno{\zv}e{\nj}a treba obratiti pa{\zv}{\nj}u na formulu \eqref{eq:qunits} i
-komutativnost, a reci\-pro{\cv}na vrednost\index{recipro{\cv}na vrednost} je
-$q^{-1}=\con q/\rho^2$, gde je $\con q=s-\vp$, {\sl konjugovana\/} vrednost\index{konjugovana vrednost $(\con z)$}. 
-% Naj{\cv}e{\sv}{\cc}e se de{\lj}e{\nj}e ne pi{\sv}e $p/q$, ve{\cc} $pq^{-1}$.
-Tri\-gono\-metrijske i hiperboli{\cv}ne funkcije se mogu izraziti pomo{\cc}u eksponencijalne,
-a {\nj}ihove inverzne pomo{\cc}u logaritamske funkcije.\par
+Остале операције и функције нису тема овог рада, али сабирање и одузимање
+је уобичајено, код множења треба обратити пажњу на формулу \eqref{eq:qunits} и
+комутативност, а \idx{реципрочна вредност} је
+$q^{-1}=\con q/\rho^2$, где је $\con q=s-\vp$, {\sl конјугована\/} вредност\index{конјугована вредност $(\con z)$}. 
+Тригонометријске и хиперболичне функцихе се могу изразити помоћу експоненцијалне,
+а њихове инверзне помоћу логаритамске функције.
 

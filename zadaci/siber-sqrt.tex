@@ -1,26 +1,31 @@
-\subsubsection{Analogni kvadratni koren}\label{sssec:sibersqrt}
+\subsubsection{Аналогни квадратни корен}\label{sssec:sibersqrt}
 
 \zadatak
-Objasni na{\cv}in za odre{\dj}iva{\nj}e vrednosti $\sqrt x$\index{koren $(\sqrt x)$} logaritmarom\index{logaritmar}.
+Објасни начин за одређивање вредности
+$\sqrt x$\index{корен $(\sqrt x)$} логаритмаром\index{логаритмар}.
 
-\resenje Uz malo ve{\zv}be, kvadratni koren mo{\zv}emo direktno {\cv}itati sa logaritmara ako {\sl u~glavi\/} izvr{\sv}imo 
-de{\lj}enje sa 2 i, po potrebi, sabira{\nj}e sa $0\.5$ 
-{\sv}to je vrlo jednostavno jer se radi o brojevima izme{\dj}u 0 i 1 sa najvi{\sv}e 3 decimale. 
-Kako je
+\resenje
+Уз мало вежбе, квадратни корен можемо директно читати са логаритмара ако  
+{\sl у глави\/} извршимо
+дељење са 2 и, по потреби, сабирање са $0\.5$
+што је врло једноставно јер се ради о бројевима између 0 и 1 са највише 3 децимале. 
+Како је
 $$
 \sqrt x=10^{\frac12\log x},
 $$
-potrebno je pro{\cv}itati vrednost $\log x$, a onda, za dvostruko ma{\nj}u vred\-nost od {\nj}e, pro\-{\cv}i\-ta\-ti vrednost $10^y$. Na primer,
-za izra{\cv}unava{\nj}e $\sqrt{5\.3}$,
-{\cv}itamo da je $\log(5\.3)\approx0\.724$~($\color{red}\downarrow$), potom, za 
-$y=0\.724/2=0\.362$~($\color{red}\uparrow$), {\cv}itamo vrednost $10^y$ i
-dobijamo $\sqrt{5\.3}\approx 2\.3$  ($2\.3^2=5\.29$).
+потребно је прочитати вредност
+$\log x$, 
+а онда, за двоструко мању вредност од ње, прочитати вредност
+$10^y$. На пример,
+за израчунавање вредности $\sqrt{5\.3}$,
+читамо да је $\log(5\.3)\approx0\.724$~($\color{red}\downarrow$), потом, за
+$y=0\.724/2=0\.362$~($\color{red}\uparrow$), читамо вредност $10^y$ и
+добијамо $\sqrt{5\.3}\approx 2\.3$  ($2\.3^2=5\.29$).
+За $\sqrt{53}$ треба у $y$ додати још $0\.5$ тако да ће бити $y=0\.362+0\.5=0\.862$~($\color{magenta}\Uparrow$), 
+одакле је $\sqrt{53}\approx7\.28$ ($7\.28^2=52\.9984$).
 $$
 \def\hair{\nit{0.36213793480039452281649614581363}\nit{0.72427586960078904563299229162726}\nit{0.86213793480039452281649614581363}}
 \def\extra{\ruler{0.36213793480039452281649614581363}{$\uparrow$}\ruler{0.72427586960078904563299229162726}{$\downarrow$}\ruler{0.86213793480039452281649614581363}{$\color{magenta}\Uparrow$}}
 \logaritmar0
 $$
-Za $\sqrt{53}$ treba u $y$ dodati jo{\sv} $0\.5$ tako da je $y=0\.362+0\.5=0\.862$~($\color{magenta}\Uparrow$), 
-odakle je $\sqrt{53}\approx7\.28$ ($7\.28^2=52\.9984$).
-%(Dodava{\nj}e $0\.5$ u eksponent predstav{\lj}a mno{\zv}e{\nj}e celog izraza sa $\sqrt{10}$.)
-Naravno, $\sqrt{530}$ se ra{\cv}una kao $10\sqrt{5\.3}$, ili $\sqrt{0\.53}=\frac{1}{10}\sqrt{53}$.
+Наравно, $\sqrt{530}$ се рачуна као $10\sqrt{5\.3}$, или $\sqrt{0\.53}=\frac{1}{10}\sqrt{53}$.

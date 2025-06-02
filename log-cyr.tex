@@ -166,7 +166,7 @@ level=\section     % numbered section in article class
 \def\QED{\ensuremath{\qquad\qed}}
 \def\QEDidx{\index{што је требало доказати $(\qed)$}}
 \def\thalf{t_{1/2}}
-\def\um#1{\,{\rm#1}}
+\def\um#1{\,\hbox{\rm#1}}
 \newdimen\mm \mm=1truemm
 \def\cis{\mathop{\rm cis}}
 \def\idxaxis#1{\index{#1 оса@$#1$-оса}}
@@ -192,7 +192,7 @@ level=\section     % numbered section in article class
   \raise\signdp\llap{$\vcenter{\hbox{$\scriptstyle\bigstar\,$}}\>$}\zabox{Додатак:}}
 
 \let\oldfoot=\footnote
-\def\footnote#1{\index{fusnota}\oldfoot{#1}}
+\def\footnote#1{\index{фуснота}\oldfoot{#1}}
 
 %\def\dodatak{\par\medskip\noindent\zabox{Dodatak:}}
 \newcommand{\rsinfty}{{\,\widetilde{\!\infty\!}\,}}
@@ -215,283 +215,19 @@ level=\section     % numbered section in article class
 
 \input osnove
 
-\section{Brojna vrednost logaritma}\index{brojna vrednost}
+\input vrednost
 
-\subsection{Formula}
-
-Brojna vrednost prirodnog logaritma mo{\zv}e biti izra{\cv}unata pomo{\cc}u formule
-\begin{equation}\index{formula}\index{ln@$\ln$}
-\okvir{
-\ln x
-%&=2\mathop{\rm arctanh}\frac{x-1}{x+1}\\
-=\sum_{n=0}^\infty\frac{2}{2n+1}\left(\frac{x-1}{x+1}\right)^{\!2n+1}
-}
-\label{eq:lnred}
-\end{equation}
-do {\zv}e{\lj}ene ta{\cv}nosti.
-Postupak kojim se ra{\cv}una $y=\ln x$ sa ta{\cv}no{\sv}{\cc}u $\varepsilon$\index{epsilon $(\varepsilon)$}
-izgleda ovako:
-\def\asg{\leftarrow}%
-\begin{equation}\index{algoritam}
-\label{eq:alg}
-\begingroup\color{Blue}
-\ram{\enspace
-\begin{aligned}
-&r\asg(x-1)/(x+1);\quad k\asg 1;\quad p\asg 2r;\quad q\asg r^2;\quad a\asg p;\quad y\asg a;\\
-&\text{ponav{\lj}ati dok je $|a|>\varepsilon$:}\\
-&\qquad k\asg k+2;\quad p\asg p\cdot q;\quad a\asg p/k;\quad y\asg y+a;
-\end{aligned}
-\enspace}
-\endgroup
-\end{equation}
-Ovim postupkom se mo{\zv}e izra{\cv}unati vrednost
-\begin{align}
-  \begin{split}\label{eq:ln2}\index{ln2@$\ln 2$}
-    \ln2
-    & = \frac{2}{1\cdot3^1}+\frac{2}{3\cdot3^3}+\frac{2}{5\cdot3^5}+\frac{2}{7\cdot3^7}+\frac{2}{9\cdot3^9}+\cdots\\
-    \noalign{\smallskip}
-    & = 0\.
-    6931471805\,
-    5994530941\,
-    7232121458\,
-    1765680755\,
-    \ldots
-  \end{split}
-  \intertext{kao i vrednost}
-  \begin{split}\label{eq:ln10}\index{ln10@$\ln10$}
-    \ln10
-    & = \frac{2}{1\cdot9^1}+\frac{2}{3\cdot9^3}+\frac{2}{5\cdot9^5}+\frac{2}{7\cdot9^7}+\frac{2}{9\cdot9^9}+\cdots+3\ln2\\
-    \noalign{\smallskip}
-    & = 2\.
-    3025850929\,
-    9404568401\,
-    7991454684\,
-    3642076011\,
-    \ldots
-  \end{split}
-\end{align}
-(Videti zadatak \ref{sssec:ln3} na strani \pageref{sssec:ln3}.)
-Pomo{\cc}u {\nj}ih se mogu izra{\cv}unati brojne vrednosti binarnog $\logtwo x=\ln x/\ln2$, odnosno, de\-kad\-nog 
-$\logten x=\ln x/\ln 10$ logaritma.
-
-\subsection{Veri{\zv}ni razlomak}\index{veri{\zv}ni ralomak}
-
-Brojna vrednost prirodnog logaritma mo{\zv}e se izra{\cv}unati i pomo{\cc}u {\sl veri{\zv}nog razlomka}
-\begin{equation}\label{eq:verige}
-\begin{aligned}
-\ln(1+x)
-&=\cfrac{x}{1+\cfrac{1^2x}{2-1x+\cfrac{2^2x}{3-2x+\cfrac{3^2x}{4-3x+\ddots}}}}\\
-\noalign{\vskip-3pt}
-&=\cfrac{x}{1+ \Kinf{\n^2x}{\n+1-\n x}}.
-\end{aligned}
-\end{equation}
-Poput simbola koji se koriste za sumu `$\rm\Sigma$' ili proizvod `$\rm\Pi$', 
-\idx{Gaus} (Johann Carl Friedrich Gau\ss) je smislio, verovatno, najpogodniji na{\cv}in za predstav{\lj}a{\nj}e
-veri{\zv}nih ({\sl lan\-{\cv}a\-nih\/}) razlomaka,
-gde simbol `K' poti{\cv}e od nema{\cv}ke re{\cv}i za {\sl prekinuti lanac\/} ({\sl Kettenbruch\/}). 
-Izraz iza ovog simbola pokazuje kako izgleda {\sl op{\sv}ti {\cv}lan\/} veri{\zv}nog razlomka.
-
-\def\ff#1/#2,{\frac{#1}{#2},}
-Ako pomo{\cc}u ove formule izra{\cv}unamo prvih 11 {\sl konvergenata\/}\index{konvergent} $\ln2$ kao $-\ln(1+x)$, 
-gde je $x=-1/2$,
-dobi{\cc}emo
-$$
-\ln2\approx\ff1/2, \ff5/8, \ff2/3, \ff131/192, \ff661/960, \ff1327/1920, \ff1163/1680, \ff148969/215040, 
-\ff447047/645120, \ff44711/64512, \ff983705/1419264, \dots
-$$
-gde je posled{\nj}i razlomak ta{\cv}an na 5 decimala.
-
-
-\subsection{Logaritamske tablice}\index{tablice}
-
-Prve tablice logaritama je 1614.\ godine izra{\cv}unao {\sv}kotski matemati{\cv}ar \idx{Neper} (John Napier of Merchiston),
-koje su prakti{\cv}no sadr{\zv}ale logaritam za osnaovu $1/\e$, sa ska\-li\-ra\-nim argumentom i rezultatom,
-iako sam Neper nije znao za konstantu $\e$.
-Savremenim zapisom bi logaritam iz Neperovih tablica bio definisan kao
-$$
-\naplog (x) = 10^7\log_{1/\e}(x/10^7) = -10^7\ln(x/10^7).
-$$
-
-Nekoliko godina kasnije, 1617.\ i 1624,\ engleski matemati{\cv}ar \idx{Brigs} (Henry Briggs) je izra{\cv}unao
-tablice de\-kad\-nih logaritama sa 14 cifara ta{\cv}nosti, koje se uz dopune i ispravke
-koriste i danas pod imenom {\sl Brigsove tablice}.
-
-
-\subsection{Logaritmar}\index{logaritmar}
-
-\input siber
-
-Pre pojave digitrona\index{digitron}, za pribli{\zv}no odre{\dj}iva{\nj}e
-brojne vrednosti logaritma,
-koristila se je analogna mehani{\cv}ka sprava sa nekoliko le{\nj}ira zvana {\sl logaritmar}\index{sziber@{\sv}iber}.
-$$
-\slika{\includegraphics[width=0.90\textwidth]{siber2.jpg}}{{\Sv}iber.}
-$$
-Le{\nj}iri imaju podeoke sa decimalom i logaritamskom, a {\cv}esto i sa sinusnom i nekom drugom skalom.
-Jedan od le{\nj}ira je bio klizni, te otuda popularno ime {\sl{\sv}iber\/}
-(od nema{\cv}kog {\sl Rechen\-schieber\/}). Koristi se jednostavno, pomera{\nj}em
-kliza{\cv}a i {\cv}ita{\nj}em vrednosti sa odgovaraju{\cc}e skale.
-(Videti za\-da\-tke~\ref{sssec:siberpower} i~\ref{sssec:sibersqrt}.)
-
-Postojale su i kru{\zv}ne varijante, pa i {\dz}epne, gde je
-{\dz}epni sat sa logaritmarom i kompasom  bio \navod{\idx{iPhone}} XIX i prve polovine XX~veka.
-$$
-\slika{\includegraphics[width=50\mm]{sahat.jpg}}{{\Dz}epni logaritmar.}
-$$
-
-Tablice i logaritmari se i danas koriste u vojsci, kao rezerva u slu{\cv}aju otkaziva{\nj}a elektronike.
-Prvi \idx{kompjuter} \idx{ENIAC} (Electronic Numerical Integrator And Computer)
-je naprav{\lj}en 1946.\ godine sa jednom namenom: {da izra{\cv}una tablice za vojsku}.
-
-
-\section{Razno}
-
-\subsection{Kompleksni logaritam}
-
-Ako u kompleksnoj ravni imamo \idx{kompleksan broj} $z\in\Cset$, 
-$$
-\slika{\includegraphics[]{log.2}}{Broj $z$ u kompleksnoj ravni.}
-$$
-on mo{\zv}e biti predstav{\lj}en kao
-\begin{alignat*}{3}\index{i@$i$}\index{polarni zapis}
-z 
-&= x + iy &&\qquad\text{pravougle koordinate},\\
-&= \rho\, (\cos\theta +i\sin\theta)&&\qquad\text{polarne koordinate}.
-\end{alignat*}
-Iz Ojlerove formule\index{Ojlerova formula}\footnote{Ojlerova formula
-se lako dokazuje pomo{\cc}u formule \eqref{eq:exp} i sli{\cv}nih formula
-za $\sin x$ i $\cos x$, koje se do\-bi\-ja\-ju iz {\sl Meklorenovog\index{Mekloren} reda\/}\index{Meklorenov red}
-(Cailean MacLabhruinn):
-$f(x)=\sum_{n=0}^\infty\, f^{(n)}(0)\,(x^n/n!)$, gde $f^{(n)}$ predstav{\lj}a $n$-ti izvod funkcije $f$.}
-\begin{equation}\label{eq:euler}
-  \okvir{\e^{i\theta} = \cos\theta + i\sin\theta},
-\end{equation}
-sledi da je $z=\rho\,\e^{i\theta}$, odakle,
-iz jednakosti \eqref{eq:lnmul} i \eqref{eq:powb} se dobija\index{ln@$\ln$}
-\begin{equation}\index{ln@$\ln$}
-  \okvir{\ln z = \ln\rho + i\theta}.
-  \label{eq:cln}
-\end{equation}
-Po{\sv}to je $\rho=|z|=\sqrt{x^2+y^2}\ge0$\index{apsolutna vrednost $\vert x\vert$},
-sledi da prirodni logaritam kompleksnog broja $z$ nije definisan samo za $z=0$, kada je
-$\ln z=\rsinfty$.\index{kompleksna beskona{\cv}nost $(\rsinfty)$}
-Kako je $y/x=\tan\theta$, prirodni logaritam kompleksnog broja,
-pred\-stav\-{\lj}e\-nog pravouglim koordinatama, iz formule \eqref{eq:cln},
-mo{\zv}e se izra{\cv}unati
-\begin{equation}
-\okvir{\ln(x+iy)={\frac12}\ln(x^2+y^2)+i\arctan\left(\frac yx\right)},
-\label{eq:clncart}
-\end{equation}
-kao i
-\begin{equation}\index{exp@$\exp$}
-  \okvir{\exp(x+iy)=\e^x\,(\cos y+i\sin y)}.
-  \label{eq:cexp}
-\end{equation}
-
-
-I za kompleksne brojeve va{\zv}i jednakost promene osnove \eqref{eq:chgbase}, tako da za dva komp\-leks\-na
-broja $z$ i $w$, gde je $z\ne0$, $w\ne0$ i $w\ne1$, sledi
-$\log_w z=\ln z/\ln w$,
-gde se $\ln z$ i $\ln w$ ra{\cv}unaju pomo{\cc}u formule \eqref{eq:cln}, odnosno, \eqref{eq:clncart}.
-Na primer,
-$$
-\log_{2+i}(3+4i)=2, \qquad \log_i\e=\frac{2}{i\pi},\qquad \logtwo(-4)=2+\frac{i\pi}{\ln2}.
-$$
-
-Iz Ojlerove formule se, tako{\dj}e,  mo{\zv}e dobiti
-{\sl najlep{\sv}a formula u istoriji ma\-te\-ma\-ti\-ke},
-u kojoj je upotreb{\lj}eno 5 najva{\zv}nijih matemati{\cv}kih konstatnti 
-($0,1,\pi,\e,i$)
-\begin{equation}
-  \okvir{\e^{i\pi}+1=0},
-  \label{eq:zeuler}
-\end{equation}
-gde, ako prebacimo 1 na desnu stranu i {\sl logaritmujemo}\index{logaritmova{\nj}e}, dobijamo zanim{\lj}ivu jednakost
-$$
-\frac{\ln(-1)}{\sqrt{-1}}=\pi\index{pi $(\pi)$}.
-$$
-
-\input quaternions
-
-\subsection{Izvod}
-
-Ako je 
-$$
-y=\ln x\sledi y'=\frac1x,
-$$
-odakle se, pomo{\cc}u jednakosti \eqref{eq:chgbase} i jednakosti za \idx{izvod} slo{\zv}ene funkcije, mo{\zv}e dobiti
-\begin{equation}
-\okvir{y=\logb(f(x))\sledi y'=\frac{f'(x)}{f(x)\ln b}}.
-\label{eq:izvod}
-\end{equation}
-
-\def\dx{{\it dx}}
-\def\const{{\rm constant}}
-\def\plusconst{{\color{gray}{}+\const}}
-Povr{\sv}ina figure ispod funkcije $y=1/x$ do $x$-ose\idxaxis x, u opsegu od 1~do~$x$ iznosi 
-$\ln x$.\penalty-1000
-Matemati{\cv}ki zapisano: $\int_1^x\dx/x=\ln x$. 
-$$
-\slika{\includegraphics[]{log.3}}{Geometrijsko zna{\cv}e{\nj}e $\ln x$.\index{grafik}}
-$$
-(Na slici je $x=\e$, tako da je povr{\sv}ina osen{\cv}ane figure jednaka 1.)
-
-
-\subsection{Integral}
-Neodre{\dj}eni \idx{integral} prirodnog logaritma je
-\begin{equation}\label{eq:integral}
-  \int \ln x\,\dx 
-  = x \ln x - x \plusconst.
-\end{equation}
-
-\subsection{Limes}\index{limes}
-
-\idx{Ojler} je dokazao da je
-\begin{equation}\label{eq:limes}
-  \ln x=\lim_{n\to\infty}n(\sqrt[n]x-1).
-\end{equation}
-
-\subsection{Benfordov zakon}
-
-\def\fibonacci#1#2#3{%
-\newcount\a \a=#1
-\newcount\b \b=#2
-\number\a,~\number\b
-\newcount\t
-\newcount\n \n=#3 \advance\n-3
-\loop
-  \t=\b \advance\b\a \a=\t
-  , \number\b
-  \advance\n-1\ifnum\n>0 
-\repeat}
-
-Verovatno{\cc}a da {\sl po{\cv}etne cifre\/} neke matemati{\cv}ke ili fizi{\cv}ke konstante
-(kao i du{\zv}ine reke, visine planine, broja stanovnika, rastoja{\nj}a,
-sta{\nj}a na ra{\cv}unu, \dots), 
-budu $\ell$ za brojnu osnovu $b$, prati takozvani {\sl \idx{Benfordov zakon}\/} (Frank Benford), i iznosi
-\begin{equation}\label{eq:benford}
-  P(b,\ell)=\log_b \left(1+\frac1\ell\right).
-\end{equation}
-
-Na primer, u {\sl Fibona{\cv}ijevom  nizu\/}\index{Fibona{\cv}ijev niz}\index{Fibona{\cv}i} (Leonardo Bonacci): \fibonacci11{17},~\dots,
-\idx{verovatno{\cc}a} da prva cifra nekog {\cv}lana niza bude $9$ iznosi $\logten(1+1/9)\approx4\.58\%$.
-Ovu zakonitost je prvi otkrio 1881.\ godine astronom {\Nj}ucom\index{Njucom@{\Nj}ucom} (Simon Newcomb), kada je primetio da su
-listovi logaritamskih tablica koje je dugo koristio najpr{\lj}aviji
-na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
-(Videti zadatak \ref{sssec:benford} na strani \pageref{sssec:benford}.)
-
-\newif\ifpnt \pntfalse
-\ifpnt\input pnt\fi
+\input razno
 
 \newpage
 
-\section{Zadaci i re{\sv}e{\nj}a}\label{sec:zadaci}
+\section{Задаци и решења}\label{sec:zadaci}
 
-\subsection{Jedna{\cv}ine}
+\subsection{Једначине}
 
 \newdimen\sirina \sirina=60truemm
 
-\def\jed{Jedna{\cv}ina~}
+\def\jed{Једначина~}
 \def\queq{\index{квадратна једначина}}
 
 \input zadaci/fit-prijemni
@@ -506,7 +242,7 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 
 \newpage
 
-\subsection{Nejedna{\cv}ine}
+\subsection{Неједначине}
 
 \input zadaci/sveska-11
 \input zadaci/sveska-9
@@ -522,7 +258,7 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 
 % \addtocontents{toc}{\protect\newpage}
 
-\subsection{Kratki primeri}
+\subsection{Кратки примери}
 
 \input zadaci/earthquake
 \input zadaci/128-bit
@@ -540,43 +276,6 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 \input zadaci/siber-power
 \input zadaci/siber-sqrt
 \input zadaci/ln3
-
-
-\newcounter{alphasect}
-\def\alphainsection{0}
-
-\let\oldsection=\section
-\def\section{%
-  \ifnum\alphainsection=1%
-    \addtocounter{alphasect}{1}
-  \fi%
-\oldsection}%
-
-\renewcommand\thesection{%
- \ifnum\alphainsection=1% 
-   \Alph{alphasect}%
- \else
-   \arabic{section}%
- \fi%
-}%
-
-\newenvironment{alphasection}{%
-  \ifnum\alphainsection=1%
-    \errhelp={Let other blocks end at the beginning of the next block.}
-    \errmessage{Nested Alpha section not allowed}
-  \fi%
-  \setcounter{alphasect}{0}
-  \def\alphainsection{1}
-}{%
-  \setcounter{alphasect}{0}
-  \def\alphainsection{0}
-}%
-
-% \begin{alphasection}
-
-
-% \input algebra
-
 
 \section{Одреднице}
 
