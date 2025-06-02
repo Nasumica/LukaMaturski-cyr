@@ -162,12 +162,12 @@ level=\section     % numbered section in article class
 \def\naplog{\mathop{\rm NapLog}\nolimits}
 \def\qed{\square}
 \def\QED{\ensuremath{\qquad\qed}}
-\def\QEDidx{\index{szto je trebalo dokazati@{\sv}to je trebalo dokazati $(\qed)$}}
+\def\QEDidx{\index{што је требало доказати $(\qed)$}}
 \def\th{t_{1/2}}
 \def\um#1{\,{\rm#1}}
 \newdimen\mm \mm=1truemm
 \def\cis{\mathop{\rm cis}}
-\def\idxaxis#1{\index{#1 osa@$#1$-osa}}
+\def\idxaxis#1{\index{#1 оса@$#1$-оса}}
 
 \def\marg#1{\raise1pt\hbox{\colorbox{Aquamarine}{\color{white}\hbox to 1em{\hss\eightss#1\/\hss}}}}
 \def\ram#1{\,\fcolorbox{black}{white}{$\,\displaystyle{\mathstrut #1}\,$}\,}
@@ -207,69 +207,7 @@ level=\section     % numbered section in article class
 
 \tableofcontents
 
-
-\section{Uvod}
-
-Ovaj rad se bavi {\sl logaritamskom funkcijom}, jednom od najva{\zv}nijih funkcija u matematici.
-Zbog svoje va{\zv}nosti, zajedno sa eksponencijalnom,
-trigonometrijskim i {\nj}ima inverznim funkcijama, spada u grupu {\sl elementarnih\/} funkcija. 
-Opisane su {\nj}ene osobine i dati su primeri {\nj}ene upotrebe,
-kao i \hyperref[sec:zadaci]{zadaci sa re{\sv}e{\nj}ima} (ukupno \the\numexpr\totvalue{zadaci}).
-
-Sama re{\cv} {\sl logaritam\/}\index{logaritam} poti{\cv}e od gr{\cv}kih re{\cv}i 
-$\lambda\acute o\gamma o\varsigma$~({\sl logos\/}) i 
-$\alpha\rho\iota\theta\mu\acute o\varsigma$~({\sl aritmos\/}), 
-sa zna\-{\cv}e\-{\nj}em \navod{odgovaraju{\cc}i broj}.
-
-
-
-\subsection{Definicija logaritma}\index{definicija}
-
-Funkcija
-\begin{equation}
-  \okvir{\scalebox{1.44}{$y=\log_b x$}}
-\end{equation}
-je re{\sv}e{\nj}e po $y$ jedna{\cv}ine
-$$
-x=b^{\,y},
-% \qquad\text{odnosno},\qquad
-% b=\sqrt[y]x,
-$$
-gde je $b$ {\sl osnova\/}\index{osnova} ({\sl baza\/})\index{baza} logaritma, a $x$ {\sl\idx{argument}}.
-(Izgovara se \navod{$y$ je jednako logaritam od $x$ za osnovu $b$}
-ili kra{\cc}e \navod{$y$ je logaritam $b$ od $x$}.)
-
-
-\subsection{Tok i grafik funkcije}
-
-\newcounter{figno}
-\def\newpic#1{\stepcounter{figno}%
-  \hbox{{\bf Слика \thefigno:\/~}#1}}
-\def\slika#1#2{\stepcounter{figno}\displaylines{
-  \hbox{#1}\cr\hbox{{\bf Слика \thefigno:\/~}#2}}}
-
-Funkcija je u skupu realnih brojeva $\Rset$ definisana za $x>0$ i $b>0\land b\ne1$.
-Funkcija je {\sl monotona\/}: za $b>1$ funkcija je {\sl rastu{\cc}a}, dok za $b<1$ funkcija je {\sl opadaju{\cc}a}.
-Zbog toga va{\zv}i {\sl bijekcija\/}: $\logb u=\logb v \Leftrightarrow u=v$.
-Funkcija ima jednu {\sl nulu}, uvek za $x=1$. Kada $x\to 0$, onda $y\to{-\infty}$\index{beskona{\cv}nost $(\infty)$}
-za $b>1$, odnosno, $y\to{+\infty}$ za $b<1$.
-$$
-\slika{\includegraphics[]{log.1}}{Grafik\index{grafik} logaritamske funkcije $y=\logb x$.}
-$$
-
-\subsection{Antilogaritam}
-
-\def\antilog{\mathop{\rm antilog}\nolimits}
-Inverzna funkcija logaritmu
-je obi{\cv}no stepenova{\nj}e osnove logaritma argumentom i zove se {\sl\idx{antilogaritam}}
-\begin{equation}
-\okvir{\antilog_b x = \logb^{-1}x =  b^x}.
-\end{equation}
-Iz same definicije va{\zv}i
-\begin{equation}
-\okvir{\log_b(\antilog_b x)=\antilog_b(\log_b x)=x}.
-\end{equation}
-
+\input uvod
 
 \section{Logaritamske jednakosti}
 
@@ -864,7 +802,7 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 \newdimen\sirina \sirina=60truemm
 
 \def\jed{Jedna{\cv}ina~}
-\def\queq{\index{kvadratna jedna{\cv}ina}}
+\def\queq{\index{квадратна једначина}}
 
 \input zadaci/fit-prijemni
 \input zadaci/jed2
@@ -907,7 +845,7 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 
 \newpage
 
-\subsection{Ru{\cv}ni rad}
+\subsection{Ручни рад}
 
 \input zadaci/siber-power
 \input zadaci/siber-sqrt
@@ -950,7 +888,7 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 % \input algebra
 
 
-\section{Одредрнице}
+\section{Одреднице}
 
 \tolerance=10000
 
@@ -1046,10 +984,10 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 \par\vfill
 
 % \rightline{\eightssi--- Luka S. Ne{\sv}i{\cc},\enspace\eightss (\the\year)}
-\rightline{\eightssi--- \href{mailto:luka.s.nesic@gmail.com}{Luka S. Ne{\sv}i{\cc}},\enspace\eightss\DayOfWeek~\datum~\vreme}
+\rightline{\footnotesize\textsf{--- \href{mailto:luka.s.nesic@gmail.com}{\textit{Лука С. Нешић}},\enspace\DayOfWeek~\datum~\vreme}}
 
 
-\input index
+%\input index
 
 
 \iftrue
@@ -1062,9 +1000,8 @@ na po{\cv}etku: \smash{\hbox{\includegraphics{log.4}}}.
 \vfill
 
 \begin{center}
-\def\QR{\GitHubRaw Luka Nesic (IV-6) - Maturski rad.pdf}
-\qrcode{\QR}\index{QR}\\
-\QR
+\def\QR{\GitHubRaw log-cyr.pdf}
+\qrcode{\QR}\index{QR}
 \end{center}
 
 \fi

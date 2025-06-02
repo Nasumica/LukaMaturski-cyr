@@ -1,11 +1,11 @@
 \subsubsection{ln 3}\label{sssec:ln3}\index{ln3@$\ln3$}
  
 \zadatak
-U {\cv}ast Nepera i Brigsa,
-pomo{\cc}u postupka \eqref{eq:alg}\index{algoritam} sa 
-strane~\pageref{eq:alg},
-izra{\cv}unaj {\sl pe{\sv}ke\/} pribli{\zv}nu vrednost $\ln 3$\index{brojna vrednost}
-u~5 koraka. Za upore{\dj}iva{\nj}e, ta{\cv}na vrednost je
+У част Непера и Бригса,
+помоћу поступка \eqref{eq:alg}\index{алгоритам} са 
+стране~\pageref{eq:alg},
+израчунај {\sl пешке\/} приближну вредност $\ln 3$\index{бројна вредност}
+у~5 корака. За упоређивање, тачна вредност је
 $$
 \ln3=1\.
 0986122886\,
@@ -16,10 +16,10 @@ $$
 $$
 
 \def\step#1{\par\indent\leavevmode
-  Korak~{\it#1}.\kern2em\relax}
+  Корак~{\it#1}.\kern2em\relax}
 
 \resenje
-Za $x=3$ bi{\cc}e $r=(x-1)/(x+1)=1/2$. U nultom koraku postav{\lj}amo po{\cv}etne vrednosti:
+За $x=3$ биће $r=(x-1)/(x+1)=1/2$. У нултом кораку постављамо почетне вредности:
 
 \smallskip
 
@@ -27,8 +27,8 @@ Za $x=3$ bi{\cc}e $r=(x-1)/(x+1)=1/2$. U nultom koraku postav{\lj}amo po{\cv}etn
 
 \smallskip
 
-\noindent Slede koraci iteracije --- pove{\cc}amo $k$ za 2, pomno{\zv}imo $p$ sa $q$,
-{\cv}lan sume $a$ postaje $p/k$, koga dodajemo u rezultat $y$:
+\noindent Следе кораци итерације --- повећамо $k$ за 2, помножимо $p$ са $q$,
+члан суме $a$ постаје $p/k$, кога додајемо у резултат $y$:
 
 \smallskip
 
@@ -40,36 +40,36 @@ Za $x=3$ bi{\cc}e $r=(x-1)/(x+1)=1/2$. U nultom koraku postav{\lj}amo po{\cv}etn
 
 \smallskip
 
-\noindent Rezultat je
+\noindent Резултат је
 $$
 \ln3\approx\frac{3897967}{3548160}=
 \ram{1.098588\ldots} 
 % \ram{1\.0986},
 $$
-{\sv}to nije lo{\sv}e za samo 5 koraka, jer je apsolutna gre{\sv}ka oko $2\.4\puta10^{-5}$.
-Ali, mo{\zv}e bo{\lj}e~\dots
+што није лоше за само 5 корака, јер је апсолутна грешка око $2\.4\puta10^{-5}$.
+Али, може боље~\dots
 
 \dodatak
-Ako ve{\cc} imamo precizno izra{\cv}unatu vrednost $\ln2$\index{ln2@$\ln 2$}, onda je bo{\lj}e ra{\cv}unati $\ln3$ kao $\ln(3/4)+2\ln2$,
-jer {\cc}e u postupku, umesto $r=1/2$, biti $r=(3/4-1)/(3/4+1)=-1/7$, 
-odnosno, umesto $q=1/4$, bi{\cc}e $q=1/49$,
-{\sv}to dovodi do mnogo br{\zv}eg izra{\cv}unava{\nj}a. U~istom broju koraka bismo dobili
+Ако већ имамо прецизно израчунату вредност $\ln2$\index{ln2@$\ln 2$}, онда је боље рачунати $\ln3$ као $\ln(3/4)+2\ln2$,
+јер ће, уместо $r=1/2$, бити $r=(3/4-1)/(3/4+1)=-1/7$, 
+односно, уместо $q=1/4$, биће $q=1/49$,
+што доводи до много бржег израчунавања. У~истом броју корака бисмо добили
 $$
 \ln\frac34\approx
 -\ff2/7, -\ff296/1029, -\ff72526/252105, -\ff24876448/86472015, 
 -\ff522405418/1815912315, -\ff281576520392/978776737785,
 $$
-gde posled{\nj}i razlomak ima gre{\sv}ku od oko $1\.6\puta10^{-12}$,
-{\sv}to je vi{\sv}e od dvostruko ta{\cv}nih cifara.
-Kada mu (sa strane~\pageref{eq:ln2}) dodamo $2\ln2$, dobi{\cc}emo
+где последњи разломак има грешку од око $1\.6\puta10^{-12}$,
+што је вишеe од двоструко тачних цифара.
+Када му (са стране~\pageref{eq:ln2}) додамо $2\ln2$, добићемо
 $$
 \ln3\approx 2\ln2 -\frac{281576520392}{978776737785} =
-{\,\underbrace{\!1\.0986122886\,6\!}_{\hbox{\scriptsize 12 ta{\cv}nih cifara}}972615081\,\ldots}
+{\,\underbrace{\!1\.0986122886\,6\!}_{\hbox{\scriptsize 12 тачних цифара}}972615081\,\ldots}
 $$
 
-Uop{\sv}teno, postupak je najbr{\zv}i ako ra{\cv}unamo $\ln x=\ln(x/2^n)+n\ln2$,\index{ln@$\ln$}
-gde biramo $n$ takvo da $x/2^n$ bude {\sv}to bil{\zv}e 1, odnosno, da $q$ bude najma{\nj}e mogu{\cc}e (vidi \idx{program}).
+Уопштено, поступак је најбржи ако рачунамо $\ln x=\ln(x/2^n)+n\ln2$,\index{ln@$\ln$}
+где бирамо $n$ такво да $x/2^n$ буде што ближе 1, односно, да $q$ буде најмање могуће (види \idx{програм}).
 $$
 \slika{\hbox to \textwidth{\includegraphics[width=\zxscreen]{ln-prog.png}\hss
-  \includegraphics[width=\zxscreen]{ln-run.png}}}{\href{https://fuse-emulator.sourceforge.net/}{\textsf{ZX Spectrum}} \href{\GitHubRaw ln.z80}{\BASIC} program.}
-$$\index{kompjuter}\index{ZX Spectrum@\textsf{ZX Spectrum}}\index{BASIC@\BASIC}\index{epsilon $(\varepsilon)$}
+  \includegraphics[width=\zxscreen]{ln-run.png}}}{\href{https://fuse-emulator.sourceforge.net/}{\textsf{ZX Spectrum}} \href{\GitHubRaw ln.z80}{\BASIC} програм.}
+$$\index{компјутер}\index{ZX Spectrum@\textsf{ZX Spectrum}}\index{BASIC@\BASIC}\index{епсилон $(\varepsilon)$}

@@ -1,0 +1,61 @@
+
+\section{Увод}
+
+Овај рад се бави {\sl логаритамском функцијом}, једном од најважнијох функција у математици.
+Због своје важности, заједно са експоненцијалном,
+тригонометријским и њима инверзним функцијама, спада у групу {\sl елементарних\/} функција. 
+Описане су њене особине и дати пример њене употребе,
+као и \hyperref[sec:zadaci]{задаци са решењама} (укупно \the\numexpr\totvalue{zadaci}).
+
+Сама реч {\sl логаритам\/}\index{логаритам} потиче од грчких рело 
+$\lambda\acute o\gamma o\varsigma$~({\sl логос\/}) и 
+$\alpha\rho\iota\theta\mu\acute o\varsigma$~({\sl аритмос\/}), 
+са значењем \navod{одговарајући број}.
+
+
+
+\subsection{Дефиниција логаритма}\index{дефиниција}
+
+Функција
+\begin{equation}
+  \okvir{\scalebox{1.44}{$y=\log_b x$}}
+\end{equation}
+је решење по $y$ једначине
+$$
+x=b^{\,y},
+$$
+где је $b$ {\sl основа\/}\index{основа} ({\sl база\/})\index{база} логаритма, а $x$ {\sl\idx{аргумент}}.
+(Изговара се \navod{$y$ је једнако логаритам од $x$ за основу $b$}
+или краће \navod{$y$ је логаритам $b$ од $x$}.)
+
+
+\subsection{Ток и график функције}
+
+\newcounter{figno}
+\def\newpic#1{\stepcounter{figno}%
+  \hbox{{\bf Слика \thefigno:\/~}#1}}
+\def\slika#1#2{\stepcounter{figno}\displaylines{
+  \hbox{#1}\cr\hbox{{\bf Слика \thefigno:\/~}#2}}}
+
+Функција је у скупу реалних бројева $\Rset$ дефинисана за $x>0$ и $b>0\land b\ne1$.
+Функција је {\sl монотона\/}: за $b>1$ функција је {\sl растућа}, док за $b<1$ функција је {\sl опадајуће}.
+Због тога важи {\sl бијекција\/}: $\logb u=\logb v \Leftrightarrow u=v$.
+Функција има једну {\sl нулу}, увек за $x=1$. Када $x\to 0$, онда $y\to{-\infty}$\index{бесконачност $(\infty)$}
+за $b>1$, односно, $y\to{+\infty}$ за $b<1$.
+$$
+\slika{\includegraphics[]{log.1}}{График\index{график} логаритамске функције $y=\logb x$.}
+$$
+
+\subsection{Антилогаритам}
+
+\def\antilog{\mathop{\rm antilog}\nolimits}
+Инверзна функција логаритму
+је обично степеновање основе логаритма аргументом и зове се {\sl\idx{антилогаритам}}
+\vskip-9pt
+\begin{equation}
+\okvir{\antilog_b x = \logb^{-1}x =  b^x}.
+\end{equation}
+Из саме дефиниције важи
+\begin{equation}
+\okvir{\log_b(\antilog_b x)=\antilog_b(\log_b x)=x}.
+\end{equation}
