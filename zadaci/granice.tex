@@ -1,55 +1,55 @@
 \newpage
 
-\subsubsection{Granice}\label{sssec:superstar}
+\subsubsection{Границе}\label{sssec:superstar}
 
 \zadatak
-Doka{\zv}i da va{\zv}i nejednakost
+Докажи да важи неједнакост
 \begin{equation}
     \okvir{1-\frac1x \le \ln x \le x - 1},
 \end{equation}
-kojom se defini{\sv}u {\sl donja\/} i {\sl gor{\nj}a\/} granica prirodnog logaritma.
+којом се дефинишу {\sl доња\/} и {\sl горња\/} граница природног логаритма.
 
 \resenje
-Pogledajmo prvo desni deo nejednakosti. Ako defini{\sv}emo funkciju
+Погледајмо прво десни део неједнакости. Ако дефинишемо функцију
 $$
 y=\ln x - (x - 1),
 $$
-potrebno je da doka{\zv}emo da je $y\le0$ za svako $x>0$.
-Intuitivno je jasno da tvr{\dj}e{\nj}e va{\zv}i, jer $\ln x$ mnogo sporije raste od $x-1$,
-i formalni dokaz {\cc}e nam se zasnivati na tome.
+потребно је да докажемо да је $y\le0$ за свако $x>0$.
+Интуитивно је јасно да тврђење важи, јер $\ln x$ много спорије расте од $x-1$,
+и формални доказ ће нам се заснивати на томе.
 
-Prvi \idx{izvod} funkcije~je
+Први \idx{извод} функције~је
 $$
 y' = \frac1x - 1,
 $$
-koji ima jedinstvenu nulu $y'=0$ za $x=1$, gde je i $y=0$. Kako je drugi izvod
+који има јединствену нулу $y'=0$ za $x=1$, где је и $y=0$. Како је други извод
 $$
 y''=-\frac1{x^2}<0,
 $$
-uvek negativan, to zna{\cv}i da funkcija $y$ nema {\sl prevojnih ta{\cv}aka\/} i da ta{\cv}ka $(1,0)$ 
-predstav{\lj}a {\sl \idx{maksimum}\/} funkcije  $y$,
-odakle je $y\le0$, odnosno,
+увек негативан, то значи да функција $y$ нема {\sl превојних тачака\/} и да тачка $(1,0)$ 
+представља {\sl\idx{максимум}\/} функције  $y$,
+одакле је $y\le0$, односно,
 $$
 \ram{\ln x \le x - 1}.
 $$
 
-Ako u ovu nejednakost umesto $x$ stavimo $1/x$, mo{\zv}emo pisati
+Ако у ову неједнакост уместо $x$ ставимо $1/x$, можемо писати
 \begin{align*}
     \ln(1/x) &\le \frac1x -1 \\
     -\ln x &\le \frac1x -1, 
 \end{align*}
-gde, kada izrazi zamene strane i znak, dobijamo
+где, када изрази замене стране и знак, добијамо
 $$
     \ram{1-\frac1x \le \ln x},
 $$
-{\sv}to predstav{\lj}a levi deo nejednakosti iz zadatka.\hfill\QED\QEDidx
+што представља леви део неједнакости из задатка.\hfill\QED\QEDidx
 
 \definecolor{darkgreen}{HTML}{00AA00}
 
-\dodatak Sve tri funkcije iz nejednakosti se {\sl dodiruju\/} u ta{\cv}ki $(1,0)$, {\sv}to zna{\cv}i da
-u toj ta{\cv}ki sve tri imaju istu {\sl tangentu}, odnosno, isti prvi izvod $y'(1)=1$;
-ina{\cv}e bi se sekle i nejednakost ne bi va{\zv}ila.
-%(Ve{\zv}ba: Doka{\zv}i da za $x>1$, va{\zv}i $\frac83\frac{x^3-1}{(x+1)^3}<\ln x<(x-1)/\sqrt x$.)
+\dodatak 
+Све три функције из неједнакости се {\sl додирују\/} у тачки $(1,0)$, што значи да
+у тој тачки све три имају исту {\sl тангенту}, односно, исти први извод $y'(1)=1$;
+иначе би се секле и неједнакост не би важила.
 
 $$
 \slika{\includegraphics[width=80mm]{eps/royal.eps}}{$y=
