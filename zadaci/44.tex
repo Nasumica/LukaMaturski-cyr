@@ -1,41 +1,42 @@
-\subsubsection{{\Cv}etiri {\cv}etvorke}
+\subsubsection{Четири четворке}
 
 \def\4{{\color{red}\bf4}}\index{4@\4}
 
 \zadatak
-Dokazati da svaki prirodan broj $n\in\Nset$, mo{\zv}e biti predstav{\lj}en sa \4 broja \4,
-pomo{\cc}u logaritamske funkcije i kvadratnog korena\index{koren $(\sqrt x)$}
+Доказати да сваки природан број $n\in\Nset$, може бити представљен са \4 броја \4,
+помоћу логаритамске функције и квадратног корена\index{корен $(\sqrt x)$}
 $$
-n=\log_{\sqrt\4/\4}\left(\log_\4 \underbrace{\sqrt{\sqrt{\cdots\sqrt\4}}}_{\text{$n$ korena}}\right).
+n=\log_{\sqrt\4/\4}\left(\log_\4 \underbrace{\sqrt{\sqrt{\cdots\sqrt\4}}}_{\text{$n$ корена}}\right).
 $$
 
+\vskip-12pt
 \resenje
-Kako je
+Како је
 $$
 \frac{\sqrt \4}{\4}=\frac12
-\qquad\text{i}\qquad
-\underbrace{\sqrt{\sqrt{\cdots\sqrt \4}}}_{\text{$n$ korena}}=\4^{(1/2)^n},
+\qquad\text{и}\qquad
+\underbrace{\sqrt{\sqrt{\cdots\sqrt \4}}}_{\text{$n$ корена}}=\4^{(1/2)^n},
 $$
-izraz mo{\zv}e biti upro{\sv}{\cc}en
+израз може бити упрошћен
 \begin{align*}
-\noalign{\vskip-9pt}
-\log_{\sqrt\4/\4}\left(\log_\4 \underbrace{\sqrt{\sqrt{\cdots\sqrt\4}}}_{\text{$n$ korena}} \right)
+% \noalign{\vskip-3pt}
+\log_{\sqrt\4/\4}\left(\log_\4 \underbrace{\sqrt{\sqrt{\cdots\sqrt\4}}}_{\text{$n$ корена}} \right)
 &=\log_{1/2}\left(\log_\4 \4^{(1/2)^n}\right),\\
-\intertext{gde iz jednakosti za logaritam stepena osnove \eqref{eq:powb}, sledi}
+\intertext{где из једнакости за логаритам степена основе \eqref{eq:powb}, следи}
 &=\log_{1/2}(1/2)^n\\
 &=\ram{n}.
 \end{align*}
 
 \def\2{{\it2}}\index{2}\QEDidx
 \def\dlog{\mathop{\it\ell\mskip -0.5\thinmuskip og}\nolimits_\2}
-\dodatak\begingroup\it
-Davno je u jednom {\cv}asopisu postav{\lj}en sli{\cv}an zadatak: 
-da se sa {\sv}to ma{\nj}e istih brojeva,
-koriste{\cc}i bilo koju matemati{\cv}ku funkciju, predstavi 
-svaki prirodan broj $n$.
-Re{\sv}io ga je nobelovac Pol \idx{Dirak} (Paul Dirac) 
-sa~3~broja~\2, {\cv}ije originalno
-re{\sv}e{\nj}e izgleda
+\dodatak\begingroup
+Давно је у једном часопису постављен сличан задатак: 
+да се са што мање истих бројева,
+користећи било коју математичку функцију, представи 
+сваки природан број $n$.
+Решио га је нобеловац \idx{Дирак} (Paul Dirac) 
+са~3~броја~\2, чије оригинално
+решење изгледа
 $$
 -\dlog\dlog\sqrt{\cdots n\cdots\sqrt\2\index{log2@$\log_2$}}
 =-\dlog\dlog\2^{\2^{-n}}
