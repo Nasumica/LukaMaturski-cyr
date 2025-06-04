@@ -99,5 +99,5 @@ func Preslovi(fliename string) {
 }
 
 func main() {
-	Preslovi("./zadaci/sveska-9.tex")
+	Preslovi("./zadaci/net6.tex")
 }
