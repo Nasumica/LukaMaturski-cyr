@@ -3,7 +3,7 @@
 Поред сваког појма, {\sl искошеним цифрама\/} су исписани бројеви страна на којима се тај појам налази.
 Наравно, нису приказане све стране, већ само где се налази дефиниција тог појма или где је битна
 његова употреба.\par
-За верзију документа у електронском облику ради {\sl хиперлинк\/} до наведене стране, 
+Код верзије документа у електронском облику ради {\sl хиперлинк\/} до наведене стране, 
 као и за све остале одреднице.
 За његово преузимање потребно је скенирати {QR} код који се налази на задњој корици рада.
 }
@@ -12,6 +12,7 @@
 \footnotesize
 \let\hp=\hyperpage
 \def\hyperpage#1{\ifx0#1\hyperref[titlepage]{\lower2pt\hbox{\scalebox{0.5}\bcbook}}\else{\sl\hp{#1}}\fi}
+\def\interskip{\vskip1pt}
 %\printindex
 
 \begin{theindex}
@@ -43,13 +44,14 @@
   \indexspace
 
   \item база, \hyperpage{3}
-  \item \BASIC, \hyperpage{26}
   \item Бенфордов закон, \hyperpage{12}
   \item Бернули, \hyperpage{7}
   \item бесконачност $(\infty)$, \hyperpage{3}
   \item бинарни логаритам, \hyperpage{6}
   \item Бригс, \hyperpage{9}
   \item бројна вредност, \hyperpage{7, 8}, \hyperpage{26}
+  \interskip
+  \item \BASIC, \hyperpage{26}
 
   \indexspace
 
@@ -57,6 +59,7 @@
   \item верижни разломак, \hyperpage{8}
   \item вероватноћа, \hyperpage{12}
   \item версор, \hyperpage{11}
+  \interskip
   \item {\sc  WikipediA}, \hyperpage{28}
   \item Wolfram MathWorld, \hyperpage{28}
 
@@ -80,12 +83,14 @@
   \item експонент, \hyperpage{7}
   \item експоненцијална функција, \hyperpage{7}
   \item $\exp$, \hyperpage{7}, \hyperpage{10, 11}
-  \item ENIAC, \hyperpage{9}
   \item епсилон $(\varepsilon)$, \hyperpage{8}, \hyperpage{26}
+  \interskip
+  \item ENIAC, \hyperpage{9}
 
   \indexspace
 
   \item збир, \hyperpage{11}
+  \interskip
   \item \textsf{ZX Spectrum}, \hyperpage{26}
 
   \indexspace
@@ -94,6 +99,7 @@
   \item извод, \hyperpage{7}, \hyperpage{12}, \hyperpage{22}, 
 		\hyperpage{24}
   \item интеграл, \hyperpage{12}
+  \interskip
   \item iPhone, \hyperpage{9}
 
   \indexspace
@@ -101,6 +107,7 @@
   \item $j$, \hyperpage{11}
   \item јединични вектор, \hyperpage{11}
   \item једнакости, \hyperpage{4}
+  \interskip
   \item {\sf  YouTube}, \hyperpage{28}
 
   \indexspace
@@ -126,7 +133,7 @@
   \item логаритам, \hyperpage{3}
   \item логаритмар, \hyperpage{9}, \hyperpage{25}
   \item логаритмовање, \hyperpage{10}, \hyperpage{15}
-  \smallskip
+  \interskip
   \item $\ln$, \hyperpage{7, 8}, \hyperpage{10, 11}, \hyperpage{26}
   \item $\ln 10$, \hyperpage{8}
   \item $\ln 2$, \hyperpage{8}, \hyperpage{26}
@@ -193,9 +200,10 @@
   \indexspace
 
   \item таблице, \hyperpage{9}
+  \item троугао $(\triangle )$, \hyperpage{17}
+  \interskip
   \item \TeX, \hyperpage{27}
   \item Tik-Tok, \hyperpage{17}
-  \item троугао $(\triangle )$, \hyperpage{17}
 
   \indexspace
 
