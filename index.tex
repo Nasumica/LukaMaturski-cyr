@@ -3,15 +3,15 @@
 Поред сваког појма, {\sl искошеним цифрама\/} су исписани бројеви страна на којима се тај појам налази.
 Наравно, нису приказане све стране, већ само где се налази дефиниција тог појма или где је битна
 његова употреба.\par
-Код верзије документа у електронском облику ради {\sl хиперлинк\/} до наведене стране, 
-као и за све остале одреднице.
+Код верзије документа у електронском облику ради {\sl hyperlink\/} до наведене стране,
+као и за све остале одреднице у раду.
 За преузимање документа потребно је скенирати {QR} код који се налази на задњој корици рада.}
 
 \begingroup
 \footnotesize
 \let\hp=\hyperpage
 \def\hyperpage#1{\ifx0#1\hyperref[titlepage]{\lower2pt\hbox{\scalebox{0.5}\bcbook}}\else{\sl\hp{#1}}\fi}
-\def\interskip{\vskip1pt}
+\def\interskip{\vskip 3pt}
 %\printindex
 
 \begin{theindex}
@@ -98,6 +98,7 @@
   \item $i$, \hyperpage{10, 11}, \hyperpage{24}
   \item извод, \hyperpage{7}, \hyperpage{12}, \hyperpage{22}, 
 		\hyperpage{24}
+  \item имагинарна јединица, \hyperpage{24}
   \item интеграл, \hyperpage{12}
   \interskip
   \item iPhone, \hyperpage{9}
@@ -168,7 +169,7 @@
   \indexspace
 
   \item Ојлер, \hyperpage{7}, \hyperpage{12}
-  \item Ојлерова формула, \hyperpage{10}
+  \item Ојлерова формула, \hyperpage{10}, \hyperpage{24}
   \item основа, \hyperpage{3}
 
   \indexspace
@@ -228,3 +229,17 @@
 
 
 \endgroup
+
+\input dayofweek
+
+\def\twodig#1{\ifnum#1>9\else0\fi\number#1}
+\def\datum{\twodig\day.\twodig\month.\number\year.}
+\newcount\hour \hour=\time \divide\hour by 60
+\newcount\minute \minute=-\hour \multiply\minute by 60
+\advance\minute by \time 
+\def\vreme{\twodig\hour:\twodig\minute}
+
+\par\vfill
+
+% \rightline{\eightssi--- Luka S. Ne{\sv}i{\cc},\enspace\eightss (\the\year)}
+\rightline{\footnotesize\textsf{--- \href{mailto:luka.s.nesic@gmail.com}{\textit{Лука С. Нешић}},\enspace\DayOfWeek~\datum~\vreme}}
