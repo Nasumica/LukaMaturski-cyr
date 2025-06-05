@@ -194,6 +194,8 @@ level=\section     % numbered section in article class
 
 \let\oldfoot=\footnote
 \def\footnote#1{\index{фуснота}\oldfoot{#1}}
+\renewcommand*{\thefootnote}{(\arabic{footnote})}
+% \renewcommand*{\thefootnote}{$*$}
 
 %\def\dodatak{\par\medskip\noindent\zabox{Dodatak:}}
 \newcommand{\rsinfty}{{\,\widetilde{\!\infty\!}\,}}
