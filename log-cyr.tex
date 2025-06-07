@@ -210,8 +210,11 @@ level=\section     % numbered section in article class
 
 \input titlepage
 
-\tableofcontents
+\clearpage
+\pdfbookmark[1]{\contentsname}{toc}
 
+\tableofcontents
+\clearpage
 \input uvod
 
 \input jednakosti

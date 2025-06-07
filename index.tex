@@ -11,19 +11,19 @@
 \footnotesize
 \let\hp=\hyperpage
 \def\hyperpage#1{\ifx0#1\hyperref[titlepage]{\lower2pt\hbox{\scalebox{0.5}\bcbook}}\else{\sl\hp{#1}}\fi}
-\def\interskip{\vskip 3pt}
+\def\interskip{\par\vskip 3pt}
 %\printindex
 
 \begin{theindex}
 
-  \item 2D, \hyperpage{11}
-  \item 3D, \hyperpage{11}
-
-  \indexspace
-
   \item 2, \hyperpage{6}, \hyperpage{14}
   \item \4, \hyperpage{14}
   \item 10, \hyperpage{6}
+
+  \interskip
+
+  \item 2D, \hyperpage{11}
+  \item 3D, \hyperpage{11}
 
   \indexspace
 
