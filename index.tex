@@ -11,17 +11,14 @@
 \footnotesize
 \let\hp=\hyperpage
 \def\hyperpage#1{\ifx0#1\hyperref[titlepage]{\lower2pt\hbox{\scalebox{0.5}\bcbook}}\else{\sl\hp{#1}}\fi}
-\def\interskip{\par\vskip 3pt}
+\def\indexskip{\par\vskip 3pt}
 %\printindex
 
 \begin{theindex}
-
   \item 2, \hyperpage{6}, \hyperpage{14}
   \item \4, \hyperpage{14}
   \item 10, \hyperpage{6}
-
-  \interskip
-
+  \indexskip
   \item 2D, \hyperpage{11}
   \item 3D, \hyperpage{11}
 
@@ -52,7 +49,7 @@
   \item бијекција, \hyperpage{3}
   \item Бригс, \hyperpage{9}
   \item бројна вредност, \hyperpage{7, 8}, \hyperpage{26}
-  \interskip
+  \indexskip
   \item \BASIC, \hyperpage{26}
 
   \indexspace
@@ -61,9 +58,9 @@
   \item верижни разломак, \hyperpage{8}
   \item вероватноћа, \hyperpage{12}
   \item версор, \hyperpage{11}
-  \interskip
-  \item {\sc  WikipediA}, \hyperpage{28}
-  \item Wolfram MathWorld, \hyperpage{28}
+  \indexskip
+  \item {\sc  WikipediA}, \hyperpage{29}
+  \item Wolfram MathWorld, \hyperpage{29}
 
   \indexspace
 
@@ -75,7 +72,7 @@
 
   \item декадни логаритам, \hyperpage{6}
   \item дефиниција, \hyperpage{3}
-  \item децибел, \hyperpage{6}
+  \item децибел (dB), \hyperpage{6}
   \item дигитрон, \hyperpage{9}
   \item Дирак, \hyperpage{14}
 
@@ -84,15 +81,15 @@
   \item $\e$, \hyperpage{7}, \hyperpage{15}, \hyperpage{24}
   \item експонент, \hyperpage{7}
   \item експоненцијална функција, \hyperpage{7}
-  \item $\exp$, \hyperpage{7}, \hyperpage{10, 11}
   \item епсилон $(\varepsilon)$, \hyperpage{8}, \hyperpage{26}
-  \interskip
+  \indexskip
   \item ENIAC, \hyperpage{9}
+  \item $\exp$, \hyperpage{7}, \hyperpage{10, 11}
 
   \indexspace
 
   \item збир, \hyperpage{11}
-  \interskip
+  \indexskip
   \item \textsf{ZX Spectrum}, \hyperpage{26}
 
   \indexspace
@@ -102,16 +99,16 @@
 		\hyperpage{24}
   \item имагинарна јединица, \hyperpage{24}
   \item интеграл $(\int)$, \hyperpage{12}
-  \interskip
-  \item iPhone, \hyperpage{9}, \hyperpage{28}
+  \indexskip
+  \item iPhone, \hyperpage{9}, \hyperpage{29}
 
   \indexspace
 
   \item $j$, \hyperpage{11}
   \item јединични вектор, \hyperpage{11}
   \item једнакости, \hyperpage{4}
-  \interskip
-  \item {\sf  YouTube}, \hyperpage{28}
+  \indexskip
+  \item {\sf  YouTube}, \hyperpage{29}
 
   \indexspace
 
@@ -120,10 +117,10 @@
 		\hyperpage{17--19}
   \item кватернион, \hyperpage{11}
   \item количник, \hyperpage{4}
-  \item компјутер, \hyperpage{9}, \hyperpage{26}
   \item комплексан број, \hyperpage{10}, \hyperpage{24}
   \item комплексна бесконачност $(\rsinfty)$, 
 		\hyperpage{10}
+  \item компјутер, \hyperpage{9}, \hyperpage{26}
   \item комутативност, \hyperpage{11}
   \item конвергент, \hyperpage{8}
   \item конјугована вредност $(\con z)$, 
@@ -136,7 +133,7 @@
   \item логаритам, \hyperpage{3}
   \item логаритмар, \hyperpage{9}, \hyperpage{25}
   \item логаритмовање, \hyperpage{10}, \hyperpage{15}
-  \interskip
+  \indexskip
   \item $\ln$, \hyperpage{7, 8}, \hyperpage{10, 11}, \hyperpage{26}
   \item $\ln 10$, \hyperpage{8}
   \item $\ln 2$, \hyperpage{8}, \hyperpage{26}
@@ -150,7 +147,7 @@
   \item магнитуда, \hyperpage{23}
   \item максимум, \hyperpage{22}
   \item мантиса, \hyperpage{7}
-  \item Mathematica, \hyperpage{27}
+  \item Mathematica, \hyperpage{28}
   \item матурски рад, \hyperpage{0}
   \item Меклорен, \hyperpage{10}
   \item Меклоренов ред, \hyperpage{7}, \hyperpage{10}
@@ -161,8 +158,9 @@
 
   \item највеће цело $\lfloor x\rfloor$, \hyperpage{7}, 
 		\hyperpage{23}
-  \item нзд, \hyperpage{16}
   \item Непер, \hyperpage{9}
+  \item Нешић, \hyperpage{27}, \hyperpage{29}
+  \item нзд, \hyperpage{16}
   \item норма, \hyperpage{11}
 
   \indexspace
@@ -203,9 +201,10 @@
   \indexspace
 
   \item таблице, \hyperpage{9}
+  \item Тотић, \hyperpage{27}
   \item троугао $(\triangle )$, \hyperpage{17}
-  \interskip
-  \item \TeX, \hyperpage{27}
+  \indexskip
+  \item \TeX, \hyperpage{28}
   \item Tik-Tok, \hyperpage{17}
 
   \indexspace
@@ -226,22 +225,6 @@
   \item шибер, \hyperpage{9}
   \item што је требало доказати $(\square )$, 
 		\hyperpage{14}, \hyperpage{22, 23}
-
 \end{theindex}
 
-
 \endgroup
-
-\input dayofweek
-
-\def\twodig#1{\ifnum#1>9\else0\fi\number#1}
-\def\datum{\twodig\day.\twodig\month.\number\year.}
-\newcount\hour \hour=\time \divide\hour by 60
-\newcount\minute \minute=-\hour \multiply\minute by 60
-\advance\minute by \time 
-\def\vreme{\twodig\hour:\twodig\minute}
-
-\par\vfill
-
-% \rightline{\eightssi--- Luka S. Ne{\sv}i{\cc},\enspace\eightss (\the\year)}
-\rightline{\footnotesize\textsf{--- \href{mailto:luka.s.nesic@gmail.com}{\textit{Лука С. Нешић}},\enspace\DayOfWeek~\datum~\vreme}}
