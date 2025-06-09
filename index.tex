@@ -15,6 +15,9 @@
 %\printindex
 
 \begin{theindex}
+\let\olditem=\item
+\def\item#1,{\olditem{#1},\kern0.5em\relax}
+
   \item 2, \hyperpage{6}, \hyperpage{14}
   \item \4, \hyperpage{14}
   \item 10, \hyperpage{6}
