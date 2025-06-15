@@ -33,11 +33,12 @@ beginfig(10);
 
     pickup pencircle scaled 0.2pt;
 
-    draw fullcircle scaled (2q + 10mm);
+    draw fullcircle scaled (2q + 10mm) dashed evenly;
 
     draw fullcircle scaled 2q;
     draw fullcircle scaled 2r;
-    dotlabel("", origin);
+    fill fullcircle scaled 0.5mm;
+    % dotlabel("", origin);
 
     pair p;
     numeric ang;
