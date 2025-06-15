@@ -45,20 +45,30 @@ beginfig(10);
     numeric s; 
     s=r-7mm;
 
+    for i := 1 upto 299:
+        p := sindir(i/10);
+        ang := sinang(i/10);
+        draw p scaled  q -- (p scaled q) + (p scaled 0.7mm);
+    endfor;
     for i := 0 upto 89:
         p := sindir(i);
         ang := sinang(i);
-        draw p scaled  q -- (p scaled q) + (p scaled 0.7mm);
+        draw p scaled  q -- (p scaled q) + (p scaled 1mm);
+    endfor;
+    for i := 0 upto 59:
+        p := sindir(i+1/2);
+        ang := sinang(i+1/2);
+        draw p scaled  q -- (p scaled q) + (p scaled 1mm);
     endfor;
     for i := 0 upto 70:
         p := sindir(i);
         ang := sinang(i);
-        draw thelabel(TEX( "$\scriptscriptstyle{" & decimal(i) & "}$" ), origin) rotated ang shifted (p scaled (q+1.7mm));
+        draw thelabel(TEX( "$\scriptscriptstyle{" & decimal(i) & "}$" ), origin) rotated ang shifted (p scaled (q+2mm));
     endfor;
     for i := 75 step 5 until 80:
         p := sindir(i);
         ang := sinang(i);
-        draw thelabel(TEX( "$\scriptscriptstyle{" & decimal(i) & "}$" ), origin) rotated ang shifted (p scaled (q+1.mm));
+        draw thelabel(TEX( "$\scriptscriptstyle{" & decimal(i) & "}$" ), origin) rotated ang shifted (p scaled (q+2mm));
     endfor;
 
     for i := 0 upto 999:
@@ -128,7 +138,7 @@ beginfig(10);
         tick := 10*j+i;
         p := mmdir(tick);
         ang := mmang(tick);
-        draw thelabel(TEX( "$\scriptscriptstyle{" & decimal(i) & "}$" ), origin) rotated ang shifted (p scaled 86.5mm);
+        draw thelabel(TEX( "$\scriptstyle{" & decimal(i) & "}$" ), origin) rotated ang shifted (p scaled 86.5mm);
     endfor;
     endfor;
 
@@ -161,7 +171,7 @@ beginfig(10);
 
 
     r := r-14mm;
-    draw fullcircle scaled 2r withcolor 2/3white;
+    draw fullcircle scaled 2r withcolor 1/3white;
     
     for i := 100 upto 299:
         p := logdir(i/100);

@@ -2,11 +2,11 @@
 %%BoundingBox: -270 -270 270 270 
 %%HiResBoundingBox: -269.39084 -269.39084 269.39084 269.39084 
 %%Creator: MetaPost 2.11
-%%CreationDate: 2025.06.14:2242
+%%CreationDate: 2025.06.15:0746
 %%Pages: 1
 %*Font: cmr10 9.96265 9.96265 2c:8ffc
 %*Font: cmr5 4.98132 4.98132 30:ffc
-%*Font: cmr7 6.97382 6.97385 31:ff8
+%*Font: cmr7 6.97388 6.97385 31:ff8
 %*Font: cmmi7 6.97382 6.97385 3b:8
 %*Font: cmmi10 9.9627 9.96265 19:8
 %*Font: cmbx10 9.96266 9.96265 65:8
@@ -45,336 +45,1060 @@ newpath 226.7716 0 moveto
  0 3 dtransform truncate idtransform setlinewidth pop 1 setlinecap
 newpath 0 0 moveto 0 0 rlineto stroke
  0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
-newpath 0 255.11801 moveto
-0 257.10225 lineto stroke
+newpath 2.78723 255.10245 moveto
+2.80891 257.08656 lineto stroke
+newpath 5.60173 255.05573 moveto
+5.6453 257.03947 lineto stroke
+newpath 8.38896 254.98177 moveto
+8.45421 256.96495 lineto stroke
+newpath 11.19957 254.87277 moveto
+11.28668 256.8551 lineto stroke
+newpath 13.98291 254.73262 moveto
+14.09166 256.71387 lineto stroke
+newpath 16.76625 254.56523 moveto
+16.89665 256.54517 lineto stroke
+newpath 19.57295 254.3667 moveto
+19.72519 256.3451 lineto stroke
+newpath 22.35242 254.13702 moveto
+22.52626 256.11363 lineto stroke
+newpath 25.12798 253.8762 moveto
+25.32341 255.85078 lineto stroke
  0 0.19925 dtransform truncate idtransform setlinewidth pop
 newpath 27.9269 253.58426 moveto
 28.1441 255.55656 lineto stroke
+newpath 30.69467 253.26505 moveto
+30.93341 255.23488 lineto stroke
+newpath 33.46243 252.91469 moveto
+33.7227 254.88179 lineto stroke
+newpath 36.24579 252.52931 moveto
+36.5277 254.49341 lineto stroke
+newpath 39.00577 252.11667 moveto
+39.30914 254.07756 lineto stroke
+newpath 41.78134 251.6729 moveto
+42.10631 253.63034 lineto stroke
+newpath 44.52965 251.20186 moveto
+44.87599 253.15564 lineto stroke
+newpath 47.27406 250.69969 moveto
+47.64175 252.64957 lineto stroke
+newpath 50.03406 250.16249 moveto
+50.4232 252.10818 lineto stroke
+newpath 52.7668 249.60193 moveto
+53.1772 251.54326 lineto stroke
 newpath 55.49174 249.01022 moveto
 55.92334 250.94696 lineto stroke
+newpath 58.20892 248.38737 moveto
+58.66165 250.31926 lineto stroke
+newpath 60.94556 247.73338 moveto
+61.41957 249.66019 lineto stroke
+newpath 63.64714 247.05214 moveto
+64.14217 248.97365 lineto stroke
+newpath 66.34485 246.33977 moveto
+66.86086 248.25574 lineto stroke
+newpath 69.05814 245.59235 moveto
+69.59525 247.5025 lineto stroke
+newpath 71.73637 244.82547 moveto
+72.29433 246.72966 lineto stroke
+newpath 74.40683 244.02745 moveto
+74.98555 245.92543 lineto stroke
+newpath 77.06949 243.19829 moveto
+77.66891 245.08981 lineto stroke
+newpath 79.74774 242.33408 moveto
+80.368 244.21889 lineto stroke
 newpath 82.39095 241.44653 moveto
 83.03175 243.32443 lineto stroke
+newpath 85.02637 240.53172 moveto
+85.68768 242.40251 lineto stroke
+newpath 87.6501 239.58966 moveto
+88.33182 241.45313 lineto stroke
+newpath 90.28552 238.60869 moveto
+90.98773 240.46452 lineto stroke
+newpath 92.88591 237.60823 moveto
+93.60835 239.45628 lineto stroke
+newpath 95.4785 236.57664 moveto
+96.2211 238.41667 lineto stroke
+newpath 98.05943 235.5217 moveto
+98.82211 237.35352 lineto stroke
+newpath 100.62868 234.43561 moveto
+101.41135 236.25899 lineto stroke
+newpath 103.18234 233.32227 moveto
+103.98486 235.13698 lineto stroke
+newpath 105.72823 232.1778 moveto
+106.55055 233.98361 lineto stroke
 newpath 108.2819 230.99828 moveto
 109.1241 232.79492 lineto stroke
+newpath 110.79665 229.80319 moveto
+111.65839 231.59055 lineto stroke
+newpath 113.3036 228.57695 moveto
+114.18484 230.35475 lineto stroke
+newpath 115.79498 227.32347 moveto
+116.6956 229.09154 lineto stroke
+newpath 118.2708 226.04665 moveto
+119.19067 227.80478 lineto stroke
+newpath 120.73494 224.73866 moveto
+121.67398 226.48662 lineto stroke
+newpath 123.1835 223.40733 moveto
+124.14159 225.14493 lineto stroke
+newpath 125.62039 222.04874 moveto
+126.59743 223.77577 lineto stroke
+newpath 128.03783 220.65901 moveto
+129.03368 222.37524 lineto stroke
+newpath 130.44356 219.24983 moveto
+131.45811 220.9551 lineto stroke
 newpath 132.82985 217.8095 moveto
 133.86296 219.50356 lineto stroke
+newpath 135.20445 216.34581 moveto
+136.25604 218.02849 lineto stroke
+newpath 137.55959 214.85486 moveto
+138.62949 216.52594 lineto stroke
+newpath 139.89915 213.33667 moveto
+140.98726 214.99594 lineto stroke
+newpath 142.20369 211.8107 moveto
+143.30971 213.4581 lineto stroke
+newpath 144.50822 210.24191 moveto
+145.63217 211.87712 lineto stroke
+newpath 146.79718 208.64975 moveto
+147.93893 210.27257 lineto stroke
+newpath 149.07057 207.03424 moveto
+150.23 208.6445 lineto stroke
+newpath 151.3245 205.3915 moveto
+152.50145 206.98897 lineto stroke
+newpath 153.55896 203.72537 moveto
+154.7533 205.30989 lineto stroke
 newpath 155.75839 202.05147 moveto
 156.96983 203.62297 lineto stroke
+newpath 157.95782 200.33475 moveto
+159.18637 201.8929 lineto stroke
+newpath 160.13779 198.59857 moveto
+161.3833 200.14322 lineto stroke
+newpath 162.29828 196.83513 moveto
+163.5606 198.36606 lineto stroke
+newpath 164.41985 195.06781 moveto
+165.69865 196.58499 lineto stroke
+newpath 166.54532 193.25766 moveto
+167.84067 194.76076 lineto stroke
+newpath 168.64743 191.42415 moveto
+169.95912 192.913 lineto stroke
+newpath 170.7106 189.58675 moveto
+172.03835 191.0613 lineto stroke
+newpath 172.7699 187.71043 moveto
+174.11365 189.1704 lineto stroke
+newpath 174.79414 185.82631 moveto
+176.15364 187.27162 lineto stroke
 newpath 176.8145 183.90717 moveto
 178.18971 185.33754 lineto stroke
+newpath 178.79593 181.98024 moveto
+180.18655 183.39563 lineto stroke
+newpath 180.77736 180.01437 moveto
+182.1834 181.41447 lineto stroke
+newpath 182.71597 178.04462 moveto
+184.13708 179.4294 lineto stroke
+newpath 184.6507 176.03984 moveto
+186.08685 177.40903 lineto stroke
+newpath 186.54648 174.02727 moveto
+187.99739 175.3808 lineto stroke
+newpath 188.43839 171.97966 moveto
+189.904 173.31728 lineto stroke
+newpath 190.29135 169.92815 moveto
+191.77138 171.2498 lineto stroke
+newpath 192.12096 167.8533 moveto
+193.61522 169.15881 lineto stroke
+newpath 193.94278 165.7473 moveto
+195.45122 167.03644 lineto stroke
 newpath 195.72568 163.63351 moveto
 197.24797 164.9062 lineto stroke
+newpath 197.48912 161.50415 moveto
+199.02513 162.76028 lineto stroke
+newpath 199.22531 159.35533 moveto
+200.77483 160.59476 lineto stroke
+newpath 200.9576 157.16759 moveto
+202.52058 158.39 lineto stroke
+newpath 202.64706 154.98372 moveto
+204.22319 156.18913 lineto stroke
+newpath 204.31319 152.7765 moveto
+205.90228 153.96475 lineto stroke
+newpath 205.95595 150.55373 moveto
+207.55782 151.72469 lineto stroke
+newpath 207.57535 148.31537 moveto
+209.18982 149.46892 lineto stroke
+newpath 209.17139 146.05756 moveto
+210.79826 147.19356 lineto stroke
+newpath 210.74019 143.78416 moveto
+212.37927 144.90248 lineto stroke
 newpath 212.28563 141.4913 moveto
 213.93672 142.59178 lineto stroke
+newpath 213.80771 139.18288 moveto
+215.47064 140.2654 lineto stroke
+newpath 215.30254 136.85889 moveto
+216.9771 137.92334 lineto stroke
+newpath 216.77011 134.51932 moveto
+218.45609 135.56557 lineto stroke
+newpath 218.21434 132.16418 moveto
+219.91154 133.19212 lineto stroke
+newpath 219.63521 129.78958 moveto
+221.34348 130.79904 lineto stroke
+newpath 221.01715 127.42665 moveto
+222.73616 128.41774 lineto stroke
+newpath 222.38353 125.0248 moveto
+224.11317 125.99721 lineto stroke
+newpath 223.72653 122.60738 moveto
+225.46661 123.56099 lineto stroke
+newpath 225.0384 120.17438 moveto
+226.7887 121.10905 lineto stroke
 newpath 226.31914 117.75307 moveto
 228.07939 118.66891 lineto stroke
+newpath 227.5804 115.29282 moveto
+229.35046 116.18953 lineto stroke
+newpath 228.80663 112.84425 moveto
+230.58623 113.72192 lineto stroke
+newpath 230.0134 110.35677 moveto
+231.80238 111.21509 lineto stroke
+newpath 231.18512 107.88094 moveto
+232.98322 108.72 lineto stroke
+newpath 232.3413 105.37009 moveto
+234.14838 106.18962 lineto stroke
+newpath 233.45851 102.87093 moveto
+235.27429 103.67102 lineto stroke
+newpath 234.56018 100.33282 moveto
+236.38452 101.11319 lineto stroke
+newpath 235.62291 97.81029 moveto
+237.45552 98.57103 lineto stroke
+newpath 236.67007 95.25273 moveto
+238.51083 95.99358 lineto stroke
 newpath 237.6783 92.70683 moveto
 239.5269 93.42789 lineto stroke
+newpath 238.65929 90.14928 moveto
+240.51552 90.85043 lineto stroke
+newpath 239.61302 87.58003 moveto
+241.47667 88.2612 lineto stroke
+newpath 240.54729 84.97964 moveto
+242.4182 85.6406 lineto stroke
+newpath 241.44653 82.39095 moveto
+243.32443 83.03175 lineto stroke
+newpath 242.31851 79.79445 moveto
+244.2032 80.41507 lineto stroke
+newpath 243.15935 77.18628 moveto
+245.05057 77.7866 lineto stroke
+newpath 243.97684 74.57033 moveto
+245.87442 75.15031 lineto stroke
+newpath 244.76318 71.94658 moveto
+246.66689 72.50616 lineto stroke
+newpath 245.52228 69.31505 moveto
+247.43188 69.85416 lineto stroke
 newpath 246.25023 66.67574 moveto
 248.1655 67.19432 lineto stroke
+newpath 246.95483 64.02864 moveto
+248.87558 64.52664 lineto stroke
+newpath 247.6205 61.39711 moveto
+249.54642 61.87463 lineto stroke
+newpath 248.2667 58.73445 moveto
+250.19765 59.19127 lineto stroke
+newpath 248.88176 56.064 moveto
+250.81749 56.50005 lineto stroke
+newpath 249.46957 53.38965 moveto
+251.40988 53.8049 lineto stroke
+newpath 250.02235 50.73087 moveto
+251.96696 51.12544 lineto stroke
+newpath 250.55177 48.04094 moveto
+252.50049 48.41458 lineto stroke
+newpath 251.05005 45.37439 moveto
+253.00264 45.7273 lineto stroke
+newpath 251.52496 42.67668 moveto
+253.48126 43.0086 lineto stroke
 newpath 251.96484 39.99454 moveto
 253.92456 40.3056 lineto stroke
+newpath 252.37749 37.28905 moveto
+254.34041 37.57907 lineto stroke
+newpath 252.75897 34.59914 moveto
+254.72487 34.86824 lineto stroke
+newpath 253.11711 31.88586 moveto
+255.08578 32.13387 lineto stroke
+newpath 253.4441 29.18816 moveto
+255.41533 29.41518 lineto stroke
+newpath 253.73996 26.49045 moveto
+255.71349 26.69649 lineto stroke
+newpath 254.00467 23.78885 moveto
+255.98026 23.97388 lineto stroke
+newpath 254.24603 21.08336 moveto
+256.2235 21.24734 lineto stroke
+newpath 254.45624 18.3545 moveto
+256.43533 18.49727 lineto stroke
+newpath 254.63919 15.64513 moveto
+256.6197 15.76682 lineto stroke
 newpath 254.79102 12.93185 moveto
 256.7727 13.03244 lineto stroke
+newpath 254.9117 10.22247 moveto
+256.89433 10.30199 lineto stroke
+newpath 255.00513 7.53255 moveto
+256.98848 7.59113 lineto stroke
+newpath 255.0713 4.81927 moveto
+257.05518 4.85675 lineto stroke
+newpath 255.11023 2.10211 moveto
+257.0944 2.11845 lineto stroke
+newpath 255.11801 -0.61118 moveto
+257.10225 -0.61594 lineto stroke
+newpath 255.09465 -3.32445 moveto
+257.0787 -3.35031 lineto stroke
+newpath 255.04794 -6.01825 moveto
+257.03163 -6.06506 lineto stroke
+newpath 254.9701 -8.73154 moveto
+256.95319 -8.79945 lineto stroke
+newpath 254.86108 -11.41756 moveto
+256.84332 -11.50636 lineto stroke
 newpath 254.72484 -14.13083 moveto
 256.70602 -14.24074 lineto stroke
+newpath 254.56134 -16.81686 moveto
+256.54124 -16.94766 lineto stroke
+newpath 254.37059 -19.52235 moveto
+256.34901 -19.6742 lineto stroke
+newpath 254.14871 -22.20448 moveto
+256.12541 -22.37718 lineto stroke
+newpath 253.89957 -24.88272 moveto
+255.87433 -25.07625 lineto stroke
+newpath 253.62318 -27.58432 moveto
+255.5958 -27.79886 lineto stroke
+newpath 253.31564 -30.25867 moveto
+255.28586 -30.494 lineto stroke
+newpath 252.98476 -32.92912 moveto
+254.95241 -33.18524 lineto stroke
+newpath 252.62273 -35.59569 moveto
+254.58755 -35.87254 lineto stroke
+newpath 252.23346 -38.25447 moveto
+254.19527 -38.552 lineto stroke
 newpath 251.81693 -40.91324 moveto
 253.77548 -41.23145 lineto stroke
+newpath 251.36925 -43.56813 moveto
+253.32433 -43.907 lineto stroke
+newpath 250.89822 -46.21523 moveto
+252.84964 -46.57468 lineto stroke
+newpath 250.39606 -48.85843 moveto
+252.34357 -49.23843 lineto stroke
+newpath 249.86664 -51.49774 moveto
+251.81003 -51.89827 lineto stroke
+newpath 249.31386 -54.10591 moveto
+251.25296 -54.52673 lineto stroke
+newpath 248.72993 -56.73355 moveto
+250.66449 -57.1748 lineto stroke
+newpath 248.12267 -59.32614 moveto
+250.05249 -59.78757 lineto stroke
+newpath 247.48425 -61.94211 moveto
+249.40912 -62.42387 lineto stroke
+newpath 246.82248 -64.52303 moveto
+248.7422 -65.02487 lineto stroke
 newpath 246.12956 -67.12341 moveto
 248.04388 -67.64548 lineto stroke
+newpath 245.41328 -69.69266 moveto
+247.32204 -70.23471 lineto stroke
+newpath 244.66586 -72.27747 moveto
+246.5688 -72.83961 lineto stroke
+newpath 243.89899 -74.82724 moveto
+245.79596 -75.40923 lineto stroke
+newpath 243.10097 -77.37314 moveto
+244.99174 -77.97493 lineto stroke
+newpath 242.27959 -79.91124 moveto
+244.16397 -80.53276 lineto stroke
+newpath 241.43095 -82.43765 moveto
+243.30873 -83.07883 lineto stroke
+newpath 240.55898 -84.95628 moveto
+242.42998 -85.61705 lineto stroke
+newpath 239.65584 -87.46324 moveto
+241.51982 -88.14351 lineto stroke
+newpath 238.72935 -89.96631 moveto
+240.58612 -90.66605 lineto stroke
 newpath 237.77562 -92.45381 moveto
 239.62497 -93.1729 lineto stroke
+newpath 236.80632 -94.91016 moveto
+238.64813 -95.64835 lineto stroke
+newpath 235.80197 -97.38208 moveto
+237.63597 -98.1395 lineto stroke
+newpath 234.77039 -99.83844 moveto
+236.59636 -100.61496 lineto stroke
+newpath 233.72322 -102.26364 moveto
+235.54106 -103.05902 lineto stroke
+newpath 232.64104 -104.70053 moveto
+234.45045 -105.51486 lineto stroke
+newpath 231.54715 -107.10628 moveto
+233.34805 -107.93932 lineto stroke
+newpath 230.41435 -109.5198 moveto
+232.20645 -110.37163 lineto stroke
+newpath 229.26987 -111.8983 moveto
+231.05307 -112.76862 lineto stroke
+newpath 228.09814 -114.26512 moveto
+229.87222 -115.15384 lineto stroke
 newpath 226.90306 -116.62416 moveto
 228.66785 -117.53123 lineto stroke
+newpath 225.66904 -118.98708 moveto
+227.42422 -119.91252 lineto stroke
+newpath 224.42725 -121.31886 moveto
+226.17278 -122.26245 lineto stroke
+newpath 223.15819 -123.63507 moveto
+224.89384 -124.59666 lineto stroke
+newpath 221.86578 -125.9396 moveto
+223.5914 -126.91913 lineto stroke
+newpath 220.56169 -128.2091 moveto
+222.27716 -129.20628 lineto stroke
+newpath 219.22258 -130.48639 moveto
+220.92763 -131.50128 lineto stroke
+newpath 217.8601 -132.7481 moveto
+219.55457 -133.78056 lineto stroke
+newpath 216.47427 -134.99814 moveto
+218.15794 -136.04811 lineto stroke
+newpath 215.07675 -137.20924 moveto
+216.74956 -138.27641 lineto stroke
 newpath 213.64421 -139.42813 moveto
 215.30588 -140.51256 lineto stroke
+newpath 212.20387 -141.61198 moveto
+213.85434 -142.71341 lineto stroke
+newpath 210.74019 -143.78416 moveto
+212.37927 -144.90248 lineto stroke
+newpath 209.24146 -145.95634 moveto
+210.86888 -147.09155 lineto stroke
+newpath 207.73105 -148.09738 moveto
+209.34673 -149.24924 lineto stroke
+newpath 206.20119 -150.21895 moveto
+207.80496 -151.38731 lineto stroke
+newpath 204.65186 -152.32884 moveto
+206.24358 -153.51361 lineto stroke
+newpath 203.07527 -154.41927 moveto
+204.65474 -155.6203 lineto stroke
+newpath 201.48312 -156.49413 moveto
+203.0502 -157.71129 lineto stroke
+newpath 199.86761 -158.55342 moveto
+201.42213 -159.7866 lineto stroke
 newpath 198.22874 -160.59323 moveto
 199.77051 -161.84229 lineto stroke
+newpath 196.57042 -162.6175 moveto
+198.09929 -163.8823 lineto stroke
+newpath 194.9082 -164.6067 moveto
+196.42415 -165.88696 lineto stroke
+newpath 193.21094 -166.59982 moveto
+194.71368 -167.89558 lineto stroke
+newpath 191.49033 -168.57346 moveto
+192.97969 -169.88457 lineto stroke
+newpath 189.76582 -170.50818 moveto
+191.24178 -171.83435 lineto stroke
+newpath 188.02574 -172.43121 moveto
+189.48816 -173.77234 lineto stroke
+newpath 186.24673 -174.35036 moveto
+187.69531 -175.7064 lineto stroke
+newpath 184.46384 -176.23448 moveto
+185.89854 -177.60518 lineto stroke
+newpath 182.66537 -178.09912 moveto
+184.08609 -179.48433 lineto stroke
 newpath 180.84354 -179.9443 moveto
 182.25009 -181.34386 lineto stroke
+newpath 179.00615 -181.77393 moveto
+180.3984 -183.18771 lineto stroke
+newpath 177.14928 -183.58406 moveto
+178.5271 -185.01193 lineto stroke
+newpath 175.27686 -185.37476 moveto
+176.6401 -186.81654 lineto stroke
+newpath 173.38106 -187.14597 moveto
+174.72957 -188.60153 lineto stroke
+newpath 171.47359 -188.89774 moveto
+172.80727 -190.36693 lineto stroke
+newpath 169.56223 -190.61446 moveto
+170.88103 -192.097 lineto stroke
+newpath 167.61583 -192.32727 moveto
+168.9195 -193.82314 lineto stroke
+newpath 165.66943 -194.00507 moveto
+166.95796 -195.51398 lineto stroke
+newpath 163.6919 -195.67897 moveto
+164.96504 -197.20091 lineto stroke
 newpath 161.71436 -197.31784 moveto
 162.97212 -198.85252 lineto stroke
+newpath 159.71736 -198.93724 moveto
+160.9596 -200.48451 lineto stroke
+newpath 157.70868 -200.53328 moveto
+158.93529 -202.09297 lineto stroke
+newpath 155.68054 -202.10986 moveto
+156.89139 -203.68182 lineto stroke
+newpath 153.63683 -203.66698 moveto
+154.83177 -205.25104 lineto stroke
+newpath 151.58142 -205.20464 moveto
+152.76038 -206.80066 lineto stroke
+newpath 149.50656 -206.71893 moveto
+150.66939 -208.32674 lineto stroke
+newpath 147.42003 -208.21376 moveto
+148.56662 -209.83319 lineto stroke
+newpath 145.31403 -209.68913 moveto
+146.44424 -211.32004 lineto stroke
+newpath 143.21582 -211.12556 moveto
+144.32971 -212.76764 lineto stroke
 newpath 141.08646 -212.55812 moveto
 142.18379 -214.21133 lineto stroke
+newpath 138.9571 -213.95174 moveto
+140.03787 -215.6158 lineto stroke
+newpath 136.7966 -215.34146 moveto
+137.86057 -217.01633 lineto stroke
+newpath 134.64389 -216.69226 moveto
+135.69112 -218.37764 lineto stroke
+newpath 132.4756 -218.0275 moveto
+133.50597 -219.72325 lineto stroke
+newpath 130.29564 -219.33546 moveto
+131.30904 -221.0414 lineto stroke
+newpath 128.104 -220.62398 moveto
+129.10036 -222.33994 lineto stroke
+newpath 125.89679 -221.88914 moveto
+126.87598 -223.61494 lineto stroke
+newpath 123.67789 -223.13483 moveto
+124.63982 -224.87032 lineto stroke
+newpath 121.44733 -224.35716 moveto
+122.3919 -226.10216 lineto stroke
 newpath 119.20508 -225.55615 moveto
 120.13222 -227.31047 lineto stroke
+newpath 116.97061 -226.72398 moveto
+117.88037 -228.48738 lineto stroke
+newpath 114.705 -227.87625 moveto
+115.59715 -229.6486 lineto stroke
+newpath 112.44719 -228.99738 moveto
+113.32178 -230.77846 lineto stroke
+newpath 110.15822 -230.11072 moveto
+111.015 -231.90045 lineto stroke
+newpath 107.88094 -231.18512 moveto
+108.72 -232.98322 lineto stroke
+newpath 105.59198 -232.24007 moveto
+106.41324 -234.04637 lineto stroke
+newpath 103.29523 -233.27167 moveto
+104.09863 -235.08598 lineto stroke
+newpath 100.9868 -234.27989 moveto
+101.77225 -236.10205 lineto stroke
+newpath 98.6667 -235.26477 moveto
+99.4341 -237.09459 lineto stroke
 newpath 96.33882 -236.23018 moveto
 97.08812 -238.0675 lineto stroke
+newpath 94.00314 -237.16835 moveto
+94.73427 -239.01299 lineto stroke
+newpath 91.65579 -238.08316 moveto
+92.36867 -239.9349 lineto stroke
+newpath 89.324 -238.9707 moveto
+90.01874 -240.82935 lineto stroke
+newpath 86.96107 -239.8388 moveto
+87.63744 -241.70421 lineto stroke
+newpath 84.60983 -240.67964 moveto
+85.2679 -242.55157 lineto stroke
+newpath 82.2508 -241.49324 moveto
+82.89052 -243.3715 lineto stroke
+newpath 79.86452 -242.29515 moveto
+80.48569 -244.17966 lineto stroke
+newpath 77.48991 -243.06593 moveto
+78.0926 -244.95644 lineto stroke
+newpath 75.10753 -243.80945 moveto
+75.6917 -245.70573 lineto stroke
 newpath 72.72125 -244.53351 moveto
 73.28687 -246.43542 lineto stroke
+newpath 70.32718 -245.2342 moveto
+70.87416 -247.14157 lineto stroke
+newpath 67.94868 -245.90378 moveto
+68.47717 -247.81635 lineto stroke
+newpath 65.54294 -246.55386 moveto
+66.05272 -248.4715 lineto stroke
+newpath 63.12552 -247.1845 moveto
+63.61649 -249.10703 lineto stroke
+newpath 60.73145 -247.784 moveto
+61.2038 -249.7112 lineto stroke
+newpath 58.30624 -248.3679 moveto
+58.75974 -250.29964 lineto stroke
+newpath 55.8966 -248.92068 moveto
+56.33136 -250.85672 lineto stroke
+newpath 53.48306 -249.4501 moveto
+53.89903 -251.39026 lineto stroke
+newpath 51.06564 -249.95618 moveto
+51.46281 -251.90027 lineto stroke
 newpath 48.64433 -250.43887 moveto
 49.02267 -252.38672 lineto stroke
+newpath 46.21523 -250.89822 moveto
+46.57468 -252.84964 lineto stroke
+newpath 43.78223 -251.33421 moveto
+44.12276 -253.28902 lineto stroke
+newpath 41.34924 -251.74686 moveto
+41.67085 -253.70488 lineto stroke
+newpath 38.90846 -252.13223 moveto
+39.21107 -254.09325 lineto stroke
+newpath 36.49103 -252.49426 moveto
+36.77484 -254.4581 lineto stroke
+newpath 34.04247 -252.83684 moveto
+34.30724 -254.80333 lineto stroke
+newpath 31.61725 -253.15215 moveto
+31.86316 -255.1211 lineto stroke
+newpath 29.18816 -253.4441 moveto
+29.41518 -255.41533 lineto stroke
+newpath 26.75905 -253.7127 moveto
+26.96718 -255.68602 lineto stroke
  0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
 newpath 24.32605 -253.95407 moveto
 24.51526 -255.92926 lineto stroke
-newpath 0 -255.11801 moveto
-0 -257.10225 lineto stroke
-newpath -24.08081 -253.97742 moveto
--24.2681 -255.95279 lineto stroke
+newpath 21.88918 -254.17595 moveto
+22.05942 -256.15286 lineto stroke
+newpath 19.45229 -254.37448 moveto
+19.60358 -256.35294 lineto stroke
+newpath 17.0115 -254.54967 moveto
+17.14381 -256.52948 lineto stroke
+newpath 14.57072 -254.70148 moveto
+14.68405 -256.68248 lineto stroke
+newpath 12.15329 -254.82994 moveto
+12.24782 -256.81194 lineto stroke
+newpath 9.70862 -254.93504 moveto
+9.78413 -256.91786 lineto stroke
+newpath 7.28731 -255.01291 moveto
+7.34398 -256.99632 lineto stroke
+newpath 4.84264 -255.0713 moveto
+4.8803 -257.05518 lineto stroke
+newpath 2.42131 -255.10634 moveto
+2.44014 -257.09048 lineto stroke
+newpath 0 255.11801 moveto
+0 257.95265 lineto stroke
  0 0.19925 dtransform truncate idtransform setlinewidth pop
-newpath -47.68282 -250.62184 moveto
--48.05368 -252.5711 lineto stroke
-newpath -70.60745 -245.15247 moveto
--71.15662 -247.05919 lineto stroke
-newpath -92.70683 -237.6783 moveto
--93.42789 -239.5269 lineto stroke
-newpath -113.7863 -228.3395 moveto
--114.6713 -230.11545 lineto stroke
-newpath -133.68626 -217.28397 moveto
--134.72604 -218.97394 lineto stroke
-newpath -152.30548 -204.66353 moveto
--153.49007 -206.25534 lineto stroke
-newpath -169.50774 -190.66505 moveto
--170.82613 -192.148 lineto stroke
-newpath -185.22293 -175.43645 moveto
--186.66354 -176.80095 lineto stroke
-newpath -199.3927 -159.14513 moveto
--200.94353 -160.38292 lineto stroke
-newpath -211.94695 -142.00127 moveto
--213.59541 -143.10571 lineto stroke
-newpath -222.8857 -124.12556 moveto
--224.61925 -125.09097 lineto stroke
-newpath -232.1778 -105.72823 moveto
--233.98361 -106.55055 lineto stroke
-newpath -239.84659 -86.93773 moveto
--241.71205 -87.6139 lineto stroke
-newpath -245.90767 -67.92532 moveto
--247.82027 -68.45363 lineto stroke
-newpath -250.39995 -48.83507 moveto
--252.34749 -49.21489 lineto stroke
-newpath -253.37015 -29.81879 moveto
--255.34079 -30.0507 lineto stroke
-newpath -254.88055 -10.97768 moveto
--256.86295 -11.06306 lineto stroke
-newpath -255.00513 7.55591 moveto
--256.98848 7.61467 lineto stroke
-newpath -253.8256 25.66129 moveto
--255.79979 25.86087 lineto stroke
-newpath -251.41597 43.30342 moveto
--253.37141 43.64023 lineto stroke
-newpath -247.87741 60.34996 moveto
--249.80533 60.81935 lineto stroke
-newpath -243.2995 76.7425 moveto
--245.19182 77.33937 lineto stroke
-newpath -237.77562 92.45381 moveto
--239.62497 93.1729 lineto stroke
-newpath -231.4109 107.39435 moveto
--233.21075 108.22963 lineto stroke
-newpath -224.29878 121.55243 moveto
--226.04332 122.49783 lineto stroke
-newpath -216.54045 134.89302 moveto
--218.22464 135.94218 lineto stroke
-newpath -208.21376 147.42003 moveto
--209.83319 148.56662 lineto stroke
-newpath -199.4394 159.08673 moveto
--200.99059 160.32407 lineto stroke
-newpath -190.27188 169.94373 moveto
--191.75177 171.2655 lineto stroke
-newpath -180.82797 179.96378 moveto
--182.2344 181.36348 lineto stroke
-newpath -171.16217 189.17801 moveto
--172.49342 190.64938 lineto stroke
-newpath -161.3718 197.59811 moveto
--162.6269 199.13498 lineto stroke
-newpath -151.52303 205.24745 moveto
--152.70152 206.84381 lineto stroke
-newpath -141.6548 212.17662 moveto
--142.75655 213.82687 lineto stroke
-newpath -131.86833 218.39342 moveto
--132.89397 220.09203 lineto stroke
-newpath -122.19862 223.94843 moveto
--123.14905 225.69023 lineto stroke
-newpath -112.68854 228.8806 moveto
--113.565 230.66077 lineto stroke
-newpath -103.40813 233.22105 moveto
--104.2124 235.03499 lineto stroke
-newpath -94.36517 237.0243 moveto
--95.09912 238.86781 lineto stroke
-newpath -85.62585 240.3215 moveto
--86.29182 242.19066 lineto stroke
-newpath -77.23299 243.14767 moveto
--77.83368 245.0388 lineto stroke
-newpath -69.17491 245.5612 moveto
--69.71294 247.47112 lineto stroke
-newpath -61.49054 247.59714 moveto
--61.9688 249.52287 lineto stroke
-newpath -54.19934 249.29439 moveto
--54.6209 251.23334 lineto stroke
-newpath -47.34413 250.68802 moveto
--47.71236 252.6378 lineto stroke
-newpath -40.91324 251.81693 moveto
--41.23145 253.77548 lineto stroke
-newpath -34.91444 252.71616 moveto
--35.186 254.68172 lineto stroke
-newpath -29.3828 253.42076 moveto
--29.61133 255.3918 lineto stroke
+newpath 27.9269 253.58426 moveto
+28.2372 256.40186 lineto stroke
+newpath 55.49174 249.01022 moveto
+56.10832 251.777 lineto stroke
+newpath 82.39095 241.44653 moveto
+83.3064 244.12927 lineto stroke
+newpath 108.2819 230.99828 moveto
+109.48503 233.56493 lineto stroke
+newpath 132.82985 217.8095 moveto
+134.30574 220.2296 lineto stroke
+newpath 155.75839 202.05147 moveto
+157.48904 204.29648 lineto stroke
+newpath 176.8145 183.90717 moveto
+178.7791 185.95058 lineto stroke
+newpath 195.72568 163.63351 moveto
+197.9004 165.45166 lineto stroke
+newpath 212.28563 141.4913 moveto
+214.64435 143.06343 lineto stroke
+newpath 226.31914 117.75307 moveto
+228.83379 119.06143 lineto stroke
+newpath 237.6783 92.70683 moveto
+240.31917 93.73691 lineto stroke
+newpath 246.25023 66.67574 moveto
+248.98634 67.41658 lineto stroke
+newpath 251.96484 39.99454 moveto
+254.76445 40.43892 lineto stroke
+newpath 254.79102 12.93185 moveto
+257.62202 13.07555 lineto stroke
+newpath 254.72484 -14.13083 moveto
+257.55511 -14.28784 lineto stroke
+newpath 251.81693 -40.91324 moveto
+254.61488 -41.36783 lineto stroke
+newpath 246.12956 -67.12341 moveto
+248.86433 -67.86923 lineto stroke
+newpath 237.77562 -92.45381 moveto
+240.41757 -93.48108 lineto stroke
+newpath 226.90306 -116.62416 moveto
+229.42421 -117.91998 lineto stroke
+newpath 213.64421 -139.42813 moveto
+216.01804 -140.97733 lineto stroke
+newpath 198.22874 -160.59323 moveto
+200.43129 -162.3776 lineto stroke
+newpath 180.84354 -179.9443 moveto
+182.8529 -181.94368 lineto stroke
+newpath 161.71436 -197.31784 moveto
+163.51118 -199.51025 lineto stroke
+newpath 141.08646 -212.55812 moveto
+142.65408 -214.91988 lineto stroke
+newpath 119.20508 -225.55615 moveto
+120.52957 -228.06233 lineto stroke
+newpath 96.33882 -236.23018 moveto
+97.40926 -238.85495 lineto stroke
+newpath 72.72125 -244.53351 moveto
+73.52927 -247.25055 lineto stroke
+newpath 48.64433 -250.43887 moveto
+49.18483 -253.22153 lineto stroke
+newpath 24.32605 -253.95407 moveto
+24.59634 -256.77577 lineto stroke
  0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 0 -255.11801 moveto
+0 -257.95265 lineto stroke
+ 0 0.19925 dtransform truncate idtransform setlinewidth pop
+newpath -24.08081 -253.97742 moveto
+-24.34837 -256.79938 lineto stroke
+newpath -47.68282 -250.62184 moveto
+-48.21263 -253.40652 lineto stroke
+newpath -70.60745 -245.15247 moveto
+-71.39198 -247.87637 lineto stroke
+newpath -92.70683 -237.6783 moveto
+-93.73691 -240.31917 lineto stroke
+newpath -113.7863 -228.3395 moveto
+-115.0506 -230.8766 lineto stroke
+newpath -133.68626 -217.28397 moveto
+-135.17166 -219.69823 lineto stroke
+newpath -152.30548 -204.66353 moveto
+-153.99776 -206.93756 lineto stroke
+newpath -169.50774 -190.66505 moveto
+-171.39116 -192.78355 lineto stroke
+newpath -185.22293 -175.43645 moveto
+-187.28096 -177.38574 lineto stroke
+newpath -199.3927 -159.14513 moveto
+-201.60817 -160.9134 lineto stroke
+newpath -211.94695 -142.00127 moveto
+-214.30191 -143.57906 lineto stroke
+newpath -222.8857 -124.12556 moveto
+-225.3622 -125.50473 lineto stroke
+newpath -232.1778 -105.72823 moveto
+-234.75754 -106.90298 lineto stroke
+newpath -239.84659 -86.93773 moveto
+-242.51155 -87.9037 lineto stroke
+newpath -245.90767 -67.92532 moveto
+-248.63997 -68.68005 lineto stroke
+newpath -250.39995 -48.83507 moveto
+-253.18216 -49.37769 lineto stroke
+newpath -253.37015 -29.81879 moveto
+-256.18536 -30.1501 lineto stroke
+newpath -254.88055 -10.97768 moveto
+-257.71255 -11.09966 lineto stroke
+newpath -255.00513 7.55591 moveto
+-257.83852 7.63986 lineto stroke
+newpath -253.8256 25.66129 moveto
+-256.64589 25.94641 lineto stroke
+newpath -251.41597 43.30342 moveto
+-254.20947 43.78458 lineto stroke
+newpath -247.87741 60.34996 moveto
+-250.6316 61.02051 lineto stroke
+newpath -243.2995 76.7425 moveto
+-246.00282 77.59518 lineto stroke
+newpath -237.77562 92.45381 moveto
+-240.41757 93.48108 lineto stroke
+newpath -231.4109 107.39435 moveto
+-233.98213 108.58762 lineto stroke
+newpath -224.29878 121.55243 moveto
+-226.79099 122.90302 lineto stroke
+newpath -216.54045 134.89302 moveto
+-218.94646 136.39183 lineto stroke
+newpath -208.21376 147.42003 moveto
+-210.52724 149.05803 lineto stroke
+newpath -199.4394 159.08673 moveto
+-201.6554 160.85435 lineto stroke
+newpath -190.27188 169.94373 moveto
+-192.38602 171.83199 lineto stroke
+newpath -180.82797 179.96378 moveto
+-182.83717 181.96336 lineto stroke
+newpath -171.16217 189.17801 moveto
+-173.06396 191.27998 lineto stroke
+newpath -161.3718 197.59811 moveto
+-163.16481 199.79364 lineto stroke
+newpath -151.52303 205.24745 moveto
+-153.20662 207.52797 lineto stroke
+newpath -141.6548 212.17662 moveto
+-143.22874 214.53413 lineto stroke
+newpath -131.86833 218.39342 moveto
+-133.33353 220.82 lineto stroke
+newpath -122.19862 223.94843 moveto
+-123.55638 226.43674 lineto stroke
+newpath -112.68854 228.8806 moveto
+-113.94063 231.42372 lineto stroke
+newpath -103.40813 233.22105 moveto
+-104.5571 235.8124 lineto stroke
+newpath -94.36517 237.0243 moveto
+-95.41368 239.65791 lineto stroke
+newpath -85.62585 240.3215 moveto
+-86.57726 242.99174 lineto stroke
+newpath -77.23299 243.14767 moveto
+-78.09113 245.8493 lineto stroke
+newpath -69.17491 245.5612 moveto
+-69.94353 248.28966 lineto stroke
+newpath -61.49054 247.59714 moveto
+-62.17377 250.3482 lineto stroke
+newpath -54.19934 249.29439 moveto
+-54.80156 252.06432 lineto stroke
+newpath -47.34413 250.68802 moveto
+-47.87018 253.47343 lineto stroke
+newpath -40.91324 251.81693 moveto
+-41.36783 254.61488 lineto stroke
+newpath -34.91444 252.71616 moveto
+-35.30238 255.52411 lineto stroke
+newpath -29.3828 253.42076 moveto
+-29.70927 256.23654 lineto stroke
 newpath -24.32605 253.95407 moveto
--24.51526 255.92926 lineto stroke
+-24.59634 256.77577 lineto stroke
 newpath -19.717 254.35503 moveto
--19.87035 256.33333 lineto stroke
+-19.93607 257.18118 lineto stroke
+ 0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
 newpath -15.59453 254.63919 moveto
--15.71582 256.6197 lineto stroke
+-15.7678 257.4685 lineto stroke
 newpath -11.93141 254.83774 moveto
--12.02422 256.8198 lineto stroke
+-12.06398 257.66927 lineto stroke
 newpath -8.77824 254.96619 moveto
--8.84651 256.94925 lineto stroke
+-8.87578 257.79913 lineto stroke
 newpath -6.08833 255.04405 moveto
--6.13568 257.02771 lineto stroke
+-6.15598 257.87787 lineto stroke
 newpath -3.91226 255.08687 moveto
--3.94269 257.07086 lineto stroke
+-3.95573 257.92116 lineto stroke
 newpath -2.19943 255.11023 moveto
--2.21654 257.0944 lineto stroke
+-2.22388 257.94478 lineto stroke
 newpath -0.9771 255.11801 moveto
--0.9847 257.10225 lineto stroke
+-0.98795 257.95265 lineto stroke
 newpath -0.24524 255.11801 moveto
--0.24715 257.10225 lineto stroke
--1.69505 258.33179 moveto
+-0.24797 257.95265 lineto stroke
+newpath 13.98291 254.73262 moveto
+14.13828 257.56297 lineto stroke
+ 0 0.19925 dtransform truncate idtransform setlinewidth pop
+newpath 41.78134 251.6729 moveto
+42.24557 254.46925 lineto stroke
+newpath 69.05814 245.59235 moveto
+69.82545 248.32115 lineto stroke
+newpath 95.4785 236.57664 moveto
+96.53937 239.20528 lineto stroke
+newpath 120.73494 224.73866 moveto
+122.07643 227.23575 lineto stroke
+newpath 144.50822 210.24191 moveto
+146.11388 212.57793 lineto stroke
+newpath 166.54532 193.25766 moveto
+168.39581 195.40497 lineto stroke
+newpath 186.54648 174.02727 moveto
+188.61922 175.9609 lineto stroke
+newpath 204.31319 152.7765 moveto
+206.58333 154.47401 lineto stroke
+newpath 219.63521 129.78958 moveto
+222.07559 131.23169 lineto stroke
+newpath 232.3413 105.37009 moveto
+234.92287 106.54086 lineto stroke
+newpath 242.31851 79.79445 moveto
+245.01094 80.68105 lineto stroke
+newpath 249.46957 53.38965 moveto
+252.24146 53.98286 lineto stroke
+newpath 253.73996 26.49045 moveto
+256.5593 26.78479 lineto stroke
+newpath 255.11801 -0.61118 moveto
+257.95265 -0.61797 lineto stroke
+newpath 253.62318 -27.58432 moveto
+256.44121 -27.89081 lineto stroke
+newpath 249.31386 -54.10591 moveto
+252.08401 -54.70709 lineto stroke
+newpath 242.27959 -79.91124 moveto
+244.97157 -80.79915 lineto stroke
+newpath 232.64104 -104.70053 moveto
+235.22594 -105.86386 lineto stroke
+newpath 220.56169 -128.2091 moveto
+223.01237 -129.63365 lineto stroke
+newpath 206.20119 -150.21895 moveto
+208.49231 -151.88805 lineto stroke
+newpath 189.76582 -170.50818 moveto
+191.87433 -172.40271 lineto stroke
+newpath 171.47359 -188.89774 moveto
+173.37885 -190.9966 lineto stroke
+newpath 151.58142 -205.20464 moveto
+153.26566 -207.48468 lineto stroke
+newpath 130.29564 -219.33546 moveto
+131.74336 -221.77252 lineto stroke
+newpath 107.88094 -231.18512 moveto
+109.0796 -233.75385 lineto stroke
+newpath 84.60983 -240.67964 moveto
+85.54994 -243.35385 lineto stroke
+newpath 60.73145 -247.784 moveto
+61.40623 -250.53716 lineto stroke
+newpath 36.49103 -252.49426 moveto
+36.89648 -255.29974 lineto stroke
+ 0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
+newpath 12.15329 -254.82994 moveto
+12.28833 -257.66138 lineto stroke
+newpath -12.07933 -254.83383 moveto
+-12.21355 -257.66531 lineto stroke
+ 0 0.19925 dtransform truncate idtransform setlinewidth pop
+newpath -35.93436 -252.57602 moveto
+-36.33363 -255.38242 lineto stroke
+newpath -59.23273 -248.14603 moveto
+-59.89087 -250.9032 lineto stroke
+newpath -81.78755 -241.65285 moveto
+-82.6963 -244.33788 lineto stroke
+newpath -103.38477 -233.23274 moveto
+-104.53348 -235.82422 lineto stroke
+newpath -123.892 -223.01416 moveto
+-125.26857 -225.4921 lineto stroke
+newpath -143.15742 -211.1684 moveto
+-144.74806 -213.51471 lineto stroke
+newpath -161.08762 -197.82779 moveto
+-162.87747 -200.02588 lineto stroke
+newpath -177.55414 -183.1909 moveto
+-179.52696 -185.22635 lineto stroke
+newpath -192.50635 -167.4134 moveto
+-194.64531 -169.27356 lineto stroke
+newpath -205.8703 -150.67441 moveto
+-208.15775 -152.34857 lineto stroke
+newpath -217.61874 -133.14516 moveto
+-220.03673 -134.62454 lineto stroke
+newpath -227.73611 -114.98918 moveto
+-230.26651 -116.26683 lineto stroke
+newpath -236.2185 -96.36217 moveto
+-238.84315 -97.43286 lineto stroke
+newpath -243.0815 -77.4432 moveto
+-245.7824 -78.30368 lineto stroke
+newpath -248.34845 -58.37631 moveto
+-251.10788 -59.02493 lineto stroke
+newpath -252.06996 -39.32109 moveto
+-254.87073 -39.758 lineto stroke
+newpath -254.30441 -20.37877 moveto
+-257.13002 -20.6052 lineto stroke
+newpath -255.11412 -1.66222 moveto
+-257.94872 -1.68068 lineto stroke
+newpath -254.57301 16.66893 moveto
+-257.4016 16.85414 lineto stroke
+newpath -252.76677 34.55241 moveto
+-255.57529 34.93633 lineto stroke
+newpath -249.78099 51.90259 moveto
+-252.55634 52.47928 lineto stroke
+newpath -245.71303 68.63382 moveto
+-248.44318 69.39642 lineto stroke
+newpath -240.6485 84.70326 moveto
+-243.32237 85.64441 lineto stroke
+newpath -234.69254 100.0214 moveto
+-237.30023 101.13274 lineto stroke
+newpath -227.94243 114.57265 moveto
+-230.47511 115.84567 lineto stroke
+newpath -220.48773 128.33366 moveto
+-222.93759 129.7596 lineto stroke
+newpath -212.43355 141.26942 moveto
+-214.79391 142.83908 lineto stroke
+newpath -203.87329 153.36432 moveto
+-206.13855 155.06836 lineto stroke
+newpath -194.89262 164.62617 moveto
+-197.05809 166.45535 lineto stroke
+-1.69505 259.18219 moveto
 (0) cmr5 4.98132 fshow
-gsave [0.99399 -0.10947 0.10947 0.99399 26.59383 256.96425 ] concat 0 0 moveto
+gsave [0.99399 -0.10947 0.10947 0.99399 26.68692 257.80954 ] concat 0 0 moveto
 (1) cmr5 4.98132 fshow grestore
-gsave [0.97606 -0.21751 0.21751 0.97606 54.53632 252.51575 ] concat 0 0 moveto
+gsave [0.97606 -0.21751 0.21751 0.97606 54.7213 253.3458 ] concat 0 0 moveto
 (2) cmr5 4.98132 fshow grestore
-gsave [0.94641 -0.32295 0.32295 0.94641 81.82462 245.0355 ] concat 0 0 moveto
+gsave [0.94641 -0.32295 0.32295 0.94641 82.09926 245.84033 ] concat 0 0 moveto
 (3) cmr5 4.98132 fshow grestore
-gsave [0.90546 -0.42444 0.42444 0.90546 108.11116 234.62766 ] concat 0 0 moveto
+gsave [0.90546 -0.42444 0.42444 0.90546 108.47209 235.39766 ] concat 0 0 moveto
 (4) cmr5 4.98132 fshow grestore
-gsave [0.85376 -0.52066 0.52066 0.85376 133.05597 221.43584 ] concat 0 0 moveto
+gsave [0.85376 -0.52066 0.52066 0.85376 133.49873 222.16188 ] concat 0 0 moveto
 (5) cmr5 4.98132 fshow grestore
-gsave [0.79199 -0.61053 0.61053 0.79199 156.37805 205.63164 ] concat 0 0 moveto
+gsave [0.79199 -0.61053 0.61053 0.79199 156.89725 206.30516 ] concat 0 0 moveto
 (6) cmr5 4.98132 fshow grestore
-gsave [0.72087 -0.69307 0.69307 0.72087 177.81996 187.39867 ] concat 0 0 moveto
+gsave [0.72087 -0.69307 0.69307 0.72087 178.40936 188.0117 ] concat 0 0 moveto
 (7) cmr5 4.98132 fshow grestore
-gsave [0.6414 -0.7672 0.7672 0.6414 197.10406 166.99529 ] concat 0 0 moveto
+gsave [0.6414 -0.7672 0.7672 0.6414 197.75648 167.54074 ] concat 0 0 moveto
 (8) cmr5 4.98132 fshow grestore
-gsave [0.55461 -0.8321 0.8321 0.55461 214.01973 144.68416 ] concat 0 0 moveto
+gsave [0.55461 -0.8321 0.8321 0.55461 214.72736 145.1558 ] concat 0 0 moveto
 (9) cmr5 4.98132 fshow grestore
-gsave [0.46156 -0.88712 0.88712 0.46156 227.6054 122.24384 ] concat 0 0 moveto
+gsave [0.46156 -0.88712 0.88712 0.46156 228.3598 122.63635 ] concat 0 0 moveto
 (10) cmr5 4.98132 fshow grestore
-gsave [0.36339 -0.93164 0.93164 0.36339 239.44048 97.03304 ] concat 0 0 moveto
+gsave [0.36339 -0.93164 0.93164 0.36339 240.23274 97.34206 ] concat 0 0 moveto
 (11) cmr5 4.98132 fshow grestore
-gsave [0.26135 -0.96524 0.96524 0.26135 248.46628 70.78793 ] concat 0 0 moveto
+gsave [0.26135 -0.96524 0.96524 0.26135 249.28712 71.0102 ] concat 0 0 moveto
 (12) cmr5 4.98132 fshow grestore
-gsave [0.15677 -0.98764 0.98764 0.15677 254.60744 43.84657 ] concat 0 0 moveto
+gsave [0.15677 -0.98764 0.98764 0.15677 255.44733 43.97989 ] concat 0 0 moveto
 (13) cmr5 4.98132 fshow grestore
-gsave [0.05069 -0.99872 0.99872 0.05069 257.82883 16.48051 ] concat 0 0 moveto
+gsave [0.05069 -0.99872 0.99872 0.05069 258.67815 16.52362 ] concat 0 0 moveto
 (14) cmr5 4.98132 fshow grestore
-gsave [-0.05539 -0.99846 0.99846 -0.05539 258.12143 -10.92395 ] concat 0 0 moveto
+gsave [-0.05539 -0.99846 0.99846 -0.05539 258.97052 -10.97105 ] concat 0 0 moveto
 (15) cmr5 4.98132 fshow grestore
-gsave [-0.16037 -0.98706 0.98706 -0.16037 255.53279 -38.0824 ] concat 0 0 moveto
+gsave [-0.16037 -0.98706 0.98706 -0.16037 256.37218 -38.21877 ] concat 0 0 moveto
 (16) cmr5 4.98132 fshow grestore
-gsave [-0.2631 -0.96477 0.96477 -0.2631 250.12207 -64.69832 ] concat 0 0 moveto
+gsave [-0.2631 -0.96477 0.96477 -0.2631 250.9425 -64.92206 ] concat 0 0 moveto
 (17) cmr5 4.98132 fshow grestore
-gsave [-0.3624 -0.93202 0.93202 -0.3624 241.9995 -90.45882 ] concat 0 0 moveto
+gsave [-0.3624 -0.93202 0.93202 -0.3624 242.7921 -90.767 ] concat 0 0 moveto
 (18) cmr5 4.98132 fshow grestore
-gsave [-0.45714 -0.8894 0.8894 -0.45714 231.31114 -115.07811 ] concat 0 0 moveto
+gsave [-0.45714 -0.8894 0.8894 -0.45714 232.0675 -115.46686 ] concat 0 0 moveto
 (19) cmr5 4.98132 fshow grestore
-gsave [-0.54652 -0.83743 0.83743 -0.54652 218.1883 -138.34555 ] concat 0 0 moveto
+gsave [-0.54652 -0.83743 0.83743 -0.54652 218.90045 -138.8103 ] concat 0 0 moveto
 (20) cmr5 4.98132 fshow grestore
-gsave [-0.62949 -0.77701 0.77701 -0.62949 202.8599 -159.98212 ] concat 0 0 moveto
+gsave [-0.62949 -0.77701 0.77701 -0.62949 203.52068 -160.51744 ] concat 0 0 moveto
 (21) cmr5 4.98132 fshow grestore
-gsave [-0.70534 -0.70886 0.70886 -0.70534 185.51283 -179.80798 ] concat 0 0 moveto
+gsave [-0.70534 -0.70886 0.70886 -0.70534 186.11565 -180.4078 ] concat 0 0 moveto
 (22) cmr5 4.98132 fshow grestore
-gsave [-0.77344 -0.63388 0.63388 -0.77344 166.37355 -197.65457 ] concat 0 0 moveto
+gsave [-0.77344 -0.63388 0.63388 -0.77344 166.91261 -198.3123 ] concat 0 0 moveto
 (23) cmr5 4.98132 fshow grestore
-gsave [-0.83318 -0.55302 0.55302 -0.83318 145.68831 -213.36095 ] concat 0 0 moveto
+gsave [-0.83318 -0.55302 0.55302 -0.83318 146.1586 -214.06949 ] concat 0 0 moveto
 (24) cmr5 4.98132 fshow grestore
-gsave [-0.88412 -0.46725 0.46725 -0.88412 123.70401 -226.81348 ] concat 0 0 moveto
+gsave [-0.88412 -0.46725 0.46725 -0.88412 124.10136 -227.56534 ] concat 0 0 moveto
 (25) cmr5 4.98132 fshow grestore
-gsave [-0.92596 -0.37762 0.37762 -0.92596 100.69153 -237.92584 ] concat 0 0 moveto
+gsave [-0.92596 -0.37762 0.37762 -0.92596 101.01266 -238.71329 ] concat 0 0 moveto
 (26) cmr5 4.98132 fshow grestore
-gsave [-0.95851 -0.28505 0.28505 -0.95851 76.88678 -246.6476 ] concat 0 0 moveto
+gsave [-0.95851 -0.28505 0.28505 -0.95851 77.12918 -247.4627 ] concat 0 0 moveto
 (27) cmr5 4.98132 fshow grestore
-gsave [-0.98166 -0.19067 0.19067 -0.98166 52.58504 -252.9473 ] concat 0 0 moveto
+gsave [-0.98166 -0.19067 0.19067 -0.98166 52.7472 -253.7821 ] concat 0 0 moveto
 (28) cmr5 4.98132 fshow grestore
-gsave [-0.99544 -0.09535 0.09535 -0.99544 28.00714 -256.82993 ] concat 0 0 moveto
+gsave [-0.99544 -0.09535 0.09535 -0.99544 28.08823 -257.67645 ] concat 0 0 moveto
 (29) cmr5 4.98132 fshow grestore
-gsave [-1 0 0 -1 3.3901 -258.33179 ] concat 0 0 moveto
+gsave [-1 0 0 -1 3.3901 -259.18219 ] concat 0 0 moveto
 (30) cmr5 4.98132 fshow grestore
-gsave [-0.99553 0.09439 -0.09439 -0.99553 -21.00922 -257.49681 ] concat 0 0 moveto
+gsave [-0.99553 0.09439 -0.09439 -0.99553 -21.08948 -258.34341 ] concat 0 0 moveto
 (31) cmr5 4.98132 fshow grestore
-gsave [-0.98238 0.1869 -0.1869 -0.98238 -44.95313 -254.4126 ] concat 0 0 moveto
+gsave [-0.98238 0.1869 -0.1869 -0.98238 -45.11208 -255.24802 ] concat 0 0 moveto
 (32) cmr5 4.98132 fshow grestore
-gsave [-0.96094 0.27676 -0.27676 -0.96094 -68.23924 -249.17897 ] concat 0 0 moveto
+gsave [-0.96094 0.27676 -0.27676 -0.96094 -68.47461 -249.99615 ] concat 0 0 moveto
 (33) cmr5 4.98132 fshow grestore
-gsave [-0.93164 0.36339 -0.36339 -0.93164 -90.71632 -241.90431 ] concat 0 0 moveto
+gsave [-0.93164 0.36339 -0.36339 -0.93164 -91.02534 -242.69658 ] concat 0 0 moveto
 (34) cmr5 4.98132 fshow grestore
-gsave [-0.89503 0.44601 -0.44601 -0.89503 -112.18544 -232.72798 ] concat 0 0 moveto
+gsave [-0.89503 0.44601 -0.44601 -0.89503 -112.56474 -233.48912 ] concat 0 0 moveto
 (35) cmr5 4.98132 fshow grestore
-gsave [-0.8517 0.52402 -0.52402 -0.8517 -132.48299 -221.7976 ] concat 0 0 moveto
+gsave [-0.8517 0.52402 -0.52402 -0.8517 -132.9286 -222.5219 ] concat 0 0 moveto
 (36) cmr5 4.98132 fshow grestore
-gsave [-0.80223 0.597 -0.597 -0.80223 -151.50446 -209.26563 ] concat 0 0 moveto
+gsave [-0.80223 0.597 -0.597 -0.80223 -152.01215 -209.94785 ] concat 0 0 moveto
 (37) cmr5 4.98132 fshow grestore
-gsave [-0.74736 0.66443 -0.66443 -0.74736 -169.10942 -195.3194 ] concat 0 0 moveto
+gsave [-0.74736 0.66443 -0.66443 -0.74736 -169.67445 -195.95496 ] concat 0 0 moveto
 (38) cmr5 4.98132 fshow grestore
-gsave [-0.68767 0.72603 -0.72603 -0.68767 -185.22496 -180.10779 ] concat 0 0 moveto
+gsave [-0.68767 0.72603 -0.72603 -0.68767 -185.84238 -180.69258 ] concat 0 0 moveto
 (39) cmr5 4.98132 fshow grestore
-gsave [-0.62381 0.78157 -0.78157 -0.62381 -199.7897 -163.79951 ] concat 0 0 moveto
+gsave [-0.62381 0.78157 -0.78157 -0.62381 -200.45436 -164.33 ] concat 0 0 moveto
 (40) cmr5 4.98132 fshow grestore
-gsave [-0.55661 0.83078 -0.83078 -0.55661 -212.72993 -146.60652 ] concat 0 0 moveto
+gsave [-0.55661 0.83078 -0.83078 -0.55661 -213.43643 -147.07986 ] concat 0 0 moveto
 (41) cmr5 4.98132 fshow grestore
-gsave [-0.48654 0.87366 -0.87366 -0.48654 -224.044 -128.651 ] concat 0 0 moveto
+gsave [-0.48654 0.87366 -0.87366 -0.48654 -224.78696 -129.06476 ] concat 0 0 moveto
 (42) cmr5 4.98132 fshow grestore
-gsave [-0.41443 0.91008 -0.91008 -0.41443 -233.69763 -110.14537 ] concat 0 0 moveto
+gsave [-0.41443 0.91008 -0.91008 -0.41443 -234.47156 -110.4978 ] concat 0 0 moveto
 (43) cmr5 4.98132 fshow grestore
-gsave [-0.34077 0.94014 -0.94014 -0.34077 -241.71274 -91.22008 ] concat 0 0 moveto
+gsave [-0.34077 0.94014 -0.94014 -0.34077 -242.51222 -91.50987 ] concat 0 0 moveto
 (44) cmr5 4.98132 fshow grestore
-gsave [-0.26625 0.9639 -0.9639 -0.26625 -248.1028 -72.04872 ] concat 0 0 moveto
+gsave [-0.26625 0.9639 -0.9639 -0.26625 -248.9225 -72.27513 ] concat 0 0 moveto
 (45) cmr5 4.98132 fshow grestore
-gsave [-0.19142 0.9815 -0.9815 -0.19142 -252.90533 -52.77766 ] concat 0 0 moveto
+gsave [-0.19142 0.9815 -0.9815 -0.19142 -253.74002 -52.94046 ] concat 0 0 moveto
 (46) cmr5 4.98132 fshow grestore
-gsave [-0.11688 0.99315 -0.99315 -0.11688 -256.16566 -33.56131 ] concat 0 0 moveto
+gsave [-0.11688 0.99315 -0.99315 -0.11688 -257.01025 -33.6607 ] concat 0 0 moveto
 (47) cmr5 4.98132 fshow grestore
-gsave [-0.04303 0.99907 -0.99907 -0.04303 -257.94547 -14.50291 ] concat 0 0 moveto
+gsave [-0.04303 0.99907 -0.99907 -0.04303 -258.79507 -14.5395 ] concat 0 0 moveto
 (48) cmr5 4.98132 fshow grestore
-gsave [0.02962 0.99956 -0.99956 0.02962 -258.31789 4.26248 ] concat 0 0 moveto
+gsave [0.02962 0.99956 -0.99956 0.02962 -259.16791 4.28766 ] concat 0 0 moveto
 (49) cmr5 4.98132 fshow grestore
-gsave [0.10059 0.99493 -0.99493 0.10059 -257.3641 22.61162 ] concat 0 0 moveto
+gsave [0.10059 0.99493 -0.99493 0.10059 -258.2102 22.69716 ] concat 0 0 moveto
 (50) cmr5 4.98132 fshow grestore
-gsave [0.16974 0.98549 -0.98549 0.16974 -255.15854 40.50801 ] concat 0 0 moveto
+gsave [0.16974 0.98549 -0.98549 0.16974 -255.9966 40.65236 ] concat 0 0 moveto
 (51) cmr5 4.98132 fshow grestore
-gsave [0.23656 0.97162 -0.97162 0.23656 -251.80193 57.81631 ] concat 0 0 moveto
+gsave [0.23656 0.97162 -0.97162 0.23656 -252.6282 58.01747 ] concat 0 0 moveto
 (52) cmr5 4.98132 fshow grestore
-gsave [0.30081 0.95367 -0.95367 0.30081 -247.38419 74.47618 ] concat 0 0 moveto
+gsave [0.30081 0.95367 -0.95367 0.30081 -248.19519 74.732 ] concat 0 0 moveto
 (53) cmr5 4.98132 fshow grestore
-gsave [0.3624 0.93202 -0.93202 0.3624 -241.9995 90.45882 ] concat 0 0 moveto
+gsave [0.3624 0.93202 -0.93202 0.3624 -242.7921 90.767 ] concat 0 0 moveto
 (54) cmr5 4.98132 fshow grestore
-gsave [0.42096 0.90707 -0.90707 0.42096 -235.75313 105.67213 ] concat 0 0 moveto
+gsave [0.42096 0.90707 -0.90707 0.42096 -236.5245 106.03012 ] concat 0 0 moveto
 (55) cmr5 4.98132 fshow grestore
-gsave [0.47646 0.8792 -0.8792 0.47646 -228.73956 120.10307 ] concat 0 0 moveto
+gsave [0.47646 0.8792 -0.8792 0.47646 -229.48723 120.50826 ] concat 0 0 moveto
 (56) cmr5 4.98132 fshow grestore
-gsave [0.52875 0.84879 -0.84879 0.52875 -221.06076 133.71483 ] concat 0 0 moveto
+gsave [0.52875 0.84879 -0.84879 0.52875 -221.78258 134.16447 ] concat 0 0 moveto
 (57) cmr5 4.98132 fshow grestore
-gsave [0.57785 0.81615 -0.81615 0.57785 -212.79564 146.51028 ] concat 0 0 moveto
+gsave [0.57785 0.81615 -0.81615 0.57785 -213.4897 147.0017 ] concat 0 0 moveto
 (58) cmr5 4.98132 fshow grestore
-gsave [0.62358 0.78175 -0.78175 0.62358 -204.0658 158.44055 ] concat 0 0 moveto
+gsave [0.62358 0.78175 -0.78175 0.62358 -204.73059 158.97084 ] concat 0 0 moveto
 (59) cmr5 4.98132 fshow grestore
-gsave [0.66614 0.74582 -0.74582 0.66614 -194.92705 169.55614 ] concat 0 0 moveto
+gsave [0.66614 0.74582 -0.74582 0.66614 -195.5613 170.12262 ] concat 0 0 moveto
 (60) cmr5 4.98132 fshow grestore
-gsave [0.70541 0.7088 -0.7088 0.70541 -185.49733 179.8279 ] concat 0 0 moveto
+gsave [0.70541 0.7088 -0.7088 0.70541 -186.1001 180.4278 ] concat 0 0 moveto
 (61) cmr5 4.98132 fshow grestore
-gsave [0.74153 0.67091 -0.67091 0.74153 -175.8322 189.28665 ] concat 0 0 moveto
+gsave [0.74153 0.67091 -0.67091 0.74153 -176.40274 189.91725 ] concat 0 0 moveto
 (62) cmr5 4.98132 fshow grestore
-gsave [0.77454 0.63254 -0.63254 0.77454 -166.0304 197.94295 ] concat 0 0 moveto
+gsave [0.77454 0.63254 -0.63254 0.77454 -166.5683 198.60161 ] concat 0 0 moveto
 (63) cmr5 4.98132 fshow grestore
-gsave [0.80452 0.59393 -0.59393 0.80452 -156.1592 205.81952 ] concat 0 0 moveto
+gsave [0.80452 0.59393 -0.59393 0.80452 -156.66429 206.50368 ] concat 0 0 moveto
 (64) cmr5 4.98132 fshow grestore
-gsave [0.83168 0.55525 -0.55525 0.83168 -146.25874 212.96709 ] concat 0 0 moveto
+gsave [0.83168 0.55525 -0.55525 0.83168 -146.73094 213.67435 ] concat 0 0 moveto
 (65) cmr5 4.98132 fshow grestore
-gsave [0.85605 0.51689 -0.51689 0.85605 -136.4316 219.39224 ] concat 0 0 moveto
+gsave [0.85605 0.51689 -0.51689 0.85605 -136.87117 220.12024 ] concat 0 0 moveto
 (66) cmr5 4.98132 fshow grestore
-gsave [0.87782 0.47899 -0.47899 0.87782 -126.7139 225.14572 ] concat 0 0 moveto
+gsave [0.87782 0.47899 -0.47899 0.87782 -127.12123 225.89223 ] concat 0 0 moveto
 (67) cmr5 4.98132 fshow grestore
-gsave [0.89716 0.44171 -0.44171 0.89716 -117.14955 230.26639 ] concat 0 0 moveto
+gsave [0.89716 0.44171 -0.44171 0.89716 -117.52519 231.02934 ] concat 0 0 moveto
 (68) cmr5 4.98132 fshow grestore
-gsave [0.91417 0.40533 -0.40533 0.91417 -107.80992 234.78487 ] concat 0 0 moveto
+gsave [0.91417 0.40533 -0.40533 0.91417 -108.15462 235.56227 ] concat 0 0 moveto
 (69) cmr5 4.98132 fshow grestore
-gsave [0.92908 0.36989 -0.36989 0.92908 -98.70358 238.7562 ] concat 0 0 moveto
+gsave [0.92908 0.36989 -0.36989 0.92908 -99.01814 239.5463 ] concat 0 0 moveto
 (70) cmr5 4.98132 fshow grestore
-gsave [0.97717 0.21245 -0.21245 0.97717 -57.77327 249.77565 ] concat 0 0 moveto
+gsave [0.97717 0.21245 -0.21245 0.97717 -58.37547 252.54558 ] concat 0 0 moveto
 (75) cmr5 4.98132 fshow grestore
-gsave [0.99544 0.09535 -0.09535 0.99544 -27.81793 254.85474 ] concat 0 0 moveto
+gsave [0.99544 0.09535 -0.09535 0.99544 -28.08823 257.67645 ] concat 0 0 moveto
 (80) cmr5 4.98132 fshow grestore
+ 0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
 newpath 0 226.7716 moveto
 0 229.60625 lineto stroke
 newpath 1.42563 226.76814 moveto
@@ -3848,186 +4572,186 @@ gsave [0.30902 0.95105 -0.95105 0.30902 -233.02905 69.02466 ] concat 0 0 moveto
 (0,8) cmr10 9.96265 fshow grestore
 gsave [0.80902 0.58778 -0.58778 0.80902 -147.95436 192.81427 ] concat 0 0 moveto
 (0,9) cmr10 9.96265 fshow grestore
-gsave [0.99803 -0.06279 0.06279 0.99803 13.60336 243.21826 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [0.99211 -0.12534 0.12534 0.99211 28.849 241.88211 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [0.98228 -0.18738 0.18738 0.98228 43.9786 239.5936 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [0.96858 -0.24869 0.24869 0.96858 58.93637 236.35974 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [0.95105 -0.30902 0.30902 0.95105 73.66275 232.19127 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [0.92978 -0.36812 0.36812 0.92978 88.09439 227.11008 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [0.90483 -0.42578 0.42578 0.90483 102.18288 221.13068 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [0.87631 -0.48175 0.48175 0.87631 115.86484 214.27864 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [0.84433 -0.53583 0.53583 0.84433 129.09177 206.57965 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [0.77051 -0.63742 0.63742 0.77051 153.96408 188.76947 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [0.72897 -0.68456 0.68456 0.72897 165.51602 178.73193 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [0.68454 -0.72897 0.72897 0.68454 176.41125 167.98358 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [0.63742 -0.77051 0.77051 0.63742 186.60855 156.57617 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [0.58778 -0.80902 0.80902 0.58778 196.07416 144.55037 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [0.53583 -0.84433 0.84433 0.53583 204.76315 131.95413 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [0.48175 -0.87631 0.87631 0.48175 212.64546 118.83563 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [0.42578 -0.90483 0.90483 0.42578 219.68723 105.25035 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [0.36812 -0.92978 0.92978 0.36812 225.86212 91.24643 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [0.24869 -0.96858 0.96858 0.24869 235.51666 62.21997 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [0.18738 -0.98228 0.98228 0.18738 238.95837 47.30865 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [0.12534 -0.99211 0.99211 0.12534 241.45721 32.21237 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [0.06279 -0.99803 0.99803 0.06279 243.0054 16.98679 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [0 -1 1 0 243.59131 1.69505 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [-0.06279 -0.99803 0.99803 -0.06279 243.21826 -13.60336 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [-0.12534 -0.99211 0.99211 -0.12534 241.88211 -28.849 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [-0.18738 -0.98228 0.98228 -0.18738 239.5936 -43.9786 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [-0.24869 -0.96858 0.96858 -0.24869 236.35974 -58.93637 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [-0.36813 -0.92978 0.92978 -0.36813 227.1101 -88.09811 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [-0.42578 -0.90483 0.90483 -0.42578 221.13068 -102.18288 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [-0.48175 -0.87631 0.87631 -0.48175 214.27864 -115.86484 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [-0.53583 -0.84433 0.84433 -0.53583 206.57965 -129.09177 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [-0.58778 -0.80902 0.80902 -0.58778 198.0668 -141.8077 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [-0.63742 -0.77051 0.77051 -0.63742 188.76947 -153.96408 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [-0.68456 -0.72897 0.72897 -0.68456 178.73193 -165.51602 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [-0.72897 -0.68454 0.68454 -0.72897 167.98358 -176.41125 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [-0.77052 -0.63742 0.63742 -0.77052 156.5762 -186.61226 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [-0.84433 -0.53583 0.53583 -0.84433 131.95413 -204.76315 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [-0.87631 -0.48175 0.48175 -0.87631 118.83563 -212.64546 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [-0.90483 -0.42578 0.42578 -0.90483 105.25035 -219.68723 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [-0.92978 -0.36812 0.36812 -0.92978 91.24643 -225.86212 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [-0.95107 -0.309 0.309 -0.95107 76.88322 -231.1474 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [-0.96858 -0.24869 0.24869 -0.96858 62.21997 -235.51666 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [-0.98228 -0.18738 0.18738 -0.98228 47.30865 -238.95837 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [-0.99211 -0.12534 0.12534 -0.99211 32.21237 -241.45721 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [-0.99803 -0.06279 0.06279 -0.99803 16.98679 -243.0054 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [-0.99803 0.06279 -0.06279 -0.99803 -13.60336 -243.21826 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [-0.99211 0.12534 -0.12534 -0.99211 -28.849 -241.88211 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [-0.98228 0.1874 -0.1874 -0.98228 -43.98233 -239.59363 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [-0.96858 0.2487 -0.2487 -0.96858 -58.94008 -236.35977 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [-0.95105 0.30902 -0.30902 -0.95105 -73.66275 -232.19127 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [-0.92978 0.36813 -0.36813 -0.92978 -88.09811 -227.1101 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [-0.90483 0.42578 -0.42578 -0.90483 -102.18288 -221.13068 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [-0.8763 0.48177 -0.48177 -0.8763 -115.86858 -214.27496 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [-0.84433 0.53583 -0.53583 -0.84433 -129.09177 -206.57965 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [-0.77051 0.63744 -0.63744 -0.77051 -153.9678 -188.7695 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [-0.72896 0.68456 -0.68456 -0.72896 -165.51604 -178.72821 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [-0.68454 0.72897 -0.72897 -0.68454 -176.41125 -167.98358 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [-0.63742 0.77052 -0.77052 -0.63742 -186.61226 -156.5762 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [-0.58778 0.80902 -0.80902 -0.58778 -196.07416 -144.55037 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [-0.53583 0.84433 -0.84433 -0.53583 -204.76315 -131.95413 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [-0.48175 0.87631 -0.87631 -0.48175 -212.64546 -118.83563 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [-0.42577 0.90483 -0.90483 -0.42577 -219.68726 -105.24663 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [-0.36812 0.92978 -0.92978 -0.36812 -225.86212 -91.24643 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [-0.24869 0.96858 -0.96858 -0.24869 -235.51666 -62.21997 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [-0.18738 0.98228 -0.98228 -0.18738 -238.95837 -47.30865 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [-0.12532 0.99211 -0.99211 -0.12532 -241.45724 -32.20865 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [-0.06279 0.99803 -0.99803 -0.06279 -243.0054 -16.98679 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [0.00002 1 -1 0.00002 -243.59134 -1.69135 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [0.0628 0.99803 -0.99803 0.0628 -243.21829 13.60707 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [0.12534 0.99211 -0.99211 0.12534 -241.88211 28.849 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [0.1874 0.98228 -0.98228 0.1874 -239.59363 43.98233 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [0.2487 0.96858 -0.96858 0.2487 -236.35977 58.94008 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [0.36813 0.92978 -0.92978 0.36813 -227.1101 88.09811 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [0.42578 0.90483 -0.90483 0.42578 -221.13068 102.18288 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [0.48177 0.8763 -0.8763 0.48177 -214.27496 115.86858 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [0.53583 0.84433 -0.84433 0.53583 -206.57965 129.09177 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [0.5878 0.809 -0.809 0.5878 -198.06313 141.81143 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [0.63744 0.77051 -0.77051 0.63744 -188.7695 153.9678 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [0.68456 0.72896 -0.72896 0.68456 -178.72821 165.51604 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [0.72897 0.68454 -0.68454 0.72897 -167.98358 176.41125 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [0.77052 0.63742 -0.63742 0.77052 -156.5762 186.61226 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
-gsave [0.84433 0.53581 -0.53581 0.84433 -131.95042 204.76317 ] concat 0 0 moveto
-(1) cmr5 4.98132 fshow grestore
-gsave [0.87631 0.48175 -0.48175 0.87631 -118.83563 212.64546 ] concat 0 0 moveto
-(2) cmr5 4.98132 fshow grestore
-gsave [0.90483 0.42577 -0.42577 0.90483 -105.24663 219.68726 ] concat 0 0 moveto
-(3) cmr5 4.98132 fshow grestore
-gsave [0.92978 0.36812 -0.36812 0.92978 -91.24643 225.86212 ] concat 0 0 moveto
-(4) cmr5 4.98132 fshow grestore
-gsave [0.95107 0.309 -0.309 0.95107 -76.88322 231.1474 ] concat 0 0 moveto
-(5) cmr5 4.98132 fshow grestore
-gsave [0.96858 0.24867 -0.24867 0.96858 -62.21626 235.5167 ] concat 0 0 moveto
-(6) cmr5 4.98132 fshow grestore
-gsave [0.98228 0.18738 -0.18738 0.98228 -47.30865 238.95837 ] concat 0 0 moveto
-(7) cmr5 4.98132 fshow grestore
-gsave [0.99211 0.12532 -0.12532 0.99211 -32.20865 241.45724 ] concat 0 0 moveto
-(8) cmr5 4.98132 fshow grestore
-gsave [0.99803 0.06277 -0.06277 0.99803 -16.98308 243.00543 ] concat 0 0 moveto
-(9) cmr5 4.98132 fshow grestore
+gsave [0.99802 -0.06277 0.06277 0.99802 13.27306 242.59573 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.9921 -0.12532 0.12532 0.9921 28.48027 241.28156 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.98227 -0.18736 0.18736 0.98227 43.57289 239.01736 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.96857 -0.24867 0.24867 0.96857 58.49527 235.81012 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0.95103 -0.309 0.309 0.95103 73.18802 231.67046 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.92976 -0.3681 0.3681 0.92976 87.58789 226.62007 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.90482 -0.42577 0.42577 0.90482 101.6466 220.67343 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [0.8763 -0.48174 0.48174 0.8763 115.3009 213.85599 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [0.84431 -0.53581 0.53581 0.84431 128.50241 206.19325 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [0.7705 -0.6374 0.6374 0.7705 153.33096 188.45998 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.72896 -0.68454 0.68454 0.72896 164.86469 178.4628 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.68452 -0.72896 0.72896 0.68452 175.74432 167.7559 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.6374 -0.7705 0.7705 0.6374 185.92863 156.39081 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0.58777 -0.809 0.809 0.58777 195.38394 144.40805 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.53581 -0.84431 0.84431 0.53581 204.06535 131.85544 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.48174 -0.8763 0.8763 0.48174 211.94284 118.78094 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [0.42577 -0.90482 0.90482 0.42577 218.98257 105.2399 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [0.3681 -0.92976 0.92976 0.3681 225.15819 91.28024 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [0.24867 -0.96857 0.96857 0.24867 234.82254 62.34174 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.18736 -0.98227 0.98227 0.18736 238.27325 47.47377 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.12532 -0.9921 0.9921 0.12532 240.78381 32.42015 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.06277 -0.99802 0.99802 0.06277 242.34637 17.23647 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0 -0.99998 0.99998 0 242.94926 1.98561 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.06277 -0.99802 0.99802 -0.06277 242.59573 -13.27306 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.12532 -0.9921 0.9921 -0.12532 241.28156 -28.48027 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.18736 -0.98227 0.98227 -0.18736 239.01736 -43.57289 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.24867 -0.96857 0.96857 -0.24867 235.81012 -58.49527 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.36812 -0.92976 0.92976 -0.36812 226.6201 -87.5916 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.42577 -0.90482 0.90482 -0.42577 220.67343 -101.6466 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.48174 -0.8763 0.8763 -0.48174 213.85599 -115.3009 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.53581 -0.84431 0.84431 -0.53581 206.19325 -128.50241 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [-0.58777 -0.809 0.809 -0.58777 197.71817 -141.19525 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.6374 -0.7705 0.7705 -0.6374 188.45998 -153.33096 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.68454 -0.72896 0.72896 -0.68454 178.4628 -164.86469 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.72896 -0.68452 0.68452 -0.72896 167.7559 -175.74432 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.77051 -0.6374 0.6374 -0.77051 156.39084 -185.93234 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.84431 -0.53581 0.53581 -0.84431 131.85544 -204.06535 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.8763 -0.48174 0.48174 -0.8763 118.78094 -211.94284 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.90482 -0.42577 0.42577 -0.90482 105.2399 -218.98257 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.92976 -0.3681 0.3681 -0.92976 91.28024 -225.15819 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [-0.95105 -0.30899 0.30899 -0.95105 76.96117 -230.44699 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.96857 -0.24867 0.24867 -0.96857 62.34174 -234.82254 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.98227 -0.18736 0.18736 -0.98227 47.47377 -238.27325 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.9921 -0.12532 0.12532 -0.9921 32.42015 -240.78381 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.99802 -0.06277 0.06277 -0.99802 17.23647 -242.34637 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.99802 0.06277 -0.06277 -0.99802 -13.27306 -242.59573 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.9921 0.12532 -0.12532 -0.9921 -28.48027 -241.28156 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.98227 0.18738 -0.18738 -0.98227 -43.5766 -239.0174 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.96857 0.24869 -0.24869 -0.96857 -58.49898 -235.81015 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [-0.95103 0.309 -0.309 -0.95103 -73.18802 -231.67046 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.92976 0.36812 -0.36812 -0.92976 -87.5916 -226.6201 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.90482 0.42577 -0.42577 -0.90482 -101.6466 -220.67343 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.87628 0.48175 -0.48175 -0.87628 -115.30464 -213.85233 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.84431 0.53581 -0.53581 -0.84431 -128.50241 -206.19325 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.7705 0.63742 -0.63742 -0.7705 -153.33466 -188.46 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.72894 0.68454 -0.68454 -0.72894 -164.86472 -178.45909 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.68452 0.72896 -0.72896 -0.68452 -175.74432 -167.7559 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.6374 0.77051 -0.77051 -0.6374 -185.93234 -156.39084 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [-0.58777 0.809 -0.809 -0.58777 -195.38394 -144.40805 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.53581 0.84431 -0.84431 -0.53581 -204.06535 -131.85544 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.48174 0.8763 -0.8763 -0.48174 -211.94284 -118.78094 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.42575 0.90482 -0.90482 -0.42575 -218.98259 -105.23618 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.3681 0.92976 -0.92976 -0.3681 -225.15819 -91.28024 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.24867 0.96857 -0.96857 -0.24867 -234.82254 -62.34174 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.18736 0.98227 -0.98227 -0.18736 -238.27325 -47.47377 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.1253 0.9921 -0.9921 -0.1253 -240.78384 -32.41644 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.06277 0.99802 -0.99802 -0.06277 -242.34637 -17.23647 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0 0.99998 -0.99998 0 -242.9493 -1.9819 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.06279 0.99802 -0.99802 0.06279 -242.59576 13.27676 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.12532 0.9921 -0.9921 0.12532 -241.28156 28.48027 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [0.18738 0.98227 -0.98227 0.18738 -239.0174 43.5766 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [0.24869 0.96857 -0.96857 0.24869 -235.81015 58.49898 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [0.36812 0.92976 -0.92976 0.36812 -226.6201 87.5916 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.42577 0.90482 -0.90482 0.42577 -220.67343 101.6466 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.48175 0.87628 -0.87628 0.48175 -213.85233 115.30464 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.53581 0.84431 -0.84431 0.53581 -206.19325 128.50241 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0.58778 0.80899 -0.80899 0.58778 -197.71451 141.19897 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.63742 0.7705 -0.7705 0.63742 -188.46 153.33466 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.68454 0.72894 -0.72894 0.68454 -178.45909 164.86472 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [0.72896 0.68452 -0.68452 0.72896 -167.7559 175.74432 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [0.77051 0.6374 -0.6374 0.77051 -156.39084 185.93234 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [0.84431 0.5358 -0.5358 0.84431 -131.85173 204.06538 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.8763 0.48174 -0.48174 0.8763 -118.78094 211.94284 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.90482 0.42575 -0.42575 0.90482 -105.23618 218.98259 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.92976 0.3681 -0.3681 0.92976 -91.28024 225.15819 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0.95105 0.30899 -0.30899 0.95105 -76.96117 230.44699 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.96857 0.24866 -0.24866 0.96857 -62.33803 234.82256 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.98227 0.18736 -0.18736 0.98227 -47.47377 238.27325 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [0.9921 0.1253 -0.1253 0.9921 -32.41644 240.78384 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [0.99802 0.06276 -0.06276 0.99802 -17.23276 242.3464 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
 -2.49065 203.71892 moveto
 (1) cmr10 9.96265 fshow
 gsave [-0.31519 -0.94904 0.94904 -0.31519 194.12154 -61.84555 ] concat 0 0 moveto
@@ -4046,155 +4770,155 @@ gsave [0.82031 0.57191 -0.57191 0.82031 -118.55293 165.68874 ] concat 0 0 moveto
 (8) cmr10 9.96265 fshow grestore
 gsave [0.95897 0.2835 -0.2835 0.95897 -60.14136 194.65407 ] concat 0 0 moveto
 (9) cmr10 9.96265 fshow grestore
-gsave [-0.9619 0.27339 -0.27339 -0.9619 -51.1858 -198.94467 ] concat 0 0 moveto
-(3) cmr7 6.97382 fshow grestore
+gsave [-0.96188 0.27338 -0.27338 -0.96188 -51.1858 -198.94467 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
 gsave [-0.9619 0.27339 -0.27339 -0.9619 -55.0057 -197.85896 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.9619 0.27339 -0.27339 -0.9619 -57.28175 -197.21207 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [-0.5713 0.82074 -0.82074 -0.5713 -165.60243 -121.55338 ] concat 0 0 moveto
-(4) cmr7 6.97382 fshow grestore
+gsave [-0.96188 0.27338 -0.27338 -0.96188 -57.28175 -197.21207 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.57129 0.82072 -0.82072 -0.57129 -165.60243 -121.55338 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
 gsave [-0.5713 0.82074 -0.82074 -0.5713 -167.8712 -118.29405 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.5713 0.82074 -0.82074 -0.5713 -169.22302 -116.35202 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [-0.06047 0.99817 -0.99817 -0.06047 -204.67229 -17.5631 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
+gsave [-0.57129 0.82072 -0.82072 -0.57129 -169.22302 -116.35202 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.06046 0.99815 -0.99815 -0.06046 -204.67229 -17.5631 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
 gsave [-0.06047 0.99817 -0.99817 -0.06047 -204.91241 -13.59917 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.06047 0.99817 -0.99817 -0.06047 -205.05551 -11.2373 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.38513 0.92287 -0.92287 0.38513 -191.50499 74.33394 ] concat 0 0 moveto
-(6) cmr7 6.97382 fshow grestore
+gsave [-0.06046 0.99815 -0.99815 -0.06046 -205.05551 -11.2373 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.38512 0.92285 -0.92285 0.38512 -191.50499 74.33394 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
 gsave [0.38513 0.92287 -0.92287 0.38513 -189.97556 77.99884 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.38513 0.92287 -0.92287 0.38513 -189.06425 80.18251 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.70741 0.70679 -0.70679 0.70741 -148.792 141.63127 ] concat 0 0 moveto
-(7) cmr7 6.97382 fshow grestore
+gsave [0.38512 0.92285 -0.92285 0.38512 -189.06425 80.18251 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.7074 0.70677 -0.70677 0.7074 -148.792 141.63127 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
 gsave [0.70741 0.70679 -0.70679 0.70741 -145.98273 144.43806 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.70741 0.70679 -0.70679 0.70741 -144.30885 146.11046 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.90329 0.42903 -0.42903 0.90329 -92.7617 183.28822 ] concat 0 0 moveto
-(8) cmr7 6.97382 fshow grestore
+gsave [0.7074 0.70677 -0.70677 0.7074 -144.30885 146.11046 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.90327 0.42902 -0.42902 0.90327 -92.7617 183.28822 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
 gsave [0.90329 0.42903 -0.42903 0.90329 -89.17456 184.99199 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.90329 0.42903 -0.42903 0.90329 -87.0372 186.00716 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.99023 0.13945 -0.13945 0.99023 -33.74142 202.63574 ] concat 0 0 moveto
-(9) cmr7 6.97382 fshow grestore
+gsave [0.90327 0.42902 -0.42902 0.90327 -87.0372 186.00716 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.99022 0.13943 -0.13943 0.99022 -33.74142 202.63574 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
 gsave [0.99023 0.13945 -0.13945 0.99023 -29.809 203.18953 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.99023 0.13945 -0.13945 0.99023 -27.46591 203.51949 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.96637 -0.25717 0.25717 0.96637 47.8318 199.77919 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.99022 0.13943 -0.13943 0.99022 -27.46591 203.51949 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.96635 -0.25716 0.25716 0.96635 47.8318 199.77919 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.96637 -0.25717 0.25717 0.96637 51.66946 198.7579 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.96637 -0.25717 0.25717 0.96637 53.95607 198.14938 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
-gsave [0.87877 -0.47723 0.47723 0.87877 93.47531 182.92378 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.96635 -0.25716 0.25716 0.96635 53.95607 198.14938 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.87875 -0.47722 0.47722 0.87875 93.47531 182.92378 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.87877 -0.47723 0.47723 0.87877 96.96509 181.02858 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.87877 -0.47723 0.47723 0.87877 99.04442 179.89935 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
-gsave [0.75447 -0.65633 0.65633 0.75447 130.8944 158.32101 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.87875 -0.47722 0.47722 0.87875 99.04442 179.89935 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.75446 -0.65631 0.65631 0.75446 130.8944 158.32101 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.75447 -0.65633 0.65633 0.75447 133.89055 155.7146 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.75447 -0.65633 0.65633 0.75447 135.67578 154.1616 ] concat 0 0 moveto
-(3) cmr7 6.97382 fshow grestore
-gsave [0.6073 -0.79448 0.79448 0.6073 160.02408 128.81006 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.75446 -0.65631 0.65631 0.75446 135.67578 154.1616 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.60728 -0.79446 0.79446 0.60728 160.02408 128.81006 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.6073 -0.79448 0.79448 0.6073 162.43579 125.65501 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.6073 -0.79448 0.79448 0.6073 163.87279 123.77512 ] concat 0 0 moveto
-(4) cmr7 6.97382 fshow grestore
-gsave [0.44786 -0.8941 0.8941 0.44786 181.30478 96.58115 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.60728 -0.79446 0.79446 0.60728 163.87279 123.77512 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0.44785 -0.89409 0.89409 0.44785 181.30478 96.58115 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.44786 -0.8941 0.8941 0.44786 183.08333 93.03047 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.44786 -0.8941 0.8941 0.44786 184.14305 90.91486 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.28427 -0.95874 0.95874 0.28427 195.42166 63.31958 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.44785 -0.89409 0.89409 0.44785 184.14305 90.91486 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.28426 -0.95872 0.95872 0.28426 195.42166 63.31958 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.28427 -0.95874 0.95874 0.28427 196.55057 59.51222 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.28427 -0.95874 0.95874 0.28427 197.2232 57.24365 ] concat 0 0 moveto
-(6) cmr7 6.97382 fshow grestore
-gsave [0.12253 -0.99246 0.99246 0.12253 203.18047 30.27782 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.28426 -0.95872 0.95872 0.28426 197.2232 57.24365 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.12251 -0.99245 0.99245 0.12251 203.18047 30.27782 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.12253 -0.99246 0.99246 0.12253 203.66705 26.33655 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.12253 -0.99246 0.99246 0.12253 203.95697 23.98817 ] concat 0 0 moveto
-(7) cmr7 6.97382 fshow grestore
-gsave [-0.03314 -0.99945 0.99945 -0.03314 205.418 -1.6546 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.12251 -0.99245 0.99245 0.12251 203.95697 23.98817 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.03313 -0.99944 0.99944 -0.03313 205.418 -1.6546 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [-0.03314 -0.99945 0.99945 -0.03314 205.28639 -5.62363 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.03314 -0.99945 0.99945 -0.03314 205.20796 -7.98851 ] concat 0 0 moveto
-(8) cmr7 6.97382 fshow grestore
-gsave [-0.17969 -0.98372 0.98372 -0.17969 202.94266 -31.83025 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [-0.03313 -0.99944 0.99944 -0.03313 205.20796 -7.98851 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.17967 -0.9837 0.9837 -0.17967 202.94266 -31.83025 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [-0.17969 -0.98372 0.98372 -0.17969 202.22908 -35.73679 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.17969 -0.98372 0.98372 -0.17969 201.80391 -38.06447 ] concat 0 0 moveto
-(9) cmr7 6.97382 fshow grestore
-gsave [-0.43839 -0.89879 0.89879 -0.43839 186.83475 -85.39412 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.17967 -0.9837 0.9837 -0.17967 201.80391 -38.06447 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.43837 -0.89877 0.89877 -0.43837 186.83475 -85.39412 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.43839 -0.89879 0.89879 -0.43839 185.09383 -88.9634 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.43839 -0.89879 0.89879 -0.43839 184.05652 -91.0901 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
-gsave [-0.54863 -0.83606 0.83606 -0.54863 174.521 -108.35732 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.43837 -0.89877 0.89877 -0.43837 184.05652 -91.0901 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.54861 -0.83604 0.83604 -0.54861 174.521 -108.35732 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.54863 -0.83606 0.83606 -0.54863 172.34227 -111.67747 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.54863 -0.83606 0.83606 -0.54863 171.0441 -113.65576 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
-gsave [-0.64577 -0.76353 0.76353 -0.64577 160.12791 -128.67926 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.54861 -0.83604 0.83604 -0.54861 171.0441 -113.65576 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.64575 -0.76352 0.76352 -0.64575 160.12791 -128.67926 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.64577 -0.76353 0.76353 -0.64577 157.56345 -131.71141 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.64577 -0.76353 0.76353 -0.64577 156.03543 -133.51808 ] concat 0 0 moveto
-(3) cmr7 6.97382 fshow grestore
-gsave [-0.72989 -0.68356 0.68356 -0.72989 144.13861 -146.3667 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.64575 -0.76352 0.76352 -0.64575 156.03543 -133.51808 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.72987 -0.68355 0.68355 -0.72987 144.13861 -146.3667 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.72989 -0.68356 0.68356 -0.72989 141.24007 -149.08127 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.72989 -0.68356 0.68356 -0.72989 139.513 -150.69872 ] concat 0 0 moveto
-(4) cmr7 6.97382 fshow grestore
-gsave [-0.80136 -0.59819 0.59819 -0.80136 126.9748 -161.48425 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.72987 -0.68355 0.68355 -0.72987 139.513 -150.69872 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [-0.80135 -0.59818 0.59818 -0.80135 126.9748 -161.48425 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.80136 -0.59819 0.59819 -0.80136 123.79243 -163.85979 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.80136 -0.59819 0.59819 -0.80136 121.89626 -165.27522 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [-0.86067 -0.50916 0.50916 -0.86067 108.99628 -174.12325 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.80135 -0.59818 0.59818 -0.80135 121.89626 -165.27522 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.86066 -0.50914 0.50914 -0.86066 108.99628 -174.12325 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.86067 -0.50916 0.50916 -0.86067 105.57837 -176.14522 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.86067 -0.50916 0.50916 -0.86067 103.54185 -177.34998 ] concat 0 0 moveto
-(6) cmr7 6.97382 fshow grestore
-gsave [-0.9454 -0.32591 0.32591 -0.9454 71.80228 -192.4683 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.86066 -0.50914 0.50914 -0.86066 103.54185 -177.34998 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.94539 -0.3259 0.3259 -0.94539 71.80228 -192.4683 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.9454 -0.32591 0.32591 -0.9454 68.04788 -193.76257 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.9454 -0.32591 0.32591 -0.9454 65.81087 -194.53375 ] concat 0 0 moveto
-(8) cmr7 6.97382 fshow grestore
-gsave [-0.97223 -0.23404 0.23404 -0.97223 53.07347 -198.45062 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.94539 -0.3259 0.3259 -0.94539 65.81087 -194.53375 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.97221 -0.23402 0.23402 -0.97221 53.07347 -198.45062 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.97223 -0.23404 0.23404 -0.97223 49.21255 -199.38005 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.97223 -0.23404 0.23404 -0.97223 46.91206 -199.93382 ] concat 0 0 moveto
-(9) cmr7 6.97382 fshow grestore
+gsave [-0.97221 -0.23402 0.23402 -0.97221 46.91206 -199.93382 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
 gsave [-0.99983 -0.01787 0.01787 -0.99983 6.67996 -204.69914 ] concat 0 0 moveto
 (\031) cmmi10 9.9627 fshow grestore
 gsave [-0.91599 -0.40117 0.40117 -0.91599 84.53348 -186.4659 ] concat 0 0 moveto
 (e) cmbx10 9.96266 fshow grestore
- 0.66667 0.66667 0.66667 setrgbcolor
+ 0.33333 0.33333 0.33333 setrgbcolor
 newpath 187.08664 0 moveto
 187.08664 49.62067 167.37198 97.20306 132.28752 132.28752 curveto
 97.20306 167.37198 49.62067 187.08664 0 187.08664 curveto
@@ -6156,150 +6880,150 @@ gsave [0.82031 0.57191 -0.57191 0.82031 -95.85652 133.13466 ] concat 0 0 moveto
 (8) cmr10 9.96265 fshow grestore
 gsave [0.95897 0.2835 -0.2835 0.95897 -48.89095 156.5974 ] concat 0 0 moveto
 (9) cmr10 9.96265 fshow grestore
-gsave [-0.9619 0.27339 -0.27339 -0.9619 -40.33627 -160.77174 ] concat 0 0 moveto
-(3) cmr7 6.97382 fshow grestore
+gsave [-0.96188 0.27338 -0.27338 -0.96188 -40.33627 -160.77174 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
 gsave [-0.9619 0.27339 -0.27339 -0.9619 -44.15617 -159.68604 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.9619 0.27339 -0.27339 -0.9619 -46.43222 -159.03914 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [-0.5713 0.82074 -0.82074 -0.5713 -133.0314 -98.88118 ] concat 0 0 moveto
-(4) cmr7 6.97382 fshow grestore
+gsave [-0.96188 0.27338 -0.27338 -0.96188 -46.43222 -159.03914 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.57129 0.82072 -0.82072 -0.57129 -133.0314 -98.88118 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
 gsave [-0.5713 0.82074 -0.82074 -0.5713 -135.30017 -95.62186 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.5713 0.82074 -0.82074 -0.5713 -136.652 -93.67982 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [-0.06047 0.99817 -0.99817 -0.06047 -165.05998 -15.16333 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
+gsave [-0.57129 0.82072 -0.82072 -0.57129 -136.652 -93.67982 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.06046 0.99815 -0.99815 -0.06046 -165.05998 -15.16333 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
 gsave [-0.06047 0.99817 -0.99817 -0.06047 -165.30011 -11.1994 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.06047 0.99817 -0.99817 -0.06047 -165.4432 -8.83754 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.38513 0.92287 -0.92287 0.38513 -154.88106 59.04999 ] concat 0 0 moveto
-(6) cmr7 6.97382 fshow grestore
+gsave [-0.06046 0.99815 -0.99815 -0.06046 -165.4432 -8.83754 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.38512 0.92285 -0.92285 0.38512 -154.88106 59.04999 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
 gsave [0.38513 0.92287 -0.92287 0.38513 -153.35162 62.71489 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.38513 0.92287 -0.92287 0.38513 -152.44032 64.89856 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.70741 0.70679 -0.70679 0.70741 -120.74318 113.55762 ] concat 0 0 moveto
-(7) cmr7 6.97382 fshow grestore
+gsave [0.38512 0.92285 -0.92285 0.38512 -152.44032 64.89856 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.7074 0.70677 -0.70677 0.7074 -120.74318 113.55762 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
 gsave [0.70741 0.70679 -0.70679 0.70741 -117.9339 116.36441 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.70741 0.70679 -0.70679 0.70741 -116.26003 118.0368 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.90329 0.42903 -0.42903 0.90329 -75.73561 147.44121 ] concat 0 0 moveto
-(8) cmr7 6.97382 fshow grestore
+gsave [0.7074 0.70677 -0.70677 0.7074 -116.26003 118.0368 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.90327 0.42902 -0.42902 0.90327 -75.73561 147.44121 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
 gsave [0.90329 0.42903 -0.42903 0.90329 -72.14847 149.14497 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.90329 0.42903 -0.42903 0.90329 -70.01111 150.16014 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.99023 0.13945 -0.13945 0.99023 -28.20735 163.33833 ] concat 0 0 moveto
-(9) cmr7 6.97382 fshow grestore
+gsave [0.90327 0.42902 -0.42902 0.90327 -70.01111 150.16014 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.99022 0.13943 -0.13943 0.99022 -28.20735 163.33833 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
 gsave [0.99023 0.13945 -0.13945 0.99023 -24.27493 163.89212 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.99023 0.13945 -0.13945 0.99023 -21.93184 164.22208 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.96637 -0.25717 0.25717 0.96637 37.62596 161.42885 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.99022 0.13943 -0.13943 0.99022 -21.93184 164.22208 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.96635 -0.25716 0.25716 0.96635 37.62596 161.42885 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.96637 -0.25717 0.25717 0.96637 41.46362 160.40756 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.96637 -0.25717 0.25717 0.96637 43.75023 159.79904 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
-gsave [0.87877 -0.47723 0.47723 0.87877 74.5363 148.04987 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.96635 -0.25716 0.25716 0.96635 43.75023 159.79904 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [0.87875 -0.47722 0.47722 0.87875 74.5363 148.04987 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.87877 -0.47723 0.47723 0.87877 78.02608 146.15466 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.87877 -0.47723 0.47723 0.87877 80.10541 145.02544 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
-gsave [0.75447 -0.65633 0.65633 0.75447 104.84811 128.37987 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.87875 -0.47722 0.47722 0.87875 80.10541 145.02544 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [0.75446 -0.65631 0.65631 0.75446 104.84811 128.37987 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.75447 -0.65633 0.65633 0.75447 107.84427 125.77345 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.75447 -0.65633 0.65633 0.75447 109.6295 124.22046 ] concat 0 0 moveto
-(3) cmr7 6.97382 fshow grestore
-gsave [0.6073 -0.79448 0.79448 0.6073 128.49518 104.70938 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.75446 -0.65631 0.65631 0.75446 109.6295 124.22046 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [0.60728 -0.79446 0.79446 0.60728 128.49518 104.70938 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.6073 -0.79448 0.79448 0.6073 130.90689 101.55434 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.6073 -0.79448 0.79448 0.6073 132.34389 99.67444 ] concat 0 0 moveto
-(4) cmr7 6.97382 fshow grestore
-gsave [0.44786 -0.8941 0.8941 0.44786 145.8223 78.8078 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.60728 -0.79446 0.79446 0.60728 132.34389 99.67444 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [0.44785 -0.89409 0.89409 0.44785 145.8223 78.8078 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.44786 -0.8941 0.8941 0.44786 147.60085 75.25713 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.44786 -0.8941 0.8941 0.44786 148.66057 73.14151 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [0.28427 -0.95874 0.95874 0.28427 157.37408 52.03828 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.44785 -0.89409 0.89409 0.44785 148.66057 73.14151 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [0.28426 -0.95872 0.95872 0.28426 157.37408 52.03828 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.28427 -0.95874 0.95874 0.28427 158.50299 48.23093 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.28427 -0.95874 0.95874 0.28427 159.17563 45.96236 ] concat 0 0 moveto
-(6) cmr7 6.97382 fshow grestore
-gsave [0.12253 -0.99246 0.99246 0.12253 163.79463 25.4153 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.28426 -0.95872 0.95872 0.28426 159.17563 45.96236 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [0.12251 -0.99245 0.99245 0.12251 163.79463 25.4153 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [0.12253 -0.99246 0.99246 0.12253 164.28122 21.47403 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [0.12253 -0.99246 0.99246 0.12253 164.57114 19.12566 ] concat 0 0 moveto
-(7) cmr7 6.97382 fshow grestore
-gsave [-0.03314 -0.99945 0.99945 -0.03314 165.75482 -0.33936 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [0.12251 -0.99245 0.99245 0.12251 164.57114 19.12566 ] concat 0 0 moveto
+(7) cmr7 6.97388 fshow grestore
+gsave [-0.03313 -0.99944 0.99944 -0.03313 165.75482 -0.33936 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [-0.03314 -0.99945 0.99945 -0.03314 165.62321 -4.30838 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.03314 -0.99945 0.99945 -0.03314 165.54478 -6.67326 ] concat 0 0 moveto
-(8) cmr7 6.97382 fshow grestore
-gsave [-0.17969 -0.98372 0.98372 -0.17969 163.9038 -24.69936 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
+gsave [-0.03313 -0.99944 0.99944 -0.03313 165.54478 -6.67326 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.17967 -0.9837 0.9837 -0.17967 163.9038 -24.69936 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
 gsave [-0.17969 -0.98372 0.98372 -0.17969 163.19022 -28.6059 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.17969 -0.98372 0.98372 -0.17969 162.76505 -30.93358 ] concat 0 0 moveto
-(9) cmr7 6.97382 fshow grestore
-gsave [-0.43839 -0.89879 0.89879 -0.43839 151.16637 -67.99683 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.17967 -0.9837 0.9837 -0.17967 162.76505 -30.93358 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
+gsave [-0.43837 -0.89877 0.89877 -0.43837 151.16637 -67.99683 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.43839 -0.89879 0.89879 -0.43839 149.42545 -71.5661 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.43839 -0.89879 0.89879 -0.43839 148.38814 -73.69281 ] concat 0 0 moveto
-(1) cmr7 6.97382 fshow grestore
-gsave [-0.54863 -0.83606 0.83606 -0.54863 141.342 -86.58496 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.43837 -0.89877 0.89877 -0.43837 148.38814 -73.69281 ] concat 0 0 moveto
+(1) cmr7 6.97388 fshow grestore
+gsave [-0.54861 -0.83604 0.83604 -0.54861 141.342 -86.58496 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.54863 -0.83606 0.83606 -0.54863 139.16327 -89.90512 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.54863 -0.83606 0.83606 -0.54863 137.8651 -91.8834 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
-gsave [-0.64577 -0.76353 0.76353 -0.64577 129.82707 -103.05202 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.54861 -0.83604 0.83604 -0.54861 137.8651 -91.8834 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
+gsave [-0.64575 -0.76352 0.76352 -0.64575 129.82707 -103.05202 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.64577 -0.76353 0.76353 -0.64577 127.2626 -106.08417 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.64577 -0.76353 0.76353 -0.64577 125.73459 -107.89084 ] concat 0 0 moveto
-(3) cmr7 6.97382 fshow grestore
-gsave [-0.72989 -0.68356 0.68356 -0.72989 117.01143 -117.40108 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.64575 -0.76352 0.76352 -0.64575 125.73459 -107.89084 ] concat 0 0 moveto
+(3) cmr7 6.97388 fshow grestore
+gsave [-0.72987 -0.68355 0.68355 -0.72987 117.01143 -117.40108 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.72989 -0.68356 0.68356 -0.72989 114.11288 -120.11565 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.72989 -0.68356 0.68356 -0.72989 112.38582 -121.7331 ] concat 0 0 moveto
-(4) cmr7 6.97382 fshow grestore
-gsave [-0.80136 -0.59819 0.59819 -0.80136 103.23564 -129.68227 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.72987 -0.68355 0.68355 -0.72987 112.38582 -121.7331 ] concat 0 0 moveto
+(4) cmr7 6.97388 fshow grestore
+gsave [-0.80135 -0.59818 0.59818 -0.80135 103.23564 -129.68227 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.80136 -0.59819 0.59819 -0.80136 100.05328 -132.0578 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.80136 -0.59819 0.59819 -0.80136 98.1571 -133.47324 ] concat 0 0 moveto
-(5) cmr7 6.97382 fshow grestore
-gsave [-0.86067 -0.50916 0.50916 -0.86067 88.79047 -139.96751 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.80135 -0.59818 0.59818 -0.80135 98.1571 -133.47324 ] concat 0 0 moveto
+(5) cmr7 6.97388 fshow grestore
+gsave [-0.86066 -0.50914 0.50914 -0.86066 88.79047 -139.96751 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.86067 -0.50916 0.50916 -0.86067 85.37256 -141.98949 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.86067 -0.50916 0.50916 -0.86067 83.33604 -143.19424 ] concat 0 0 moveto
-(6) cmr7 6.97382 fshow grestore
-gsave [-0.9454 -0.32591 0.32591 -0.9454 58.86845 -154.94997 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.86066 -0.50914 0.50914 -0.86066 83.33604 -143.19424 ] concat 0 0 moveto
+(6) cmr7 6.97388 fshow grestore
+gsave [-0.94539 -0.3259 0.3259 -0.94539 58.86845 -154.94997 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.9454 -0.32591 0.32591 -0.9454 55.11406 -156.24423 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.9454 -0.32591 0.32591 -0.9454 52.87704 -157.01541 ] concat 0 0 moveto
-(8) cmr7 6.97382 fshow grestore
-gsave [-0.97223 -0.23404 0.23404 -0.97223 43.78563 -159.86775 ] concat 0 0 moveto
-(2) cmr7 6.97382 fshow grestore
+gsave [-0.94539 -0.3259 0.3259 -0.94539 52.87704 -157.01541 ] concat 0 0 moveto
+(8) cmr7 6.97388 fshow grestore
+gsave [-0.97221 -0.23402 0.23402 -0.97221 43.78563 -159.86775 ] concat 0 0 moveto
+(2) cmr7 6.97388 fshow grestore
 gsave [-0.97223 -0.23404 0.23404 -0.97223 39.92471 -160.79718 ] concat 0 0 moveto
 (;) cmmi7 6.97382 fshow grestore
-gsave [-0.97223 -0.23404 0.23404 -0.97223 37.62422 -161.35095 ] concat 0 0 moveto
-(9) cmr7 6.97382 fshow grestore
+gsave [-0.97221 -0.23402 0.23402 -0.97221 37.62422 -161.35095 ] concat 0 0 moveto
+(9) cmr7 6.97388 fshow grestore
 gsave [-0.99983 -0.01787 0.01787 -0.99983 5.97026 -165.02023 ] concat 0 0 moveto
 (\031) cmmi10 9.9627 fshow grestore
 gsave [-0.91599 -0.40117 0.40117 -0.91599 68.6125 -150.11446 ] concat 0 0 moveto
