@@ -2,14 +2,14 @@
 %%BoundingBox: -270 -270 270 270 
 %%HiResBoundingBox: -269.39084 -269.39084 269.39084 269.39084 
 %%Creator: MetaPost 2.11
-%%CreationDate: 2025.06.16:0752
+%%CreationDate: 2025.06.16:0953
 %%Pages: 1
 %*Font: cmr5 4.98132 4.98132 30:ffc
 %*Font: cmr10 9.96265 9.96265 2c:8ffc
 %*Font: cmr7 6.97388 6.97385 31:ff8
 %*Font: cmmi7 6.97382 6.97385 3b:8
-%*Font: cmbx10 9.96266 9.96265 65:8
 %*Font: cmmi10 9.9627 9.96265 19:8
+%*Font: cmbx10 9.96266 9.96265 65:8
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
@@ -4922,10 +4922,10 @@ gsave [-0.97223 -0.23404 0.23404 -0.97223 49.21255 -199.38005 ] concat 0 0 movet
 (;) cmmi7 6.97382 fshow grestore
 gsave [-0.97221 -0.23402 0.23402 -0.97221 46.91206 -199.93382 ] concat 0 0 moveto
 (9) cmr7 6.97388 fshow grestore
+gsave [-0.99983 -0.01787 0.01787 -0.99983 6.67996 -204.69914 ] concat 0 0 moveto
+(\031) cmmi10 9.9627 fshow grestore
 gsave [-0.91599 -0.40117 0.40117 -0.91599 84.53348 -186.4659 ] concat 0 0 moveto
 (e) cmbx10 9.96266 fshow grestore
-newpath -1.41733 187.08664 moveto
-1.41733 187.08664 lineto stroke
  0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
 newpath 0 187.08664 moveto
 0 184.252 lineto stroke

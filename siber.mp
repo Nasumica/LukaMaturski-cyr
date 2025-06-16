@@ -38,7 +38,6 @@ beginfig(10);
     draw fullcircle scaled 2q;
     draw fullcircle scaled 2r;
     fill fullcircle scaled 0.5mm;
-    % dotlabel("", origin);
 
     pair p;
     numeric ang;
@@ -124,9 +123,6 @@ beginfig(10);
     draw (p scaled r) - (p scaled 2mm) -- (p scaled r) - (p scaled 4mm);
 
 
-    % p := mmdir(0);
-    % ang := mmang(0);
-    % draw thelabel("0", origin) rotated ang shifted (p scaled 86.5mm);
     for i := 0 upto 9:
         p := mmdir(10i);
         ang := mmang(10i);
@@ -165,7 +161,7 @@ beginfig(10);
     endfor;
 
     p := logdir(pi); ang := log(pi);
-    % draw fullcircle scaled 2r withcolor 1/3white;
+    draw thelabel(TEX( "$\pi$" ), origin) rotated ang shifted (p scaled s);
     p := logdir(ee); ang := log(ee);
     draw thelabel(TEX( "${\bf e}$" ), origin) rotated ang shifted (p scaled s);
 
@@ -174,7 +170,7 @@ beginfig(10);
     r := r-14mm;
     % draw fullcircle scaled 2r withcolor 1/3white;
     p := logdir(1);
-    draw p scaled r - (.5mm,0) -- p scaled r + (.5mm,0);
+    % draw p scaled r - (.5mm,0) -- p scaled r + (.5mm,0);
     
     for i := 100 upto 299:
         p := logdir(i/100);
