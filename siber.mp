@@ -165,14 +165,16 @@ beginfig(10);
     endfor;
 
     p := logdir(pi); ang := log(pi);
-    draw thelabel(TEX( "$\pi$" ), origin) rotated ang shifted (p scaled s);
+    % draw fullcircle scaled 2r withcolor 1/3white;
     p := logdir(ee); ang := log(ee);
     draw thelabel(TEX( "${\bf e}$" ), origin) rotated ang shifted (p scaled s);
 
 
 
     r := r-14mm;
-    draw fullcircle scaled 2r withcolor 1/3white;
+    % draw fullcircle scaled 2r withcolor 1/3white;
+    p := logdir(1);
+    draw p scaled r - (.5mm,0) -- p scaled r + (.5mm,0);
     
     for i := 100 upto 299:
         p := logdir(i/100);
