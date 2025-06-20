@@ -34,7 +34,7 @@ beginfig(11);
 
     pickup pencircle scaled 0.2pt;
 
-    draw (0,10mm) -- (qq-0.5mm, 3.5mm) -- (qq, 0);
+    draw (0,1/2in) -- (qq-0.5mm, 1/4in) -- (qq, 0);
     addto currentpicture also currentpicture reflectedabout (left, right);
     draw (rr,0) -- (qq-1mm, 0);
     addto currentpicture also currentpicture reflectedabout (up, down);
@@ -262,7 +262,7 @@ beginfig(10);
     p := logdir(ee); ang := log(ee);
     draw thelabel(TEX( "${\bf e}$" ), origin) rotated ang shifted (p scaled s);
 
-    numeric l; l=pi * ee * mm;
+    numeric l; l=5mm;
     draw (2l,0)--(0,2l)--(-2l,0)--(0,-2l)--(2l,0)--(-2l,0);
     draw (-l,0)--(-l,-l)--(l,-l);
     draw (0,2l)--(0,-l)--(l,0);

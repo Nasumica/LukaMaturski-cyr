@@ -1,29 +1,29 @@
 %!PS
-%%BoundingBox: -270 -29 270 29 
-%%HiResBoundingBox: -269.39047 -28.44603 269.39047 28.44603 
+%%BoundingBox: -270 -37 270 37 
+%%HiResBoundingBox: -269.39047 -36.09962 269.39047 36.09962 
 %%Creator: MetaPost 2.11
-%%CreationDate: 2025.06.20:1438
+%%CreationDate: 2025.06.20:1602
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor 0 0.19925 dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
  1 setlinejoin 10 setmiterlimit
-newpath 0 28.3464 moveto
-267.87352 9.92125 lineto
+newpath 0 36 moveto
+267.87352 18 lineto
 269.29085 0 lineto stroke
-gsave newpath 0 -28.3464 moveto
-267.87352 -9.92125 lineto
+gsave newpath 0 -36 moveto
+267.87352 -18 lineto
 269.29085 0 lineto
 1 -1 scale stroke grestore
 newpath 175.74771 0 moveto
 266.4562 0 lineto stroke
-gsave newpath 0 28.3464 moveto
--267.87352 9.92125 lineto
+gsave newpath 0 36 moveto
+-267.87352 18 lineto
 -269.29085 0 lineto
 -1 1 scale stroke grestore
-gsave newpath 0 -28.3464 moveto
--267.87352 -9.92125 lineto
+gsave newpath 0 -36 moveto
+-267.87352 -18 lineto
 -269.29085 0 lineto
 -1 -1 scale stroke grestore
 gsave newpath -175.74771 0 moveto

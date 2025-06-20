@@ -2,7 +2,7 @@
 %%BoundingBox: -270 -270 270 270 
 %%HiResBoundingBox: -269.39084 -269.39084 269.39084 269.39084 
 %%Creator: MetaPost 2.11
-%%CreationDate: 2025.06.20:1438
+%%CreationDate: 2025.06.20:1602
 %%Pages: 1
 %*Font: cmr5 4.98132 4.98132 30:ffc
 %*Font: cmr10 9.96265 9.96265 2c:8ffc
@@ -7161,17 +7161,17 @@ gsave [-0.99983 -0.01787 0.01787 -0.99983 5.97026 -165.02023 ] concat 0 0 moveto
 (\031) cmmi10 9.9627 fshow grestore
 gsave [-0.91599 -0.40117 0.40117 -0.91599 68.6125 -150.11446 ] concat 0 0 moveto
 (e) cmbx10 9.96266 fshow grestore
-newpath 48.41397 0 moveto
-0 48.41397 lineto
--48.41397 0 lineto
-0 -48.41397 lineto
-48.41397 0 lineto
--48.41397 0 lineto stroke
-newpath -24.20699 0 moveto
--24.20699 -24.20699 lineto
-24.20699 -24.20699 lineto stroke
-newpath 0 48.41397 moveto
-0 -24.20699 lineto
-24.20699 0 lineto stroke
+newpath 28.3464 0 moveto
+0 28.3464 lineto
+-28.3464 0 lineto
+0 -28.3464 lineto
+28.3464 0 lineto
+-28.3464 0 lineto stroke
+newpath -14.1732 0 moveto
+-14.1732 -14.1732 lineto
+14.1732 -14.1732 lineto stroke
+newpath 0 28.3464 moveto
+0 -14.1732 lineto
+14.1732 0 lineto stroke
 showpage
 %%EOF
