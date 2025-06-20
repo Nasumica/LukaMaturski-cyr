@@ -27,6 +27,23 @@ enddef;
 numeric pi; pi = 3.1415926535897932384626433832795;
 numeric ee; ee = 2.7182818284590452353602874713527; 
 
+picture cursor;
+beginfig(11);
+    numeric qq; qq = 95mm;
+    numeric rr; rr = 62mm;
+
+    pickup pencircle scaled 0.2pt;
+
+    draw (rr,0) -- (qq-1mm, 0);
+    draw (1mm,1mm) -- origin;
+    draw (0,10mm) -- (qq-0.5mm, 3.5mm) -- (qq, 0);
+    addto currentpicture also currentpicture reflectedabout (up, down);
+    addto currentpicture also currentpicture reflectedabout (left, right);
+
+    cursor := currentpicture;
+endfig;
+
+
 beginfig(10);
     numeric r; r = 8cm;
     numeric q; q = r+10mm;
