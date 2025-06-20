@@ -45,12 +45,19 @@ beginfig(10);
     numeric s; 
     s=r-7mm;
 
-    for i := 1 upto 299:
+    for i := 1 upto 449:
+        if i mod 5 <> 0:
         p := sindir(i/10);
         ang := sinang(i/10);
         draw p scaled  q -- (p scaled q) + (p scaled 0.7mm);
+        fi;
     endfor;
-    for i := 0 upto 89:
+    for i := 0 upto 8:
+        p := sindir(10i);
+        ang := sinang(10i);
+        draw p scaled  q -- (p scaled q) - (p scaled 0.5mm);
+    endfor;
+    for i := 1 upto 89:
         p := sindir(i);
         ang := sinang(i);
         draw p scaled  q -- (p scaled q) + (p scaled 1mm);
