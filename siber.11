@@ -2,49 +2,41 @@
 %%BoundingBox: -270 -29 270 29 
 %%HiResBoundingBox: -269.39047 -28.44603 269.39047 28.44603 
 %%Creator: MetaPost 2.11
-%%CreationDate: 2025.06.20:1350
+%%CreationDate: 2025.06.20:1438
 %%Pages: 1
 %%BeginProlog
 %%EndProlog
 %%Page: 1 1
  0 0 0 setrgbcolor 0 0.19925 dtransform truncate idtransform setlinewidth pop [] 0 setdash 1 setlinecap
  1 setlinejoin 10 setmiterlimit
-newpath 175.74771 0 moveto
-266.4562 0 lineto stroke
-newpath 2.83464 2.83464 moveto
-0 0 lineto stroke
 newpath 0 28.3464 moveto
 267.87352 9.92125 lineto
 269.29085 0 lineto stroke
-gsave newpath -175.74771 0 moveto
--266.4562 0 lineto
--1 1 scale stroke grestore
-gsave newpath -2.83464 2.83464 moveto
-0 0 lineto
--1 1 scale stroke grestore
-gsave newpath 0 28.3464 moveto
--267.87352 9.92125 lineto
--269.29085 0 lineto
--1 1 scale stroke grestore
-gsave newpath 175.74771 0 moveto
-266.4562 0 lineto
-1 -1 scale stroke grestore
-gsave newpath 2.83464 -2.83464 moveto
-0 0 lineto
-1 -1 scale stroke grestore
 gsave newpath 0 -28.3464 moveto
 267.87352 -9.92125 lineto
 269.29085 0 lineto
 1 -1 scale stroke grestore
-gsave newpath -175.74771 0 moveto
--266.4562 0 lineto
--1 -1 scale stroke grestore
-gsave newpath -2.83464 -2.83464 moveto
-0 0 lineto
--1 -1 scale stroke grestore
+newpath 175.74771 0 moveto
+266.4562 0 lineto stroke
+gsave newpath 0 28.3464 moveto
+-267.87352 9.92125 lineto
+-269.29085 0 lineto
+-1 1 scale stroke grestore
 gsave newpath 0 -28.3464 moveto
 -267.87352 -9.92125 lineto
 -269.29085 0 lineto
 -1 -1 scale stroke grestore
+gsave newpath -175.74771 0 moveto
+-266.4562 0 lineto
+-1 1 scale stroke grestore
+newpath 0.70866 0 moveto
+0.70866 0.18796 0.63399 0.3682 0.50108 0.50108 curveto
+0.3682 0.63399 0.18796 0.70866 0 0.70866 curveto
+-0.18796 0.70866 -0.3682 0.63399 -0.50108 0.50108 curveto
+-0.63399 0.3682 -0.70866 0.18796 -0.70866 0 curveto
+-0.70866 -0.18796 -0.63399 -0.3682 -0.50108 -0.50108 curveto
+-0.3682 -0.63399 -0.18796 -0.70866 0 -0.70866 curveto
+0.18796 -0.70866 0.3682 -0.63399 0.50108 -0.50108 curveto
+0.63399 -0.3682 0.70866 -0.18796 0.70866 0 curveto closepath fill
 showpage
 %%EOF

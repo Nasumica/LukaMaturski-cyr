@@ -2,7 +2,7 @@
 %%BoundingBox: -270 -270 270 270 
 %%HiResBoundingBox: -269.39084 -269.39084 269.39084 269.39084 
 %%Creator: MetaPost 2.11
-%%CreationDate: 2025.06.20:1350
+%%CreationDate: 2025.06.20:1438
 %%Pages: 1
 %*Font: cmr5 4.98132 4.98132 30:ffc
 %*Font: cmr10 9.96265 9.96265 2c:8ffc
@@ -43,15 +43,6 @@ newpath 226.7716 0 moveto
 -117.82185 -202.87505 -60.14624 -226.7716 0 -226.7716 curveto
 60.14624 -226.7716 117.82185 -202.87505 160.34845 -160.34845 curveto
 202.87505 -117.82185 226.7716 -60.14624 226.7716 0 curveto closepath stroke
-newpath 0.70866 0 moveto
-0.70866 0.18796 0.63399 0.3682 0.50108 0.50108 curveto
-0.3682 0.63399 0.18796 0.70866 0 0.70866 curveto
--0.18796 0.70866 -0.3682 0.63399 -0.50108 0.50108 curveto
--0.63399 0.3682 -0.70866 0.18796 -0.70866 0 curveto
--0.70866 -0.18796 -0.63399 -0.3682 -0.50108 -0.50108 curveto
--0.3682 -0.63399 -0.18796 -0.70866 0 -0.70866 curveto
-0.18796 -0.70866 0.3682 -0.63399 0.50108 -0.50108 curveto
-0.63399 -0.3682 0.70866 -0.18796 0.70866 0 curveto closepath fill
  0.19925 0 dtransform exch truncate exch idtransform pop setlinewidth
 newpath 2.78723 255.10245 moveto
 2.80891 257.08656 lineto stroke
@@ -7170,5 +7161,17 @@ gsave [-0.99983 -0.01787 0.01787 -0.99983 5.97026 -165.02023 ] concat 0 0 moveto
 (\031) cmmi10 9.9627 fshow grestore
 gsave [-0.91599 -0.40117 0.40117 -0.91599 68.6125 -150.11446 ] concat 0 0 moveto
 (e) cmbx10 9.96266 fshow grestore
+newpath 48.41397 0 moveto
+0 48.41397 lineto
+-48.41397 0 lineto
+0 -48.41397 lineto
+48.41397 0 lineto
+-48.41397 0 lineto stroke
+newpath -24.20699 0 moveto
+-24.20699 -24.20699 lineto
+24.20699 -24.20699 lineto stroke
+newpath 0 48.41397 moveto
+0 -24.20699 lineto
+24.20699 0 lineto stroke
 showpage
 %%EOF

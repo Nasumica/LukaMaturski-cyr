@@ -34,11 +34,11 @@ beginfig(11);
 
     pickup pencircle scaled 0.2pt;
 
-    draw (rr,0) -- (qq-1mm, 0);
-    draw (1mm,1mm) -- origin;
     draw (0,10mm) -- (qq-0.5mm, 3.5mm) -- (qq, 0);
-    addto currentpicture also currentpicture reflectedabout (up, down);
     addto currentpicture also currentpicture reflectedabout (left, right);
+    draw (rr,0) -- (qq-1mm, 0);
+    addto currentpicture also currentpicture reflectedabout (up, down);
+    fill fullcircle scaled 0.5mm;
 
     cursor := currentpicture;
 endfig;
@@ -54,7 +54,7 @@ beginfig(10);
 
     draw fullcircle scaled 2q;
     draw fullcircle scaled 2r;
-    fill fullcircle scaled 0.5mm;
+    % fill fullcircle scaled 0.5mm;
 
     pair p;
     numeric ang;
@@ -262,6 +262,10 @@ beginfig(10);
     p := logdir(ee); ang := log(ee);
     draw thelabel(TEX( "${\bf e}$" ), origin) rotated ang shifted (p scaled s);
 
+    numeric l; l=pi * ee * mm;
+    draw (2l,0)--(0,2l)--(-2l,0)--(0,-2l)--(2l,0)--(-2l,0);
+    draw (-l,0)--(-l,-l)--(l,-l);
+    draw (0,2l)--(0,-l)--(l,0);
 
 endfig;
 
